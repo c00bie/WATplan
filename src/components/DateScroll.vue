@@ -1,9 +1,6 @@
 <script setup lang="ts">
-import { startOfWeek, endOfWeek, eachDayOfInterval, isSameDay, setDefaultOptions, format, addDays, subDays } from 'date-fns'
-import plPL from 'date-fns/locale/pl'
+import { startOfWeek, endOfWeek, eachDayOfInterval, isSameDay, format, addDays, subDays } from 'date-fns'
 import useStore from '../store'
-
-setDefaultOptions({ locale: plPL })
 
 const store = useStore()
 const weekStart = computed(() => startOfWeek(store.date, { weekStartsOn: 1 }))
