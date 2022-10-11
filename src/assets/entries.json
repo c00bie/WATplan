@@ -119,6 +119,17 @@
             "timeEnd": "11:25"
         },
         {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
             "title": "Wprowadzenie do studiowania",
             "type": "Wykład",
             "num": 1,
@@ -2483,6 +2494,17 @@
             "date": "2022-10-11",
             "timeStart": "09:50",
             "timeEnd": "11:25"
+        },
+        {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
         },
         {
             "title": "Wprowadzenie do studiowania",
@@ -4851,6 +4873,17 @@
             "timeEnd": "11:25"
         },
         {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
             "title": "Wprowadzenie do studiowania",
             "type": "Wykład",
             "num": 1,
@@ -7215,6 +7248,17 @@
             "date": "2022-10-11",
             "timeStart": "09:50",
             "timeEnd": "11:25"
+        },
+        {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
         },
         {
             "title": "Wprowadzenie do studiowania",
@@ -9583,6 +9627,17 @@
             "timeEnd": "11:25"
         },
         {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
             "title": "Wprowadzenie do studiowania",
             "type": "Wykład",
             "num": 1,
@@ -9907,17 +9962,6 @@
             "timeEnd": "15:05"
         },
         {
-            "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 5,
-            "room": [
-                "204 65"
-            ],
-            "date": "2022-10-24",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
-        },
-        {
             "title": "Podstawy grafiki inżynierskiej",
             "type": "Wykład",
             "num": 4,
@@ -9968,17 +10012,6 @@
             "timeEnd": "17:20"
         },
         {
-            "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 6,
-            "room": [
-                "205 65"
-            ],
-            "date": "2022-10-25",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
-        },
-        {
             "title": "Matematyka dyskretna I",
             "type": "Wykład",
             "num": 2,
@@ -10014,7 +10047,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 7,
+            "num": 5,
             "room": [
                 "204 65"
             ],
@@ -10025,7 +10058,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 8,
+            "num": 6,
             "room": [
                 "204 65"
             ],
@@ -10100,6 +10133,17 @@
             "date": "2022-11-02",
             "timeStart": "11:40",
             "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "120 45"
+            ],
+            "date": "2022-11-02",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
         },
         {
             "title": "Matematyka I",
@@ -10190,6 +10234,17 @@
             "date": "2022-11-07",
             "timeStart": "09:50",
             "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "2 45"
+            ],
+            "date": "2022-11-07",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
         },
         {
             "title": "Wprowadzenie do informatyki",
@@ -10203,17 +10258,6 @@
             "timeEnd": "17:20"
         },
         {
-            "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 9,
-            "room": [
-                "204 65"
-            ],
-            "date": "2022-11-07",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
-        },
-        {
             "title": "Podstawy grafiki inżynierskiej",
             "type": "Wykład",
             "num": 5,
@@ -10251,17 +10295,6 @@
             "date": "2022-11-08",
             "timeStart": "15:45",
             "timeEnd": "17:20"
-        },
-        {
-            "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 10,
-            "room": [
-                "205 65"
-            ],
-            "date": "2022-11-08",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
         },
         {
             "title": "Język angielski",
@@ -10305,7 +10338,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 11,
+            "num": 9,
             "room": [
                 "101 65"
             ],
@@ -10361,6 +10394,17 @@
         },
         {
             "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-11-14",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
             "type": "Wykład",
             "num": 10,
             "room": [
@@ -10373,24 +10417,13 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 12,
+            "num": 11,
             "room": [
                 "203 65"
             ],
             "date": "2022-11-14",
             "timeStart": "15:45",
             "timeEnd": "17:20"
-        },
-        {
-            "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 13,
-            "room": [
-                "204 65"
-            ],
-            "date": "2022-11-14",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
         },
         {
             "title": "Etyka zawodowa",
@@ -10443,17 +10476,6 @@
             "timeEnd": "17:20"
         },
         {
-            "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 14,
-            "room": [
-                "205 65"
-            ],
-            "date": "2022-11-15",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
-        },
-        {
             "title": "Matematyka dyskretna I",
             "type": "Wykład",
             "num": 5,
@@ -10474,6 +10496,17 @@
             "date": "2022-11-16",
             "timeStart": "13:30",
             "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                "119 45"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
         },
         {
             "title": "Wybrane zagadnienia prawa",
@@ -10568,24 +10601,13 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 15,
+            "num": 13,
             "room": [
                 "203 65"
             ],
             "date": "2022-11-21",
             "timeStart": "15:45",
             "timeEnd": "17:20"
-        },
-        {
-            "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 16,
-            "room": [
-                "204 65"
-            ],
-            "date": "2022-11-21",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
         },
         {
             "title": "Ochrona własności intelektualnych",
@@ -10658,6 +10680,17 @@
             "date": "2022-11-23",
             "timeStart": "08:00",
             "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                "119 45"
+            ],
+            "date": "2022-11-23",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
         },
         {
             "title": "Matematyka dyskretna I",
@@ -10759,6 +10792,28 @@
             "date": "2022-11-28",
             "timeStart": "11:40",
             "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                "120 45"
+            ],
+            "date": "2022-11-28",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 16,
+            "room": [
+                "119 45"
+            ],
+            "date": "2022-11-30",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
         },
         {
             "title": "Matematyka I",
@@ -10805,17 +10860,6 @@
             "timeEnd": "17:20"
         },
         {
-            "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 18,
-            "room": [
-                "203 65"
-            ],
-            "date": "2022-11-30",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
-        },
-        {
             "title": "Wychowanie fizyczne",
             "type": "Ćwiczenia",
             "num": 9,
@@ -10886,6 +10930,17 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
+            "num": 18,
+            "room": [
+                "309 S"
+            ],
+            "date": "2022-12-05",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
             "num": 19,
             "room": [
                 "203 65"
@@ -10917,6 +10972,17 @@
             "timeEnd": "21:00"
         },
         {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "2 45"
+            ],
+            "date": "2022-12-06",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
             "title": "Język angielski",
             "type": "Ćwiczenia",
             "num": 9,
@@ -10932,17 +10998,6 @@
             "date": "2022-12-06",
             "timeStart": "15:45",
             "timeEnd": "17:20"
-        },
-        {
-            "title": "Matematyka II",
-            "type": "Ćwiczenia",
-            "num": 1,
-            "room": [
-                "205 65"
-            ],
-            "date": "2022-12-06",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
         },
         {
             "title": "Etyka zawodowa",
@@ -11057,6 +11112,17 @@
             "timeEnd": "13:15"
         },
         {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "309 S"
+            ],
+            "date": "2022-12-13",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
             "title": "Matematyka dyskretna I",
             "type": "Ćwiczenia",
             "num": 3,
@@ -11087,13 +11153,13 @@
         {
             "title": "Matematyka II",
             "type": "Ćwiczenia",
-            "num": 2,
+            "num": 3,
             "room": [
-                "204 65"
+                "120 45"
             ],
-            "date": "2022-12-13",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
+            "date": "2022-12-14",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
         },
         {
             "title": "Matematyka II",
@@ -11109,7 +11175,7 @@
         {
             "title": "Matematyka II",
             "type": "Ćwiczenia",
-            "num": 3,
+            "num": 4,
             "room": [
                 "101 65"
             ],
@@ -11166,7 +11232,7 @@
         {
             "title": "Matematyka II",
             "type": "Ćwiczenia",
-            "num": 4,
+            "num": 5,
             "room": [
                 "101 65"
             ],
@@ -11219,6 +11285,17 @@
             "timeEnd": "19:10"
         },
         {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-20",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
             "title": "Język angielski",
             "type": "Ćwiczenia",
             "num": 11,
@@ -11237,17 +11314,6 @@
         },
         {
             "title": "Matematyka II",
-            "type": "Ćwiczenia",
-            "num": 5,
-            "room": [
-                "205 65"
-            ],
-            "date": "2022-12-20",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
-        },
-        {
-            "title": "Matematyka II",
             "type": "Wykład",
             "num": 9,
             "room": [
@@ -11256,17 +11322,6 @@
             "date": "2022-12-21",
             "timeStart": "09:50",
             "timeEnd": "11:25"
-        },
-        {
-            "title": "Matematyka II",
-            "type": "Ćwiczenia",
-            "num": 6,
-            "room": [
-                "203 65"
-            ],
-            "date": "2022-12-21",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
         },
         {
             "title": "Wprowadzenie do metrologii",
@@ -11319,11 +11374,11 @@
             "type": "Ćwiczenia",
             "num": 7,
             "room": [
-                "204 65"
+                "120 45"
             ],
             "date": "2023-01-09",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
         },
         {
             "title": "Matematyka II",
@@ -11335,6 +11390,17 @@
             "date": "2023-01-10",
             "timeStart": "09:50",
             "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "2 45"
+            ],
+            "date": "2023-01-10",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
         },
         {
             "title": "Język angielski",
@@ -11352,17 +11418,6 @@
             "date": "2023-01-10",
             "timeStart": "15:45",
             "timeEnd": "17:20"
-        },
-        {
-            "title": "Matematyka II",
-            "type": "Ćwiczenia",
-            "num": 8,
-            "room": [
-                "205 65"
-            ],
-            "date": "2023-01-10",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
         },
         {
             "title": "Matematyka II",
@@ -11481,11 +11536,11 @@
             "type": "Ćwiczenia",
             "num": 10,
             "room": [
-                "204 65"
+                "2 45"
             ],
             "date": "2023-01-16",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
         },
         {
             "title": "Matematyka II",
@@ -11497,6 +11552,17 @@
             "date": "2023-01-17",
             "timeStart": "09:50",
             "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                "116 45"
+            ],
+            "date": "2023-01-17",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
         },
         {
             "title": "Język angielski",
@@ -11518,13 +11584,13 @@
         {
             "title": "Matematyka II",
             "type": "Ćwiczenia",
-            "num": 11,
+            "num": 12,
             "room": [
-                "205 65"
+                "120 45"
             ],
-            "date": "2023-01-17",
-            "timeStart": "17:35",
-            "timeEnd": "19:10"
+            "date": "2023-01-18",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
         },
         {
             "title": "Matematyka dyskretna I",
@@ -11536,17 +11602,6 @@
             "date": "2023-01-18",
             "timeStart": "13:30",
             "timeEnd": "15:05"
-        },
-        {
-            "title": "Matematyka II",
-            "type": "Ćwiczenia",
-            "num": 12,
-            "room": [
-                "101 65"
-            ],
-            "date": "2023-01-18",
-            "timeStart": "15:45",
-            "timeEnd": "17:20"
         },
         {
             "title": "Matematyka II",
@@ -11761,6 +11816,17 @@
             "type": "Ćwiczenia",
             "num": 16,
             "room": [
+                "2 45"
+            ],
+            "date": "2023-01-30",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 17,
+            "room": [
                 "204 65"
             ],
             "date": "2023-01-30",
@@ -11816,17 +11882,4760 @@
             "date": "2023-01-31",
             "timeStart": "15:45",
             "timeEnd": "17:20"
+        }
+    ],
+    "WCY22KY1S1": [
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-03",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-04",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-10-04",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                ""
+            ],
+            "date": "2022-10-06",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-10-06",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-10",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-10",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-10",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do studiowania",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-12",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-10-12",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                ""
+            ],
+            "date": "2022-10-13",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-13",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-10-13",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-14",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-14",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-17",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-18",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-18",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-10-18",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-19",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-19",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                ""
+            ],
+            "date": "2022-10-20",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-10-20",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-21",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-21",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-21",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-24",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-24",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-24",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-24",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do studiowania",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-10-26",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "201 65"
+            ],
+            "date": "2022-10-26",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-26",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                ""
+            ],
+            "date": "2022-10-27",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-10-27",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-10-27",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-28",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-28",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-02",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 1,
+            "room": [
+                "223 S"
+            ],
+            "date": "2022-11-02",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 2,
+            "room": [
+                "223 S"
+            ],
+            "date": "2022-11-02",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                ""
+            ],
+            "date": "2022-11-03",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-03",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-11-03",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-11-03",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-11-03",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-04",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-04",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-11-04",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-07",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-11-07",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-08",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 8,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-08",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "307 S"
+            ],
+            "date": "2022-11-08",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-11-08",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-11-08",
+            "timeStart": "19:25",
+            "timeEnd": "21:00"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "201 65"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 9,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "19:25",
+            "timeEnd": "21:00"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                ""
+            ],
+            "date": "2022-11-10",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-11-10",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-11-10",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 10,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-14",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "205 65"
+            ],
+            "date": "2022-11-14",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-15",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-15",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-15",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-11-15",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "201 65"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 11,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "19:25",
+            "timeEnd": "21:00"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                ""
+            ],
+            "date": "2022-11-17",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-11-17",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-17",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-11-17",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-11-18",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do studiowania",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-18",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-18",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-21",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 12,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-21",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "205 65"
+            ],
+            "date": "2022-11-21",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-22",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-22",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-22",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-11-22",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 3,
+            "room": [
+                "224 S"
+            ],
+            "date": "2022-11-23",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 4,
+            "room": [
+                "224 S"
+            ],
+            "date": "2022-11-23",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-23",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 13,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-23",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                ""
+            ],
+            "date": "2022-11-24",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-11-24",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-11-24",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-25",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-25",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 14,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-28",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-11-28",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 15,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-30",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-30",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "307 S"
+            ],
+            "date": "2022-11-30",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-11-30",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                ""
+            ],
+            "date": "2022-12-01",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 5,
+            "room": [
+                "237 S"
+            ],
+            "date": "2022-12-01",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 6,
+            "room": [
+                "237 S"
+            ],
+            "date": "2022-12-01",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-01",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-01",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-12-01",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-12-02",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-02",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-05",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-05",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "205 65"
+            ],
+            "date": "2022-12-06",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-12-06",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-12-06",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-07",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "201 65"
+            ],
+            "date": "2022-12-07",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 13,
+            "room": [
+                "201 65"
+            ],
+            "date": "2022-12-07",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-07",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                ""
+            ],
+            "date": "2022-12-08",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 8,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-12-08",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-12-08",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "205 65"
+            ],
+            "date": "2022-12-08",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-12-08",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-09",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "205 65"
+            ],
+            "date": "2022-12-12",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-12-12",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-12",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-13",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-12-13",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-14",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 7,
+            "room": [
+                "228 S"
+            ],
+            "date": "2022-12-14",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 8,
+            "room": [
+                "228 S"
+            ],
+            "date": "2022-12-14",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                ""
+            ],
+            "date": "2022-12-15",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 16,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-15",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-12-15",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-12-15",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-12-15",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-16",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-12-19",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 17,
+            "room": [
+                "201 65"
+            ],
+            "date": "2022-12-19",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 8,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-19",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 18,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-20",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "307 S"
+            ],
+            "date": "2022-12-20",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-12-20",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 9,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-21",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-21",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                ""
+            ],
+            "date": "2022-12-22",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 19,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-12-22",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "205 65"
+            ],
+            "date": "2022-12-22",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-12-22",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 10,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-23",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "201 65"
+            ],
+            "date": "2023-01-09",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "101 65"
+            ],
+            "date": "2023-01-09",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 11,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-10",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "313 S"
+            ],
+            "date": "2023-01-10",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "204 65"
+            ],
+            "date": "2023-01-10",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2023-01-10",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "204 65"
+            ],
+            "date": "2023-01-11",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 9,
+            "room": [
+                "227 S"
+            ],
+            "date": "2023-01-11",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 10,
+            "room": [
+                "227 S"
+            ],
+            "date": "2023-01-11",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 13,
+            "room": [
+                ""
+            ],
+            "date": "2023-01-12",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 12,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-12",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                "203 65"
+            ],
+            "date": "2023-01-12",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 13,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2023-01-12",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                "204 65"
+            ],
+            "date": "2023-01-16",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 13,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-17",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "307 S"
+            ],
+            "date": "2023-01-17",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 13,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2023-01-17",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                "203 65"
+            ],
+            "date": "2023-01-18",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "203 65"
+            ],
+            "date": "2023-01-18",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                ""
+            ],
+            "date": "2023-01-19",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 14,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-19",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "314 S"
+            ],
+            "date": "2023-01-19",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                "201 65"
+            ],
+            "date": "2023-01-19",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2023-01-19",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "201 65"
+            ],
+            "date": "2023-01-23",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 13,
+            "room": [
+                "204 65"
+            ],
+            "date": "2023-01-23",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 15,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-24",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                "101 65"
+            ],
+            "date": "2023-01-24",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2023-01-24",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Zaliczenie",
+            "num": 1,
+            "room": [
+                "316 S"
+            ],
+            "date": "2023-01-25",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 11,
+            "room": [
+                "226 S"
+            ],
+            "date": "2023-01-25",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                ""
+            ],
+            "date": "2023-01-26",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 16,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-26",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                "201 65"
+            ],
+            "date": "2023-01-26",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2023-01-26",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "7/ 62"
+            ],
+            "date": "2023-01-27",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                "7/ 62"
+            ],
+            "date": "2023-01-27",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "203 65"
+            ],
+            "date": "2023-01-30",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 16,
+            "room": [
+                "101 65"
+            ],
+            "date": "2023-01-30",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 17,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-31",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
         },
         {
             "title": "Matematyka II",
             "type": "Ćwiczenia",
             "num": 17,
             "room": [
-                "204 65"
+                "203 65"
             ],
             "date": "2023-01-31",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2023-01-31",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        }
+    ],
+    "WCY22KY2S1": [
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-03",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-04",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-10-04",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                ""
+            ],
+            "date": "2022-10-06",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-10-06",
             "timeStart": "17:35",
             "timeEnd": "19:10"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-10",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-10",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-10",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Inauguracja",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "S. Kinowa K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do studiowania",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-10-11",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-12",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-10-12",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                ""
+            ],
+            "date": "2022-10-13",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-13",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-10-13",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-14",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-14",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-17",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-18",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-18",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-10-18",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-19",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-19",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                ""
+            ],
+            "date": "2022-10-20",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-10-20",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-10-20",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-21",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-21",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-21",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-24",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-24",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-24",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-24",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do studiowania",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-10-26",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-26",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-10-26",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                ""
+            ],
+            "date": "2022-10-27",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "201 65"
+            ],
+            "date": "2022-10-27",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "307 S"
+            ],
+            "date": "2022-10-27",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-10-27",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-28",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-10-28",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-02",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                ""
+            ],
+            "date": "2022-11-03",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-03",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-11-03",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-04",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-04",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-11-07",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-07",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-11-07",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-08",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 8,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-08",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-11-08",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-11-08",
+            "timeStart": "19:25",
+            "timeEnd": "21:00"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 1,
+            "room": [
+                "224 S"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 2,
+            "room": [
+                "224 S"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 9,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-09",
+            "timeStart": "19:25",
+            "timeEnd": "21:00"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                ""
+            ],
+            "date": "2022-11-10",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-11-10",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-11-10",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-11-10",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 10,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-14",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "205 65"
+            ],
+            "date": "2022-11-14",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-15",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-15",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-15",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-11-15",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 11,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-16",
+            "timeStart": "19:25",
+            "timeEnd": "21:00"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                ""
+            ],
+            "date": "2022-11-17",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 3,
+            "room": [
+                "224 S"
+            ],
+            "date": "2022-11-17",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 4,
+            "room": [
+                "224 S"
+            ],
+            "date": "2022-11-17",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-11-17",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-11-17",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-11-17",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Wprowadzenie do studiowania",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-18",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-18",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-21",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 12,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-21",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-21",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-11-21",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-11-21",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-22",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-22",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-11-22",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-11-23",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-23",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 13,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-23",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                ""
+            ],
+            "date": "2022-11-24",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-11-24",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-11-24",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-11-25",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-25",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-11-25",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-11-28",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 14,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-11-28",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-11-28",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 13,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-11-28",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Wykład",
+            "num": 15,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-11-30",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-11-30",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "307 S"
+            ],
+            "date": "2022-11-30",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                ""
+            ],
+            "date": "2022-12-01",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "307 S"
+            ],
+            "date": "2022-12-01",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-12-01",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-12-01",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-12-02",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 1,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-02",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-02",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-12-05",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 2,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-05",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 16,
+            "room": [
+                "201 65"
+            ],
+            "date": "2022-12-05",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-12-06",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-12-07",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 3,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-07",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 17,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-07",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Ochrona własności intelektualnych",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "307 S"
+            ],
+            "date": "2022-12-07",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                ""
+            ],
+            "date": "2022-12-08",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Wykład",
+            "num": 8,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-12-08",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 1,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-12-08",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-12-08",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-09",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 5,
+            "room": [
+                "224 S"
+            ],
+            "date": "2022-12-09",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 6,
+            "room": [
+                "224 S"
+            ],
+            "date": "2022-12-09",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "205 65"
+            ],
+            "date": "2022-12-09",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-12-12",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 5,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-12",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "6/ 62"
+            ],
+            "date": "2022-12-13",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "6/ 62"
+            ],
+            "date": "2022-12-13",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-12-13",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 6,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-14",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                ""
+            ],
+            "date": "2022-12-15",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-15",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-12-15",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-16",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "205 65"
+            ],
+            "date": "2022-12-16",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Etyka zawodowa",
+            "type": "Ćwiczenia",
+            "num": 2,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-12-19",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "316 S"
+            ],
+            "date": "2022-12-19",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 8,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-19",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 18,
+            "room": [
+                "101 65"
+            ],
+            "date": "2022-12-19",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2022-12-20",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "204 65"
+            ],
+            "date": "2022-12-21",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 9,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-21",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 7,
+            "room": [
+                "228 S"
+            ],
+            "date": "2022-12-21",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 8,
+            "room": [
+                "228 S"
+            ],
+            "date": "2022-12-21",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 19,
+            "room": [
+                "205 65"
+            ],
+            "date": "2022-12-21",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                ""
+            ],
+            "date": "2022-12-22",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2022-12-22",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 10,
+            "room": [
+                "317 S"
+            ],
+            "date": "2022-12-23",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "203 65"
+            ],
+            "date": "2022-12-23",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 4,
+            "room": [
+                "201 65"
+            ],
+            "date": "2022-12-23",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "204 65"
+            ],
+            "date": "2023-01-09",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 11,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-10",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2023-01-10",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 9,
+            "room": [
+                "227 S"
+            ],
+            "date": "2023-01-11",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 10,
+            "room": [
+                "227 S"
+            ],
+            "date": "2023-01-11",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "201 65"
+            ],
+            "date": "2023-01-11",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "101 65"
+            ],
+            "date": "2023-01-11",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 13,
+            "room": [
+                ""
+            ],
+            "date": "2023-01-12",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 12,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-12",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "309 S"
+            ],
+            "date": "2023-01-12",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "205 65"
+            ],
+            "date": "2023-01-12",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 13,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2023-01-12",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 8,
+            "room": [
+                "101 65"
+            ],
+            "date": "2023-01-13",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Ćwiczenia",
+            "num": 7,
+            "room": [
+                "307 S"
+            ],
+            "date": "2023-01-16",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                "204 65"
+            ],
+            "date": "2023-01-16",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 13,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-17",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 5,
+            "room": [
+                "203 65"
+            ],
+            "date": "2023-01-17",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 13,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2023-01-17",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 10,
+            "room": [
+                "101 65"
+            ],
+            "date": "2023-01-18",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                ""
+            ],
+            "date": "2023-01-19",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 14,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-19",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wybrane zagadnienia prawa",
+            "type": "Wykład",
+            "num": 7,
+            "room": [
+                "314 S"
+            ],
+            "date": "2023-01-19",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 11,
+            "room": [
+                "205 65"
+            ],
+            "date": "2023-01-19",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2023-01-19",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 12,
+            "room": [
+                "203 65"
+            ],
+            "date": "2023-01-20",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 13,
+            "room": [
+                "204 65"
+            ],
+            "date": "2023-01-23",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 15,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-24",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2023-01-24",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 11,
+            "room": [
+                "223 S"
+            ],
+            "date": "2023-01-25",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka dyskretna I",
+            "type": "Zaliczenie",
+            "num": 1,
+            "room": [
+                "316 S"
+            ],
+            "date": "2023-01-25",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Podstawy grafiki inżynierskiej",
+            "type": "Ćwiczenia",
+            "num": 9,
+            "room": [
+                "201 65"
+            ],
+            "date": "2023-01-25",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 14,
+            "room": [
+                "203 65"
+            ],
+            "date": "2023-01-25",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wychowanie fizyczne",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                ""
+            ],
+            "date": "2023-01-26",
+            "timeStart": "08:00",
+            "timeEnd": "09:35"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 16,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-26",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                "101 65"
+            ],
+            "date": "2023-01-26",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Język obcy (II) międzywydziałowy",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                "233 K",
+                "232 K",
+                "231 K"
+            ],
+            "date": "2023-01-26",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 16,
+            "room": [
+                "203 65"
+            ],
+            "date": "2023-01-27",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do metrologii",
+            "type": "Ćwiczenia",
+            "num": 6,
+            "room": [
+                "203 65"
+            ],
+            "date": "2023-01-30",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Ćwiczenia",
+            "num": 17,
+            "room": [
+                "205 65"
+            ],
+            "date": "2023-01-30",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Matematyka II",
+            "type": "Wykład",
+            "num": 17,
+            "room": [
+                "317 S"
+            ],
+            "date": "2023-01-31",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
+            "title": "Język angielski",
+            "type": "Ćwiczenia",
+            "num": 15,
+            "room": [
+                "134 K",
+                "133 K",
+                "128 K",
+                "127 K",
+                "126 K",
+                "125 K",
+                "124 K"
+            ],
+            "date": "2023-01-31",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
         }
     ]
 }

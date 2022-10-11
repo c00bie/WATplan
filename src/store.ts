@@ -30,7 +30,9 @@ export interface State {
     entries: {
         [key: string]: Entry[];
     };
-    subjects: Subject[];
+    subjects: {
+        [key: string]: Subject[];
+    };
     periods: Period[];
     now: Date;
 }
@@ -40,7 +42,7 @@ export default defineStore('store', {
         group: 'WCY22IY1S1',
         date: new Date(),
         entries: {},
-        subjects: [],
+        subjects: {},
         periods: [
             { start: '08:00', end: '09:35' },
             { start: '09:50', end: '11:25' },
@@ -60,7 +62,7 @@ export default defineStore('store', {
             return state.entries[state.group];
         },
         gSubjects: (state) => {
-            return state.subjects.filter((s) => s.type == state.group);
+            return state.subjects[state.group];
         }
     }
 });

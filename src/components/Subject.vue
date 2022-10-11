@@ -10,7 +10,7 @@ const emit = defineEmits<{
 }>()
 
 const store = useStore()
-const sub = computed(() => store.subjects.find(s => s.title === props.subject?.title && s.type === props.subject?.type))
+const sub = computed(() => store.gSubjects.find(s => s.title === props.subject?.title && s.type === props.subject?.type))
 const inProgress = computed(() => props.subject !== undefined && isWithinInterval(store.now, { start: new Date(props.subject.date + 'T' + props.subject.timeStart), end: new Date(props.subject.date + 'T' + props.subject.timeEnd) }))
 const time = computed(() => {
     if (!inProgress.value) return 0;

@@ -1,218 +1,1675 @@
-[
-    {
-        "short": "Ez",
-        "title": "Etyka zawodowa",
-        "color": "#FFC0CB",
-        "type": "Wykład",
-        "prof": "dr Stanisław Ptaszek",
-        "numH": 14
-    },
-    {
-        "short": "Ez",
-        "title": "Etyka zawodowa",
-        "color": "#FFC0CB",
-        "type": "Ćwiczenia",
-        "prof": "dr Stanisław Ptaszek",
-        "numH": 4
-    },
-    {
-        "short": "Ing",
-        "title": "Inauguracja",
-        "color": "#E6E6FA",
-        "type": "Wykład",
-        "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-        "numH": 4
-    },
-    {
-        "short": "Ing",
-        "title": "Inauguracja",
-        "color": "#E6E6FA",
-        "type": "Wykład",
-        "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-        "numH": 4
-    },
-    {
-        "short": "Ing",
-        "title": "Inauguracja",
-        "color": "#E6E6FA",
-        "type": "Wykład",
-        "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-        "numH": 4
-    },
-    {
-        "short": "Ing",
-        "title": "Inauguracja",
-        "color": "#E6E6FA",
-        "type": "Wykład",
-        "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-        "numH": 4
-    },
-    {
-        "short": "Ing",
-        "title": "Inauguracja",
-        "color": "#E6E6FA",
-        "type": "Wykład",
-        "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-        "numH": 4
-    },
-    {
-        "short": "Ing",
-        "title": "Inauguracja",
-        "color": "#E6E6FA",
-        "type": "Wykład",
-        "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-        "numH": 4
-    },
-    {
-        "short": "Ing",
-        "title": "Inauguracja",
-        "color": "#E6E6FA",
-        "type": "Wykład",
-        "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-        "numH": 4
-    },
-    {
-        "short": "M II",
-        "title": "Matematyka II",
-        "color": "#B8860B",
-        "type": "Wykład",
-        "prof": "dr Arkadiusz Szymaniec",
-        "numH": 34
-    },
-    {
-        "short": "M II",
-        "title": "Matematyka II",
-        "color": "#B8860B",
-        "type": "Ćwiczenia",
-        "prof": "dr inż. Jerzy Ploch",
-        "numH": 34
-    },
-    {
-        "short": "MD1",
-        "title": "Matematyka dyskretna I",
-        "color": "#D8BFD8",
-        "type": "Ćwiczenia",
-        "prof": "dr Robert Dryło",
-        "numH": 14
-    },
-    {
-        "short": "MD1",
-        "title": "Matematyka dyskretna I",
-        "color": "#D8BFD8",
-        "type": "Wykład",
-        "prof": "dr hab. inż. Andrzej Chojnacki",
-        "numH": 16
-    },
-    {
-        "short": "MD1",
-        "title": "Matematyka dyskretna I",
-        "color": "#D8BFD8",
-        "type": "Zaliczenie",
-        "prof": "dr hab. inż. Andrzej Chojnacki",
-        "numH": 2
-    },
-    {
-        "short": "Mat I",
-        "title": "Matematyka I",
-        "color": "#00FFFF",
-        "type": "Wykład",
-        "prof": "dr Arkadiusz Szymaniec",
-        "numH": 30
-    },
-    {
-        "short": "Mat I",
-        "title": "Matematyka I",
-        "color": "#00FFFF",
-        "type": "Ćwiczenia",
-        "prof": "dr inż. Jerzy Ploch",
-        "numH": 38
-    },
-    {
-        "short": "Owi",
-        "title": "Ochrona własności intelektualnych",
-        "color": "#ADFF2F",
-        "type": "Wykład",
-        "prof": "dr hab. Janusz Rybiński",
-        "numH": 12
-    },
-    {
-        "short": "Owi",
-        "title": "Ochrona własności intelektualnych",
-        "color": "#ADFF2F",
-        "type": "Ćwiczenia",
-        "prof": "dr hab. Janusz Rybiński",
-        "numH": 2
-    },
-    {
-        "short": "PGI",
-        "title": "Podstawy grafiki inżynierskiej",
-        "color": "#FFFACD",
-        "type": "Ćwiczenia",
-        "prof": "mgr inż. Kacper Spadło",
-        "numH": 18
-    },
-    {
-        "short": "PGI",
-        "title": "Podstawy grafiki inżynierskiej",
-        "color": "#FFFACD",
-        "type": "Wykład",
-        "prof": "dr inż. Janusz Mierzyński",
-        "numH": 12
-    },
-    {
-        "short": "WDM",
-        "title": "Wprowadzenie do metrologii",
-        "color": "#FF69B4",
-        "type": "Wykład",
-        "prof": "dr inż. Zbigniew Zarański",
-        "numH": 12
-    },
-    {
-        "short": "WDM",
-        "title": "Wprowadzenie do metrologii",
-        "color": "#FF69B4",
-        "type": "Ćwiczenia",
-        "prof": "dr inż. Zbigniew Zarański",
-        "numH": 12
-    },
-    {
-        "short": "WdI",
-        "title": "Wprowadzenie do informatyki",
-        "color": "#F08080",
-        "type": "Laboratorium",
-        "prof": "mgr inż. Radosław Woźniak",
-        "numH": 22
-    },
-    {
-        "short": "WdI",
-        "title": "Wprowadzenie do informatyki",
-        "color": "#F08080",
-        "type": "Wykład",
-        "prof": "dr inż. Dariusz Pierzchała",
-        "numH": 14
-    },
-    {
-        "short": "WdS",
-        "title": "Wprowadzenie do studiowania",
-        "color": "#FF6347",
-        "type": "Wykład",
-        "prof": "dr Ewa Łakoma",
-        "numH": 6
-    },
-    {
-        "short": "Wzp",
-        "title": "Wybrane zagadnienia prawa",
-        "color": "#FFA07A",
-        "type": "Wykład",
-        "prof": "dr Piotr Kobielski",
-        "numH": 14
-    },
-    {
-        "short": "Wzp",
-        "title": "Wybrane zagadnienia prawa",
-        "color": "#FFA07A",
-        "type": "Ćwiczenia",
-        "prof": "dr Piotr Kobielski",
-        "numH": 4
-    }
-]
+{
+    "WCY22IY1S1": [
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Wykład",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 14
+        },
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Ćwiczenia",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 4
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Ćwiczenia",
+            "prof": "mgr inż. Alicja Kida",
+            "numH": 34
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 34
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 16
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Ćwiczenia",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 14
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Zaliczenie",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 2
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Ćwiczenia",
+            "prof": "mgr inż. Alicja Kida",
+            "numH": 38
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 30
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Wykład",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 12
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Ćwiczenia",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 2
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Wykład",
+            "prof": "dr inż. Janusz Mierzyński",
+            "numH": 12
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Janusz Mierzyński",
+            "numH": 18
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Wykład",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Laboratorium",
+            "prof": "mgr inż. Paweł Pieczonka",
+            "numH": 22
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Wykład",
+            "prof": "dr inż. Dariusz Pierzchała",
+            "numH": 14
+        },
+        {
+            "short": "WdS",
+            "title": "Wprowadzenie do studiowania",
+            "color": "#FF6347",
+            "type": "Wykład",
+            "prof": "dr Ewa Łakoma",
+            "numH": 6
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Wykład",
+            "prof": "dr Piotr Kobielski",
+            "numH": 14
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Ćwiczenia",
+            "prof": "dr Piotr Kobielski",
+            "numH": 4
+        },
+        {
+            "short": "Ja",
+            "title": "Język angielski",
+            "color": "#FFD700",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "WF",
+            "title": "Wychowanie fizyczne",
+            "color": "#CD5C5C",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "JoM",
+            "title": "Język obcy (II) międzywydziałowy",
+            "color": "#FFEBCD",
+            "type": "Ćwiczenia",
+            "numH": 15
+        }
+    ],
+    "WCY22IY2S1": [
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Wykład",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 14
+        },
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Ćwiczenia",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 4
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Ćwiczenia",
+            "prof": "mgr inż. Alicja Kida",
+            "numH": 34
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 34
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Ćwiczenia",
+            "prof": "dr Robert Dryło",
+            "numH": 14
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 16
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Zaliczenie",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 2
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Ćwiczenia",
+            "prof": "mgr inż. Alicja Kida",
+            "numH": 38
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 30
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Wykład",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 12
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Ćwiczenia",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 2
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Ćwiczenia",
+            "prof": "mgr inż. Kacper Spadło",
+            "numH": 18
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Wykład",
+            "prof": "dr inż. Janusz Mierzyński",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Wykład",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Laboratorium",
+            "prof": "mgr inż. Grzegorz Kiryk",
+            "numH": 22
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Wykład",
+            "prof": "dr inż. Dariusz Pierzchała",
+            "numH": 14
+        },
+        {
+            "short": "WdS",
+            "title": "Wprowadzenie do studiowania",
+            "color": "#FF6347",
+            "type": "Wykład",
+            "prof": "dr Ewa Łakoma",
+            "numH": 6
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Wykład",
+            "prof": "dr Piotr Kobielski",
+            "numH": 14
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Ćwiczenia",
+            "prof": "dr Piotr Kobielski",
+            "numH": 4
+        },
+        {
+            "short": "Ja",
+            "title": "Język angielski",
+            "color": "#FFD700",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "WF",
+            "title": "Wychowanie fizyczne",
+            "color": "#CD5C5C",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "JoM",
+            "title": "Język obcy (II) międzywydziałowy",
+            "color": "#FFEBCD",
+            "type": "Ćwiczenia",
+            "numH": 15
+        }
+    ],
+    "WCY22IY3S1": [
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Wykład",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 14
+        },
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Ćwiczenia",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 4
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Ćwiczenia",
+            "prof": "mgr inż. Alicja Kida",
+            "numH": 34
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 34
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Ćwiczenia",
+            "prof": "dr Robert Dryło",
+            "numH": 14
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 16
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Zaliczenie",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 2
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Ćwiczenia",
+            "prof": "mgr inż. Alicja Kida",
+            "numH": 38
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 30
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Wykład",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 12
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Ćwiczenia",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 2
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Karol Cieślik",
+            "numH": 18
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Wykład",
+            "prof": "dr inż. Janusz Mierzyński",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Wykład",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Laboratorium",
+            "prof": "mgr inż. Piotr Adamczyk",
+            "numH": 22
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Wykład",
+            "prof": "dr inż. Dariusz Pierzchała",
+            "numH": 14
+        },
+        {
+            "short": "WdS",
+            "title": "Wprowadzenie do studiowania",
+            "color": "#FF6347",
+            "type": "Wykład",
+            "prof": "dr Ewa Łakoma",
+            "numH": 6
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Wykład",
+            "prof": "dr Piotr Kobielski",
+            "numH": 14
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Ćwiczenia",
+            "prof": "dr Piotr Kobielski",
+            "numH": 4
+        },
+        {
+            "short": "Ja",
+            "title": "Język angielski",
+            "color": "#FFD700",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "WF",
+            "title": "Wychowanie fizyczne",
+            "color": "#CD5C5C",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "JoM",
+            "title": "Język obcy (II) międzywydziałowy",
+            "color": "#FFEBCD",
+            "type": "Ćwiczenia",
+            "numH": 15
+        }
+    ],
+    "WCY22IY4S1": [
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Wykład",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 14
+        },
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Ćwiczenia",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 4
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 34
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Jerzy Ploch",
+            "numH": 34
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Ćwiczenia",
+            "prof": "dr Robert Dryło",
+            "numH": 14
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 16
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Zaliczenie",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 2
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 30
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Jerzy Ploch",
+            "numH": 38
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Wykład",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 12
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Ćwiczenia",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 2
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Wykład",
+            "prof": "dr inż. Janusz Mierzyński",
+            "numH": 12
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Janusz Mierzyński",
+            "numH": 18
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Wykład",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Laboratorium",
+            "prof": "mgr inż. Radosław Woźniak",
+            "numH": 22
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Wykład",
+            "prof": "dr inż. Dariusz Pierzchała",
+            "numH": 14
+        },
+        {
+            "short": "WdS",
+            "title": "Wprowadzenie do studiowania",
+            "color": "#FF6347",
+            "type": "Wykład",
+            "prof": "dr Ewa Łakoma",
+            "numH": 6
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Wykład",
+            "prof": "dr Piotr Kobielski",
+            "numH": 14
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Ćwiczenia",
+            "prof": "dr Piotr Kobielski",
+            "numH": 4
+        },
+        {
+            "short": "Ja",
+            "title": "Język angielski",
+            "color": "#FFD700",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "WF",
+            "title": "Wychowanie fizyczne",
+            "color": "#CD5C5C",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "JoM",
+            "title": "Język obcy (II) międzywydziałowy",
+            "color": "#FFEBCD",
+            "type": "Ćwiczenia",
+            "numH": 15
+        }
+    ],
+    "WCY22IY5S1": [
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Wykład",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 14
+        },
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Ćwiczenia",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 4
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 34
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Jerzy Ploch",
+            "numH": 34
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Ćwiczenia",
+            "prof": "dr Robert Dryło",
+            "numH": 14
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 16
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Zaliczenie",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 2
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 30
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Jerzy Ploch",
+            "numH": 38
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Wykład",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 12
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Ćwiczenia",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 2
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Ćwiczenia",
+            "prof": "mgr inż. Kacper Spadło",
+            "numH": 18
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Wykład",
+            "prof": "dr inż. Janusz Mierzyński",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Wykład",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Laboratorium",
+            "prof": "mgr inż. Radosław Woźniak",
+            "numH": 22
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Wykład",
+            "prof": "dr inż. Dariusz Pierzchała",
+            "numH": 14
+        },
+        {
+            "short": "WdS",
+            "title": "Wprowadzenie do studiowania",
+            "color": "#FF6347",
+            "type": "Wykład",
+            "prof": "dr Ewa Łakoma",
+            "numH": 6
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Wykład",
+            "prof": "dr Piotr Kobielski",
+            "numH": 14
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Ćwiczenia",
+            "prof": "dr Piotr Kobielski",
+            "numH": 4
+        },
+        {
+            "short": "Ja",
+            "title": "Język angielski",
+            "color": "#FFD700",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "WF",
+            "title": "Wychowanie fizyczne",
+            "color": "#CD5C5C",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "JoM",
+            "title": "Język obcy (II) międzywydziałowy",
+            "color": "#FFEBCD",
+            "type": "Ćwiczenia",
+            "numH": 15
+        }
+    ],
+    "WCY22KY1S1": [
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Wykład",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 14
+        },
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Ćwiczenia",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 4
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 34
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Ćwiczenia",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 34
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Ćwiczenia",
+            "prof": "mgr inż. Elżbieta Burek",
+            "numH": 14
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 16
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Zaliczenie",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 2
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 30
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Ćwiczenia",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 38
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Wykład",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 12
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Ćwiczenia",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 2
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Karol Cieślik",
+            "numH": 18
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Wykład",
+            "prof": "dr inż. Janusz Mierzyński",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Wykład",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Laboratorium",
+            "prof": "dr inż. Paweł Moszczyński",
+            "numH": 22
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Wykład",
+            "prof": "dr inż. Dariusz Pierzchała",
+            "numH": 14
+        },
+        {
+            "short": "WdS",
+            "title": "Wprowadzenie do studiowania",
+            "color": "#FF6347",
+            "type": "Wykład",
+            "prof": "dr Ewa Łakoma",
+            "numH": 6
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Wykład",
+            "prof": "dr Piotr Kobielski",
+            "numH": 14
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Ćwiczenia",
+            "prof": "dr Piotr Kobielski",
+            "numH": 4
+        },
+        {
+            "short": "Ja",
+            "title": "Język angielski",
+            "color": "#FFD700",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "WF",
+            "title": "Wychowanie fizyczne",
+            "color": "#CD5C5C",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "JoM",
+            "title": "Język obcy (II) międzywydziałowy",
+            "color": "#FFEBCD",
+            "type": "Ćwiczenia",
+            "numH": 15
+        }
+    ],
+    "WCY22KY2S1": [
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Wykład",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 14
+        },
+        {
+            "short": "Ez",
+            "title": "Etyka zawodowa",
+            "color": "#FFC0CB",
+            "type": "Ćwiczenia",
+            "prof": "dr Stanisław Ptaszek",
+            "numH": 4
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "Ing",
+            "title": "Inauguracja",
+            "color": "#E6E6FA",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
+            "numH": 6
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 34
+        },
+        {
+            "short": "M II",
+            "title": "Matematyka II",
+            "color": "#B8860B",
+            "type": "Ćwiczenia",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 34
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Ćwiczenia",
+            "prof": "mgr inż. Elżbieta Burek",
+            "numH": 14
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Wykład",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 16
+        },
+        {
+            "short": "MD1",
+            "title": "Matematyka dyskretna I",
+            "color": "#D8BFD8",
+            "type": "Zaliczenie",
+            "prof": "dr hab. inż. Andrzej Chojnacki",
+            "numH": 2
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Wykład",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 30
+        },
+        {
+            "short": "Mat I",
+            "title": "Matematyka I",
+            "color": "#00FFFF",
+            "type": "Ćwiczenia",
+            "prof": "dr Arkadiusz Szymaniec",
+            "numH": 38
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Wykład",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 12
+        },
+        {
+            "short": "Owi",
+            "title": "Ochrona własności intelektualnych",
+            "color": "#ADFF2F",
+            "type": "Ćwiczenia",
+            "prof": "dr hab. Janusz Rybiński",
+            "numH": 2
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Wykład",
+            "prof": "dr inż. Janusz Mierzyński",
+            "numH": 12
+        },
+        {
+            "short": "PGI",
+            "title": "Podstawy grafiki inżynierskiej",
+            "color": "#FFFACD",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Mirosław Przybysz",
+            "numH": 18
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Wykład",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WDM",
+            "title": "Wprowadzenie do metrologii",
+            "color": "#FF69B4",
+            "type": "Ćwiczenia",
+            "prof": "dr inż. Zbigniew Zarański",
+            "numH": 12
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Laboratorium",
+            "prof": "dr inż. Paweł Moszczyński",
+            "numH": 22
+        },
+        {
+            "short": "WdI",
+            "title": "Wprowadzenie do informatyki",
+            "color": "#F08080",
+            "type": "Wykład",
+            "prof": "dr inż. Dariusz Pierzchała",
+            "numH": 14
+        },
+        {
+            "short": "WdS",
+            "title": "Wprowadzenie do studiowania",
+            "color": "#FF6347",
+            "type": "Wykład",
+            "prof": "dr Ewa Łakoma",
+            "numH": 6
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Wykład",
+            "prof": "dr Piotr Kobielski",
+            "numH": 14
+        },
+        {
+            "short": "Wzp",
+            "title": "Wybrane zagadnienia prawa",
+            "color": "#FFA07A",
+            "type": "Ćwiczenia",
+            "prof": "dr Piotr Kobielski",
+            "numH": 4
+        },
+        {
+            "short": "Ja",
+            "title": "Język angielski",
+            "color": "#FFD700",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "WF",
+            "title": "Wychowanie fizyczne",
+            "color": "#CD5C5C",
+            "type": "Ćwiczenia",
+            "numH": 15
+        },
+        {
+            "short": "JoM",
+            "title": "Język obcy (II) międzywydziałowy",
+            "color": "#FFEBCD",
+            "type": "Ćwiczenia",
+            "numH": 15
+        }
+    ]
+}
