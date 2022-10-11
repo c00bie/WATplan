@@ -3,7 +3,7 @@ import { useOsTheme, darkTheme, plPL, datePlPL } from 'naive-ui'
 import useStore from './store'
 import DateScroll from './components/DateScroll.vue';
 import DayView from './components/DayView.vue';
-import { CalendarMonthFilled } from '@vicons/material';
+import { CalendarMonthFilled, QuestionMarkFilled } from '@vicons/material';
 
 const store = useStore()
 const osTheme = useOsTheme()
@@ -17,7 +17,7 @@ const date = computed({
 })
 const showCalendar = ref(false)
 
-const groups = computed(() => store.groups.map(g => ({label: g, value: g})))
+const groups = computed(() => store.groups.map(g => ({ label: g, value: g })))
 import('./assets/entries.json').then(entries => {
   store.entries = entries.default
 })
@@ -48,18 +48,27 @@ setInterval(() => {
           <n-popselect v-model:value="store.group" :options="groups" :on-update:value="saveGroup" scrollable>
             <n-button text>Grupa: {{ store.group }}</n-button>
           </n-popselect>
-          <n-tooltip placement="bottom" trigger="manual" :show="showCalendar">
-            <template #trigger>
-              <n-button quaternary circle size="small" @click="showCalendar = !showCalendar">
-                <template #icon>
-                  <n-icon>
-                    <CalendarMonthFilled />
-                  </n-icon>
-                </template>
-              </n-button>
-            </template>
-            <n-date-picker panel type="date" v-model:value="date" :first-day-of-week="0"></n-date-picker>
-          </n-tooltip>
+          <n-space align="center">
+            <n-button quaternary circle size="small" tag="a" href="https://github.com/c00bie/WATplan#readme">
+              <template #icon>
+                <n-icon>
+                  <QuestionMarkFilled />
+                </n-icon>
+              </template>
+            </n-button>
+            <n-tooltip placement="bottom" trigger="manual" :show="showCalendar">
+              <template #trigger>
+                <n-button quaternary circle size="small" @click="showCalendar = !showCalendar">
+                  <template #icon>
+                    <n-icon>
+                      <CalendarMonthFilled />
+                    </n-icon>
+                  </template>
+                </n-button>
+              </template>
+              <n-date-picker panel type="date" v-model:value="date" :first-day-of-week="0"></n-date-picker>
+            </n-tooltip>
+          </n-space>
         </n-space>
         <DateScroll class="py-3 px-6"></DateScroll>
       </n-layout-header>
