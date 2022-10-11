@@ -35,6 +35,13 @@ function saveGroup(val: string) {
   localStorage.setItem('group', val)
 }
 
+function clickOutside(e: MouseEvent) {
+  const btn = document.getElementById('calbtn')
+  if (!btn || !btn.contains(e.target as Node)) {
+    showCalendar.value = false
+  }
+}
+
 setInterval(() => {
   store.now = new Date()
 }, 1000)
@@ -56,9 +63,9 @@ setInterval(() => {
                 </n-icon>
               </template>
             </n-button>
-            <n-tooltip placement="bottom" trigger="manual" :show="showCalendar">
+            <n-tooltip placement="bottom" trigger="manual" :show="showCalendar" :on-clickoutside="clickOutside">
               <template #trigger>
-                <n-button quaternary circle size="small" @click="showCalendar = !showCalendar">
+                <n-button id="calbtn" quaternary circle size="small" @click="showCalendar = !showCalendar">
                   <template #icon>
                     <n-icon>
                       <CalendarMonthFilled />
