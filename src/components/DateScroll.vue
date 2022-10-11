@@ -36,11 +36,22 @@ function handleGesture() {
 </script>
 
 <template>
-    <n-space justify="space-between" align="center" @touchstart="touchStartHandler" @touchend="touchEndHandler" class="select-none">
-        <n-button v-for="day in days" :key="day.toISOString()" text :color="isSameDay(day, store.date) ? '#63E2B7' : undefined" @click="store.date = day" :class="{'!font-bold': isSameDay(day, store.now)}">
-            {{format(day, "d")}}
-            <br/>
-            {{format(day, "MMM")}}
-        </n-button>
-    </n-space>
+  <n-space justify="space-between" align="center" @touchstart="touchStartHandler" @touchend="touchEndHandler" class="select-none">
+    <n-badge v-for="day in days" :key="day.toISOString()" :show="isSameDay(day, store.now)" :value="0" dot type="success">
+      <n-button text :color="isSameDay(day, store.date) ? '#63E2B7' : undefined" @click="store.date = day" :class="{'!font-bold': isSameDay(day, store.now)}">
+        {{format(day, "d")}}
+        <br />
+        {{format(day, "MMM")}}
+      </n-button>
+    </n-badge>
+  </n-space>
 </template>
+
+<style scoped lang="scss">
+.n-badge {
+  :deep(.n-badge-sup) {
+    left: 125%;
+    scale: 0.75;
+  }
+}
+</style>

@@ -10,6 +10,7 @@ declare module '@vue/runtime-core' {
     DateScroll: typeof import('./src/components/DateScroll.vue')['default']
     DayView: typeof import('./src/components/DayView.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    NBadge: typeof import('naive-ui')['NBadge']
     NButton: typeof import('naive-ui')['NButton']
     NCard: typeof import('naive-ui')['NCard']
     NConfigProvider: typeof import('naive-ui')['NConfigProvider']
