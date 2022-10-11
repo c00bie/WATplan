@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { format, isSameDay, isWithinInterval, subMinutes } from 'date-fns';
+import { format, isSameDay, isWithinInterval, subMinutes, addDays, subDays } from 'date-fns';
 import useStore, { Entry, Period, Subject as tSubject } from '../store'
 import Subject from './Subject.vue';
 import { useThemeVars } from 'naive-ui';
@@ -43,10 +43,37 @@ function showDetails(e: Entry, s: tSubject | undefined) {
     details.subject = s
     detailsModal.value = true
 }
+
+var touchStart = { x: 0, y: 0 }
+var touchEnd = { x: 0, y: 0 }
+
+function touchStartHandler(e: TouchEvent) {
+  touchStart.x = e.changedTouches[0].screenX
+  touchStart.y = e.changedTouches[0].screenY
+}
+
+function touchEndHandler(e: TouchEvent) {
+  touchEnd.x = e.changedTouches[0].screenX
+  touchEnd.y = e.changedTouches[0].screenY
+  handleGesture()
+}
+
+function handleGesture() {
+  var xDiff = touchStart.x - touchEnd.x
+  var yDiff = touchStart.y - touchEnd.y
+
+  if (Math.abs(xDiff) > Math.abs(yDiff) && Math.abs(xDiff) > 100) {
+    if (xDiff > 0) {
+      store.date = addDays(store.date, 1)
+    } else {
+      store.date = subDays(store.date, 1)
+    }
+  }
+}
 </script>
 
 <template>
-    <n-table striped :bordered="false" :bottom-bordered="false">
+    <n-table striped :bordered="false" :bottom-bordered="false"  @touchstart="touchStartHandler" @touchend="touchEndHandler">
         <thead>
             <tr>
                 <th>Godzina</th>

@@ -10,6 +10,7 @@ Visit [https://watplan.coobie.dev](https://watplan.coobie.dev) and select your g
 
 - Select day in current week by clicking on date in top bar
 - Swipe left/right on dates in top bar to change week
+- Swipe left/right on schedule to change day
 - Click calendar in top right corner to select specific date
 - Current period is highlighted in green, on break next period is highlighted in yellow
 - Current lecture has progress bar with time left
