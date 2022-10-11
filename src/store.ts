@@ -1,4 +1,5 @@
 import { defineStore } from "pinia";
+import { startOfMonth } from "date-fns";
 
 export interface Entry {
     title?: string;
@@ -35,6 +36,8 @@ export interface State {
     };
     periods: Period[];
     now: Date;
+    monthMode: boolean;
+    month: Date;
 }
 
 export default defineStore('store', {
@@ -52,7 +55,9 @@ export default defineStore('store', {
             { start: '17:35', end: '19:10' },
             { start: '19:25', end: '21:00' },
         ],
-        now: new Date()
+        now: new Date(),
+        monthMode: false,
+        month: startOfMonth(new Date()),
     }),
     getters: {
         groups: (state) => {

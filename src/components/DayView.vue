@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { format, isSameDay, isWithinInterval, subMinutes, addDays, subDays } from 'date-fns';
+import { format, isSameDay, isWithinInterval, subMinutes, addDays, subDays, startOfMonth } from 'date-fns';
 import useStore, { Entry, Period, Subject as tSubject } from '../store'
 import Subject from './Subject.vue';
 import { useThemeVars } from 'naive-ui';
@@ -68,6 +68,7 @@ function handleGesture() {
     } else {
       store.date = subDays(store.date, 1)
     }
+    store.month = startOfMonth(store.date)
   }
 }
 </script>

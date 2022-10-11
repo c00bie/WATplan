@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { startOfWeek, endOfWeek, eachDayOfInterval, isSameDay, format, addDays, subDays } from 'date-fns'
+import { startOfWeek, endOfWeek, eachDayOfInterval, isSameDay, format, addDays, subDays, addMonths, subMonths, startOfMonth } from 'date-fns'
 import useStore from '../store'
 
 const store = useStore()
@@ -27,17 +27,21 @@ function handleGesture() {
 
   if (Math.abs(xDiff) > Math.abs(yDiff) && Math.abs(xDiff) > 100) {
     if (xDiff > 0) {
-      store.date = addDays(store.date, 7)
+      store.date = store.monthMode ? addMonths(store.date, 1) : addDays(store.date, 7)
     } else {
-      store.date = subDays(store.date, 7)
+      store.date = store.monthMode ? subMonths(store.date, 1) : subDays(store.date, 7)
     }
+    store.month = startOfMonth(store.date)
   }
 }
 </script>
 
 <template>
-  <n-space justify="space-between" align="center" @touchstart="touchStartHandler" @touchend="touchEndHandler" class="select-none">
-    <n-badge v-for="day in days" :key="day.toISOString()" :show="isSameDay(day, store.now)" :value="0" dot type="success">
+  <n-space :justify="store.monthMode ? 'center' : 'space-between'" align="center" @touchstart="touchStartHandler" @touchend="touchEndHandler" class="select-none">
+    <n-p v-if="store.monthMode" class="text-center" color="#63E2B7">
+      {{format(store.month, 'LLLL yyyy')}}
+    </n-p>
+    <n-badge v-else v-for="day in days" :key="day.toISOString()" :show="isSameDay(day, store.now)" :value="0" dot type="success">
       <n-button text :color="isSameDay(day, store.date) ? '#63E2B7' : undefined" @click="store.date = day" :class="{'!font-bold': isSameDay(day, store.now)}">
         {{format(day, "d")}}
         <br />

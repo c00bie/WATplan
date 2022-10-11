@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useOsTheme, darkTheme, plPL, datePlPL } from 'naive-ui'
+import { startOfMonth } from 'date-fns'
 import useStore from './store'
 import DateScroll from './components/DateScroll.vue';
 import DayView from './components/DayView.vue';
@@ -9,9 +10,10 @@ const store = useStore()
 const osTheme = useOsTheme()
 const theme = computed(() => (osTheme.value === 'dark' ? darkTheme : null))
 const date = computed({
-  get: () => store.date.getTime(),
+  get: () => (store.monthMode ? store.month : store.date).getTime(),
   set: (value: number) => {
     store.date = new Date(value)
+    store.month = startOfMonth(store.date)
     showCalendar.value = false
   }
 })
@@ -73,20 +75,32 @@ setInterval(() => {
                   </template>
                 </n-button>
               </template>
-              <n-date-picker panel type="date" v-model:value="date" :first-day-of-week="0"></n-date-picker>
+              <n-date-picker panel v-model:value="date" :first-day-of-week="0" :type="store.monthMode ? 'month' : 'date'"></n-date-picker>
+              <n-radio-group v-model:value="store.monthMode">
+                <n-radio-button @click="showCalendar = false" :value="true">Miesiąc</n-radio-button>
+                <n-radio-button @click="showCalendar = false" :value="false">Dzień</n-radio-button>
+              </n-radio-group>
             </n-tooltip>
           </n-space>
         </n-space>
         <DateScroll class="py-3 px-6"></DateScroll>
       </n-layout-header>
       <n-layout-content>
-        <DayView></DayView>
+        <MonthView v-if="store.monthMode"></MonthView>
+        <DayView v-else></DayView>
       </n-layout-content>
     </n-layout>
     <n-global-style></n-global-style>
   </n-config-provider>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.n-radio-group {
+  width: 100%;
 
+  :deep(label) {
+    width: 50%;
+    text-align: center;
+  }
+}
 </style>
