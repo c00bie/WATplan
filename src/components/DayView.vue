@@ -71,6 +71,13 @@ function handleGesture() {
     store.month = startOfMonth(store.date)
   }
 }
+
+function search() {
+    if (details.entry?.title) {
+        store.search = details.entry.title
+        store.monthMode = true
+    }
+}
 </script>
 
 <template>
@@ -106,6 +113,7 @@ function handleGesture() {
             <n-p><b>Sala:</b> {{details.entry?.room?.join(', ') ?? 'brak danych'}}</n-p>
             <n-p><b>Prowadzący:</b> {{details.subject?.prof ?? 'brak danych'}}</n-p>
             <n-p><b>Nr zajęć:</b> {{details.entry?.num ?? 0}}/{{details?.subject?.numH ?? '??'}}</n-p>
+            <n-button class="w-full" primary @click="search">Wyszukaj przedmiot</n-button>
         </n-card>
     </n-modal>
 </template>

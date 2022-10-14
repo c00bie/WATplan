@@ -16,7 +16,7 @@ Visit [https://watplan.coobie.dev](https://watplan.coobie.dev) and select your g
   - Day - displays schedule for selected day
     - Current period is highlighted in green, on break next period is highlighted in yellow
     - Current lecture has progress bar with time left
-    - Double click on lecture to view details
+    - Double click on lecture to view details and filter month view by this lecture
   - Month - displays schedule for selected month
     - Current day is highlighted in green
     - Click on day to expand details

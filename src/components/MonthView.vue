@@ -9,6 +9,7 @@ const entries = computed(() => {
     const ent = store.gEntries.filter(entry => isWithinInterval(new Date(entry.date + 'T00:00:00'), range))
     var res = {} as { [key: string]: Entry[] }
     ent.forEach(e => {
+        if (store.search !== null && e.title !== store.search) return
         if (e.date === undefined) return;
         if (res[e.date] === undefined) res[e.date] = []
         res[e.date].push(e)

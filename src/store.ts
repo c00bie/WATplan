@@ -38,6 +38,7 @@ export interface State {
     now: Date;
     monthMode: boolean;
     month: Date;
+    search: string | null;
 }
 
 export default defineStore('store', {
@@ -58,6 +59,7 @@ export default defineStore('store', {
         now: new Date(),
         monthMode: false,
         month: startOfMonth(new Date()),
+        search: null,
     }),
     getters: {
         groups: (state) => {

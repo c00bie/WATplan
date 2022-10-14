@@ -31,6 +31,7 @@ declare module '@vue/runtime-core' {
     NTable: typeof import('naive-ui')['NTable']
     NText: typeof import('naive-ui')['NText']
     NTooltip: typeof import('naive-ui')['NTooltip']
+    SearchBar: typeof import('./src/components/SearchBar.vue')['default']
     Subject: typeof import('./src/components/Subject.vue')['default']
   }
 }

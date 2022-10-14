@@ -84,6 +84,7 @@ setInterval(() => {
           </n-space>
         </n-space>
         <DateScroll class="py-3 px-6"></DateScroll>
+        <SearchBar></SearchBar>
       </n-layout-header>
       <n-layout-content>
         <MonthView v-if="store.monthMode"></MonthView>
