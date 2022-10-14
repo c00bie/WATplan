@@ -63,11 +63,11 @@ function handleGesture() {
             </n-p>
         </div>
         <div class="day p-1" v-for="(day, i) in month" @dblclick="showDay(day)" @click="expanded = day">
-            <n-p class="uppercase text-right text-lg mb-1" :class="{'font-bold' : isSameMonth(day, store.month)}">
+            <n-p class="uppercase text-right mb-1" :class="{'font-bold' : isSameMonth(day, store.month)}">
                 <n-text :type="i % 7 == 6 ? 'error' : 'default'" :depth="isSameMonth(day, store.month) ? 1 : 3" :class="{'text-[#63E2B7]': isSameDay(store.now, day)}">{{format(day, 'd')}}</n-text>
             </n-p>
             <div class="entry" v-for="e of entries[format(day, 'yyyy-MM-dd')]" :style="{'background-color': getSubject(e)?.color ?? 'white'}">
-                <n-p v-if="expanded === day" class="text-center text-bold text-sm text-black">{{getSubject(e)?.short}} ({{e.type?.['0'] ?? 'w'}})</n-p>
+                <n-p v-if="expanded === day" class="text-center text-bold text-xs text-black">{{getSubject(e)?.short}} ({{e.type?.['0'] ?? 'w'}})</n-p>
             </div>
         </div>
     </div>

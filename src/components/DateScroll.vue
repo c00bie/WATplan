@@ -38,7 +38,7 @@ function handleGesture() {
 
 <template>
   <n-space :justify="store.monthMode ? 'center' : 'space-between'" align="center" @touchstart="touchStartHandler" @touchend="touchEndHandler" class="select-none">
-    <n-p v-if="store.monthMode" class="text-center" color="#63E2B7">
+    <n-p v-if="store.monthMode" class="text-center text-lg" color="#63E2B7">
       {{format(store.month, 'LLLL yyyy')}}
     </n-p>
     <n-badge v-else v-for="day in days" :key="day.toISOString()" :show="isSameDay(day, store.now)" :value="0" dot type="success">
