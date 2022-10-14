@@ -15,7 +15,7 @@ const inProgress = computed(() => props.subject !== undefined && isWithinInterva
 const time = computed(() => {
     if (!inProgress.value) return 0;
     const end = new Date(props.subject?.date + 'T' + props.subject?.timeEnd)
-    return differenceInMinutes(end, store.now)
+    return differenceInMinutes(end, store.now, {roundingMethod: 'ceil'})
 })
 
 function openDetails() {
