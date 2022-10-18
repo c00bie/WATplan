@@ -6,7 +6,7 @@
             "color": "#FFC0CB",
             "type": "Wykład",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Ez",
@@ -14,7 +14,7 @@
             "color": "#FFC0CB",
             "type": "Ćwiczenia",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ing",
@@ -22,7 +22,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -30,7 +30,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -38,7 +38,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -46,7 +46,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -54,7 +54,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -62,7 +62,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -70,7 +70,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "M II",
@@ -78,7 +78,7 @@
             "color": "#B8860B",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Alicja Kida",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "M II",
@@ -86,7 +86,7 @@
             "color": "#B8860B",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "MD1",
@@ -94,7 +94,7 @@
             "color": "#D8BFD8",
             "type": "Wykład",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 16
+            "numH": 8
         },
         {
             "short": "MD1",
@@ -102,7 +102,7 @@
             "color": "#D8BFD8",
             "type": "Ćwiczenia",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "MD1",
@@ -110,7 +110,7 @@
             "color": "#D8BFD8",
             "type": "Zaliczenie",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "Mat I",
@@ -118,7 +118,7 @@
             "color": "#00FFFF",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Alicja Kida",
-            "numH": 38
+            "numH": 19
         },
         {
             "short": "Mat I",
@@ -126,7 +126,7 @@
             "color": "#00FFFF",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 30
+            "numH": 15
         },
         {
             "short": "Owi",
@@ -134,7 +134,7 @@
             "color": "#ADFF2F",
             "type": "Wykład",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "Owi",
@@ -142,7 +142,7 @@
             "color": "#ADFF2F",
             "type": "Ćwiczenia",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "PGI",
@@ -150,7 +150,7 @@
             "color": "#FFFACD",
             "type": "Wykład",
             "prof": "dr inż. Janusz Mierzyński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "PGI",
@@ -158,7 +158,7 @@
             "color": "#FFFACD",
             "type": "Ćwiczenia",
             "prof": "dr inż. Janusz Mierzyński",
-            "numH": 18
+            "numH": 9
         },
         {
             "short": "WDM",
@@ -166,7 +166,7 @@
             "color": "#FF69B4",
             "type": "Wykład",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -174,7 +174,7 @@
             "color": "#FF69B4",
             "type": "Ćwiczenia",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WdI",
@@ -182,7 +182,7 @@
             "color": "#F08080",
             "type": "Laboratorium",
             "prof": "mgr inż. Paweł Pieczonka",
-            "numH": 22
+            "numH": 11
         },
         {
             "short": "WdI",
@@ -190,7 +190,7 @@
             "color": "#F08080",
             "type": "Wykład",
             "prof": "dr inż. Dariusz Pierzchała",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "WdS",
@@ -198,7 +198,7 @@
             "color": "#FF6347",
             "type": "Wykład",
             "prof": "dr Ewa Łakoma",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Wzp",
@@ -206,7 +206,7 @@
             "color": "#FFA07A",
             "type": "Wykład",
             "prof": "dr Piotr Kobielski",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Wzp",
@@ -214,7 +214,7 @@
             "color": "#FFA07A",
             "type": "Ćwiczenia",
             "prof": "dr Piotr Kobielski",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ja",
@@ -245,7 +245,7 @@
             "color": "#FFC0CB",
             "type": "Wykład",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Ez",
@@ -253,7 +253,7 @@
             "color": "#FFC0CB",
             "type": "Ćwiczenia",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ing",
@@ -261,7 +261,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -269,7 +269,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -277,7 +277,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -285,7 +285,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -293,7 +293,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -301,7 +301,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -309,7 +309,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "M II",
@@ -317,7 +317,7 @@
             "color": "#B8860B",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Alicja Kida",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "M II",
@@ -325,7 +325,7 @@
             "color": "#B8860B",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "MD1",
@@ -333,7 +333,7 @@
             "color": "#D8BFD8",
             "type": "Ćwiczenia",
             "prof": "dr Robert Dryło",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "MD1",
@@ -341,7 +341,7 @@
             "color": "#D8BFD8",
             "type": "Wykład",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 16
+            "numH": 8
         },
         {
             "short": "MD1",
@@ -349,7 +349,7 @@
             "color": "#D8BFD8",
             "type": "Zaliczenie",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "Mat I",
@@ -357,7 +357,7 @@
             "color": "#00FFFF",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Alicja Kida",
-            "numH": 38
+            "numH": 19
         },
         {
             "short": "Mat I",
@@ -365,7 +365,7 @@
             "color": "#00FFFF",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 30
+            "numH": 15
         },
         {
             "short": "Owi",
@@ -373,7 +373,7 @@
             "color": "#ADFF2F",
             "type": "Wykład",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "Owi",
@@ -381,7 +381,7 @@
             "color": "#ADFF2F",
             "type": "Ćwiczenia",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "PGI",
@@ -389,7 +389,7 @@
             "color": "#FFFACD",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Kacper Spadło",
-            "numH": 18
+            "numH": 9
         },
         {
             "short": "PGI",
@@ -397,7 +397,7 @@
             "color": "#FFFACD",
             "type": "Wykład",
             "prof": "dr inż. Janusz Mierzyński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -405,7 +405,7 @@
             "color": "#FF69B4",
             "type": "Wykład",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -413,7 +413,7 @@
             "color": "#FF69B4",
             "type": "Ćwiczenia",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WdI",
@@ -421,7 +421,7 @@
             "color": "#F08080",
             "type": "Laboratorium",
             "prof": "mgr inż. Grzegorz Kiryk",
-            "numH": 22
+            "numH": 11
         },
         {
             "short": "WdI",
@@ -429,7 +429,7 @@
             "color": "#F08080",
             "type": "Wykład",
             "prof": "dr inż. Dariusz Pierzchała",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "WdS",
@@ -437,7 +437,7 @@
             "color": "#FF6347",
             "type": "Wykład",
             "prof": "dr Ewa Łakoma",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Wzp",
@@ -445,7 +445,7 @@
             "color": "#FFA07A",
             "type": "Wykład",
             "prof": "dr Piotr Kobielski",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Wzp",
@@ -453,7 +453,7 @@
             "color": "#FFA07A",
             "type": "Ćwiczenia",
             "prof": "dr Piotr Kobielski",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ja",
@@ -484,7 +484,7 @@
             "color": "#FFC0CB",
             "type": "Wykład",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Ez",
@@ -492,7 +492,7 @@
             "color": "#FFC0CB",
             "type": "Ćwiczenia",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ing",
@@ -500,7 +500,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -508,7 +508,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -516,7 +516,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -524,7 +524,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -532,7 +532,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -540,7 +540,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -548,7 +548,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "M II",
@@ -556,7 +556,7 @@
             "color": "#B8860B",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Alicja Kida",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "M II",
@@ -564,7 +564,7 @@
             "color": "#B8860B",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "MD1",
@@ -572,7 +572,7 @@
             "color": "#D8BFD8",
             "type": "Ćwiczenia",
             "prof": "dr Robert Dryło",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "MD1",
@@ -580,7 +580,7 @@
             "color": "#D8BFD8",
             "type": "Wykład",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 16
+            "numH": 8
         },
         {
             "short": "MD1",
@@ -588,7 +588,7 @@
             "color": "#D8BFD8",
             "type": "Zaliczenie",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "Mat I",
@@ -596,7 +596,7 @@
             "color": "#00FFFF",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Alicja Kida",
-            "numH": 38
+            "numH": 19
         },
         {
             "short": "Mat I",
@@ -604,7 +604,7 @@
             "color": "#00FFFF",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 30
+            "numH": 15
         },
         {
             "short": "Owi",
@@ -612,7 +612,7 @@
             "color": "#ADFF2F",
             "type": "Wykład",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "Owi",
@@ -620,7 +620,7 @@
             "color": "#ADFF2F",
             "type": "Ćwiczenia",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "PGI",
@@ -628,7 +628,7 @@
             "color": "#FFFACD",
             "type": "Ćwiczenia",
             "prof": "dr inż. Karol Cieślik",
-            "numH": 18
+            "numH": 9
         },
         {
             "short": "PGI",
@@ -636,7 +636,7 @@
             "color": "#FFFACD",
             "type": "Wykład",
             "prof": "dr inż. Janusz Mierzyński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -644,7 +644,7 @@
             "color": "#FF69B4",
             "type": "Wykład",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -652,7 +652,7 @@
             "color": "#FF69B4",
             "type": "Ćwiczenia",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WdI",
@@ -660,7 +660,7 @@
             "color": "#F08080",
             "type": "Laboratorium",
             "prof": "mgr inż. Piotr Adamczyk",
-            "numH": 22
+            "numH": 11
         },
         {
             "short": "WdI",
@@ -668,7 +668,7 @@
             "color": "#F08080",
             "type": "Wykład",
             "prof": "dr inż. Dariusz Pierzchała",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "WdS",
@@ -676,7 +676,7 @@
             "color": "#FF6347",
             "type": "Wykład",
             "prof": "dr Ewa Łakoma",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Wzp",
@@ -684,7 +684,7 @@
             "color": "#FFA07A",
             "type": "Wykład",
             "prof": "dr Piotr Kobielski",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Wzp",
@@ -692,7 +692,7 @@
             "color": "#FFA07A",
             "type": "Ćwiczenia",
             "prof": "dr Piotr Kobielski",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ja",
@@ -723,7 +723,7 @@
             "color": "#FFC0CB",
             "type": "Wykład",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Ez",
@@ -731,7 +731,7 @@
             "color": "#FFC0CB",
             "type": "Ćwiczenia",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ing",
@@ -739,7 +739,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -747,7 +747,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -755,7 +755,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -763,7 +763,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -771,7 +771,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -779,7 +779,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -787,7 +787,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "M II",
@@ -795,7 +795,7 @@
             "color": "#B8860B",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "M II",
@@ -803,7 +803,7 @@
             "color": "#B8860B",
             "type": "Ćwiczenia",
             "prof": "dr inż. Jerzy Ploch",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "MD1",
@@ -811,7 +811,7 @@
             "color": "#D8BFD8",
             "type": "Ćwiczenia",
             "prof": "dr Robert Dryło",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "MD1",
@@ -819,7 +819,7 @@
             "color": "#D8BFD8",
             "type": "Wykład",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 16
+            "numH": 8
         },
         {
             "short": "MD1",
@@ -827,7 +827,7 @@
             "color": "#D8BFD8",
             "type": "Zaliczenie",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "Mat I",
@@ -835,7 +835,7 @@
             "color": "#00FFFF",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 30
+            "numH": 15
         },
         {
             "short": "Mat I",
@@ -843,7 +843,7 @@
             "color": "#00FFFF",
             "type": "Ćwiczenia",
             "prof": "dr inż. Jerzy Ploch",
-            "numH": 38
+            "numH": 19
         },
         {
             "short": "Owi",
@@ -851,7 +851,7 @@
             "color": "#ADFF2F",
             "type": "Wykład",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "Owi",
@@ -859,7 +859,7 @@
             "color": "#ADFF2F",
             "type": "Ćwiczenia",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "PGI",
@@ -867,7 +867,7 @@
             "color": "#FFFACD",
             "type": "Wykład",
             "prof": "dr inż. Janusz Mierzyński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "PGI",
@@ -875,7 +875,7 @@
             "color": "#FFFACD",
             "type": "Ćwiczenia",
             "prof": "dr inż. Janusz Mierzyński",
-            "numH": 18
+            "numH": 9
         },
         {
             "short": "WDM",
@@ -883,7 +883,7 @@
             "color": "#FF69B4",
             "type": "Wykład",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -891,7 +891,7 @@
             "color": "#FF69B4",
             "type": "Ćwiczenia",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WdI",
@@ -899,7 +899,7 @@
             "color": "#F08080",
             "type": "Laboratorium",
             "prof": "mgr inż. Radosław Woźniak",
-            "numH": 22
+            "numH": 11
         },
         {
             "short": "WdI",
@@ -907,7 +907,7 @@
             "color": "#F08080",
             "type": "Wykład",
             "prof": "dr inż. Dariusz Pierzchała",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "WdS",
@@ -915,7 +915,7 @@
             "color": "#FF6347",
             "type": "Wykład",
             "prof": "dr Ewa Łakoma",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Wzp",
@@ -923,7 +923,7 @@
             "color": "#FFA07A",
             "type": "Wykład",
             "prof": "dr Piotr Kobielski",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Wzp",
@@ -931,7 +931,7 @@
             "color": "#FFA07A",
             "type": "Ćwiczenia",
             "prof": "dr Piotr Kobielski",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ja",
@@ -962,7 +962,7 @@
             "color": "#FFC0CB",
             "type": "Wykład",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Ez",
@@ -970,7 +970,7 @@
             "color": "#FFC0CB",
             "type": "Ćwiczenia",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ing",
@@ -978,7 +978,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -986,7 +986,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -994,7 +994,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1002,7 +1002,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1010,7 +1010,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1018,7 +1018,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1026,7 +1026,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "M II",
@@ -1034,7 +1034,7 @@
             "color": "#B8860B",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "M II",
@@ -1042,7 +1042,7 @@
             "color": "#B8860B",
             "type": "Ćwiczenia",
             "prof": "dr inż. Jerzy Ploch",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "MD1",
@@ -1050,7 +1050,7 @@
             "color": "#D8BFD8",
             "type": "Ćwiczenia",
             "prof": "dr Robert Dryło",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "MD1",
@@ -1058,7 +1058,7 @@
             "color": "#D8BFD8",
             "type": "Wykład",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 16
+            "numH": 8
         },
         {
             "short": "MD1",
@@ -1066,7 +1066,7 @@
             "color": "#D8BFD8",
             "type": "Zaliczenie",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "Mat I",
@@ -1074,7 +1074,7 @@
             "color": "#00FFFF",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 30
+            "numH": 15
         },
         {
             "short": "Mat I",
@@ -1082,7 +1082,7 @@
             "color": "#00FFFF",
             "type": "Ćwiczenia",
             "prof": "dr inż. Jerzy Ploch",
-            "numH": 38
+            "numH": 19
         },
         {
             "short": "Owi",
@@ -1090,7 +1090,7 @@
             "color": "#ADFF2F",
             "type": "Wykład",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "Owi",
@@ -1098,7 +1098,7 @@
             "color": "#ADFF2F",
             "type": "Ćwiczenia",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "PGI",
@@ -1106,7 +1106,7 @@
             "color": "#FFFACD",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Kacper Spadło",
-            "numH": 18
+            "numH": 9
         },
         {
             "short": "PGI",
@@ -1114,7 +1114,7 @@
             "color": "#FFFACD",
             "type": "Wykład",
             "prof": "dr inż. Janusz Mierzyński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -1122,7 +1122,7 @@
             "color": "#FF69B4",
             "type": "Wykład",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -1130,7 +1130,7 @@
             "color": "#FF69B4",
             "type": "Ćwiczenia",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WdI",
@@ -1138,7 +1138,7 @@
             "color": "#F08080",
             "type": "Laboratorium",
             "prof": "mgr inż. Radosław Woźniak",
-            "numH": 22
+            "numH": 11
         },
         {
             "short": "WdI",
@@ -1146,7 +1146,7 @@
             "color": "#F08080",
             "type": "Wykład",
             "prof": "dr inż. Dariusz Pierzchała",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "WdS",
@@ -1154,7 +1154,7 @@
             "color": "#FF6347",
             "type": "Wykład",
             "prof": "dr Ewa Łakoma",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Wzp",
@@ -1162,7 +1162,7 @@
             "color": "#FFA07A",
             "type": "Wykład",
             "prof": "dr Piotr Kobielski",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Wzp",
@@ -1170,7 +1170,7 @@
             "color": "#FFA07A",
             "type": "Ćwiczenia",
             "prof": "dr Piotr Kobielski",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ja",
@@ -1201,7 +1201,7 @@
             "color": "#FFC0CB",
             "type": "Wykład",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Ez",
@@ -1209,7 +1209,7 @@
             "color": "#FFC0CB",
             "type": "Ćwiczenia",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ing",
@@ -1217,7 +1217,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1225,7 +1225,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1233,7 +1233,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1241,7 +1241,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1249,7 +1249,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1257,7 +1257,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1265,7 +1265,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "M II",
@@ -1273,7 +1273,7 @@
             "color": "#B8860B",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "M II",
@@ -1281,7 +1281,7 @@
             "color": "#B8860B",
             "type": "Ćwiczenia",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "MD1",
@@ -1289,7 +1289,7 @@
             "color": "#D8BFD8",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Elżbieta Burek",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "MD1",
@@ -1297,7 +1297,7 @@
             "color": "#D8BFD8",
             "type": "Wykład",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 16
+            "numH": 8
         },
         {
             "short": "MD1",
@@ -1305,7 +1305,7 @@
             "color": "#D8BFD8",
             "type": "Zaliczenie",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "Mat I",
@@ -1313,7 +1313,7 @@
             "color": "#00FFFF",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 30
+            "numH": 15
         },
         {
             "short": "Mat I",
@@ -1321,7 +1321,7 @@
             "color": "#00FFFF",
             "type": "Ćwiczenia",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 38
+            "numH": 19
         },
         {
             "short": "Owi",
@@ -1329,7 +1329,7 @@
             "color": "#ADFF2F",
             "type": "Wykład",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "Owi",
@@ -1337,7 +1337,7 @@
             "color": "#ADFF2F",
             "type": "Ćwiczenia",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "PGI",
@@ -1345,7 +1345,7 @@
             "color": "#FFFACD",
             "type": "Ćwiczenia",
             "prof": "dr inż. Karol Cieślik",
-            "numH": 18
+            "numH": 9
         },
         {
             "short": "PGI",
@@ -1353,7 +1353,7 @@
             "color": "#FFFACD",
             "type": "Wykład",
             "prof": "dr inż. Janusz Mierzyński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -1361,7 +1361,7 @@
             "color": "#FF69B4",
             "type": "Wykład",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -1369,7 +1369,7 @@
             "color": "#FF69B4",
             "type": "Ćwiczenia",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WdI",
@@ -1377,7 +1377,7 @@
             "color": "#F08080",
             "type": "Laboratorium",
             "prof": "dr inż. Paweł Moszczyński",
-            "numH": 22
+            "numH": 11
         },
         {
             "short": "WdI",
@@ -1385,7 +1385,7 @@
             "color": "#F08080",
             "type": "Wykład",
             "prof": "dr inż. Dariusz Pierzchała",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "WdS",
@@ -1393,7 +1393,7 @@
             "color": "#FF6347",
             "type": "Wykład",
             "prof": "dr Ewa Łakoma",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Wzp",
@@ -1401,7 +1401,7 @@
             "color": "#FFA07A",
             "type": "Wykład",
             "prof": "dr Piotr Kobielski",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Wzp",
@@ -1409,7 +1409,7 @@
             "color": "#FFA07A",
             "type": "Ćwiczenia",
             "prof": "dr Piotr Kobielski",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ja",
@@ -1440,7 +1440,7 @@
             "color": "#FFC0CB",
             "type": "Wykład",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Ez",
@@ -1448,7 +1448,7 @@
             "color": "#FFC0CB",
             "type": "Ćwiczenia",
             "prof": "dr Stanisław Ptaszek",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ing",
@@ -1456,7 +1456,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1464,7 +1464,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1472,7 +1472,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1480,7 +1480,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1488,7 +1488,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1496,7 +1496,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Ing",
@@ -1504,7 +1504,7 @@
             "color": "#E6E6FA",
             "type": "Wykład",
             "prof": "dr hab. inż. Zbigniew Tarapata, dr inż. Dariusz Pierzchała, dr Joanna Piasecka, dr hab. Janusz Furtak, dr hab. inż. Tadeusz Nowicki, dr inż. Tomasz Malinowski, dr hab. Marek Kojdecki",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "M II",
@@ -1512,7 +1512,7 @@
             "color": "#B8860B",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "M II",
@@ -1520,7 +1520,7 @@
             "color": "#B8860B",
             "type": "Ćwiczenia",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 34
+            "numH": 17
         },
         {
             "short": "MD1",
@@ -1528,7 +1528,7 @@
             "color": "#D8BFD8",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Elżbieta Burek",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "MD1",
@@ -1536,7 +1536,7 @@
             "color": "#D8BFD8",
             "type": "Wykład",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 16
+            "numH": 8
         },
         {
             "short": "MD1",
@@ -1544,7 +1544,7 @@
             "color": "#D8BFD8",
             "type": "Zaliczenie",
             "prof": "dr hab. inż. Andrzej Chojnacki",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "Mat I",
@@ -1552,7 +1552,7 @@
             "color": "#00FFFF",
             "type": "Wykład",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 30
+            "numH": 15
         },
         {
             "short": "Mat I",
@@ -1560,7 +1560,7 @@
             "color": "#00FFFF",
             "type": "Ćwiczenia",
             "prof": "dr Arkadiusz Szymaniec",
-            "numH": 38
+            "numH": 19
         },
         {
             "short": "Owi",
@@ -1568,7 +1568,7 @@
             "color": "#ADFF2F",
             "type": "Wykład",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "Owi",
@@ -1576,7 +1576,7 @@
             "color": "#ADFF2F",
             "type": "Ćwiczenia",
             "prof": "dr hab. Janusz Rybiński",
-            "numH": 2
+            "numH": 1
         },
         {
             "short": "PGI",
@@ -1584,7 +1584,7 @@
             "color": "#FFFACD",
             "type": "Wykład",
             "prof": "dr inż. Janusz Mierzyński",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "PGI",
@@ -1592,7 +1592,7 @@
             "color": "#FFFACD",
             "type": "Ćwiczenia",
             "prof": "dr inż. Mirosław Przybysz",
-            "numH": 18
+            "numH": 9
         },
         {
             "short": "WDM",
@@ -1600,7 +1600,7 @@
             "color": "#FF69B4",
             "type": "Wykład",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WDM",
@@ -1608,7 +1608,7 @@
             "color": "#FF69B4",
             "type": "Ćwiczenia",
             "prof": "dr inż. Zbigniew Zarański",
-            "numH": 12
+            "numH": 6
         },
         {
             "short": "WdI",
@@ -1616,7 +1616,7 @@
             "color": "#F08080",
             "type": "Laboratorium",
             "prof": "dr inż. Paweł Moszczyński",
-            "numH": 22
+            "numH": 11
         },
         {
             "short": "WdI",
@@ -1624,7 +1624,7 @@
             "color": "#F08080",
             "type": "Wykład",
             "prof": "dr inż. Dariusz Pierzchała",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "WdS",
@@ -1632,7 +1632,7 @@
             "color": "#FF6347",
             "type": "Wykład",
             "prof": "dr Ewa Łakoma",
-            "numH": 6
+            "numH": 3
         },
         {
             "short": "Wzp",
@@ -1640,7 +1640,7 @@
             "color": "#FFA07A",
             "type": "Wykład",
             "prof": "dr Piotr Kobielski",
-            "numH": 14
+            "numH": 7
         },
         {
             "short": "Wzp",
@@ -1648,7 +1648,7 @@
             "color": "#FFA07A",
             "type": "Ćwiczenia",
             "prof": "dr Piotr Kobielski",
-            "numH": 4
+            "numH": 2
         },
         {
             "short": "Ja",

@@ -639,17 +639,6 @@
         },
         {
             "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 7,
-            "room": [
-                "204 65"
-            ],
-            "date": "2022-11-02",
-            "timeStart": "13:30",
-            "timeEnd": "15:05"
-        },
-        {
-            "title": "Matematyka I",
             "type": "Wykład",
             "num": 6,
             "room": [
@@ -708,7 +697,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 8,
+            "num": 7,
             "room": [
                 "201 65"
             ],
@@ -786,7 +775,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 9,
+            "num": 8,
             "room": [
                 "204 65"
             ],
@@ -874,7 +863,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 10,
+            "num": 9,
             "room": [
                 "203 65"
             ],
@@ -970,7 +959,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 11,
+            "num": 10,
             "room": [
                 "204 65"
             ],
@@ -1036,7 +1025,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 12,
+            "num": 11,
             "room": [
                 "203 65"
             ],
@@ -1220,7 +1209,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 13,
+            "num": 12,
             "room": [
                 "204 65"
             ],
@@ -1242,7 +1231,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 14,
+            "num": 13,
             "room": [
                 "204 65"
             ],
@@ -1299,7 +1288,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 15,
+            "num": 14,
             "room": [
                 "204 65"
             ],
@@ -1354,7 +1343,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 16,
+            "num": 15,
             "room": [
                 "204 65"
             ],
@@ -1407,6 +1396,17 @@
             "date": "2022-12-02",
             "timeStart": "09:50",
             "timeEnd": "11:25"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 16,
+            "room": [
+                "308 S"
+            ],
+            "date": "2022-12-02",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
         },
         {
             "title": "Matematyka I",
@@ -5131,6 +5131,17 @@
             "timeEnd": "11:25"
         },
         {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
+                "307 S"
+            ],
+            "date": "2022-10-21",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
             "title": "Wprowadzenie do informatyki",
             "type": "Wykład",
             "num": 2,
@@ -5271,7 +5282,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 3,
+            "num": 4,
             "room": [
                 "203 65"
             ],
@@ -5293,7 +5304,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 4,
+            "num": 5,
             "room": [
                 "205 65"
             ],
@@ -5379,17 +5390,6 @@
             "date": "2022-11-02",
             "timeStart": "11:40",
             "timeEnd": "13:15"
-        },
-        {
-            "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 5,
-            "room": [
-                "101 65"
-            ],
-            "date": "2022-11-02",
-            "timeStart": "15:45",
-            "timeEnd": "17:20"
         },
         {
             "title": "Matematyka I",
@@ -11882,6 +11882,14 @@
             "date": "2023-01-31",
             "timeStart": "15:45",
             "timeEnd": "17:20"
+        },
+        {
+            "title": "-01-31",
+            "type": "Wykład",
+            "num": null,
+            "room": [
+                "15:45"
+            ]
         }
     ],
     "WCY22KY1S1": [
@@ -12551,6 +12559,17 @@
             "type": "Ćwiczenia",
             "num": 2,
             "room": [
+                "101 65"
+            ],
+            "date": "2022-11-04",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Matematyka I",
+            "type": "Ćwiczenia",
+            "num": 3,
+            "room": [
                 "203 65"
             ],
             "date": "2022-11-04",
@@ -12571,7 +12590,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 3,
+            "num": 4,
             "room": [
                 "204 65"
             ],
@@ -12715,7 +12734,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 4,
+            "num": 5,
             "room": [
                 "101 65"
             ],
@@ -12750,7 +12769,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 5,
+            "num": 6,
             "room": [
                 "205 65"
             ],
@@ -12877,7 +12896,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 6,
+            "num": 7,
             "room": [
                 "101 65"
             ],
@@ -12967,7 +12986,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 7,
+            "num": 8,
             "room": [
                 "205 65"
             ],
@@ -13083,7 +13102,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 8,
+            "num": 9,
             "room": [
                 "203 65"
             ],
@@ -13140,7 +13159,7 @@
         {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
-            "num": 9,
+            "num": 10,
             "room": [
                 "203 65"
             ],
@@ -13180,17 +13199,6 @@
             "date": "2022-11-30",
             "timeStart": "13:30",
             "timeEnd": "15:05"
-        },
-        {
-            "title": "Matematyka I",
-            "type": "Ćwiczenia",
-            "num": 10,
-            "room": [
-                "203 65"
-            ],
-            "date": "2022-11-30",
-            "timeStart": "15:45",
-            "timeEnd": "17:20"
         },
         {
             "title": "Wychowanie fizyczne",
