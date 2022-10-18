@@ -21,6 +21,7 @@ const showCalendar = ref(false)
 
 const groups = computed(() => store.groups.map(g => ({ label: g, value: g })))
 import('./assets/entries.json').then(entries => {
+  //@ts-ignore
   store.entries = entries.default
 })
 import('./assets/subs.json').then(subs => {
@@ -52,7 +53,7 @@ setInterval(() => {
 <template>
   <n-config-provider :theme="theme" :locale="plPL" :date-locale="datePlPL">
     <n-layout class="h-screen max-h-screen min-h-screen">
-      <n-layout-header>
+      <n-layout-header class="sticky top-0 left-0 z-50">
         <n-space class="p-3" justify="space-between" align="center">
           <n-popselect v-model:value="store.group" :options="groups" :on-update:value="saveGroup" scrollable>
             <n-button text>Grupa: {{ store.group }}</n-button>
