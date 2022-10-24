@@ -454,6 +454,17 @@
             "timeEnd": "09:35"
         },
         {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
             "title": "Matematyka I",
             "type": "Wykład",
             "num": 4,
@@ -596,7 +607,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Wykład",
-            "num": 4,
+            "num": 5,
             "room": [
                 "317 S"
             ],
@@ -704,17 +715,6 @@
             "date": "2022-11-04",
             "timeStart": "15:45",
             "timeEnd": "17:20"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Wykład",
-            "num": 5,
-            "room": [
-                "316 S"
-            ],
-            "date": "2022-11-07",
-            "timeStart": "09:50",
-            "timeEnd": "11:25"
         },
         {
             "title": "Podstawy grafiki inżynierskiej",
@@ -2842,6 +2842,17 @@
             "timeEnd": "09:35"
         },
         {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
             "title": "Matematyka I",
             "type": "Wykład",
             "num": 4,
@@ -2973,7 +2984,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Wykład",
-            "num": 4,
+            "num": 5,
             "room": [
                 "317 S"
             ],
@@ -3092,17 +3103,6 @@
             "date": "2022-11-04",
             "timeStart": "11:40",
             "timeEnd": "13:15"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Wykład",
-            "num": 5,
-            "room": [
-                "316 S"
-            ],
-            "date": "2022-11-07",
-            "timeStart": "09:50",
-            "timeEnd": "11:25"
         },
         {
             "title": "Podstawy grafiki inżynierskiej",
@@ -5208,6 +5208,17 @@
             "timeEnd": "09:35"
         },
         {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
             "title": "Matematyka I",
             "type": "Wykład",
             "num": 4,
@@ -5361,7 +5372,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Wykład",
-            "num": 4,
+            "num": 5,
             "room": [
                 "317 S"
             ],
@@ -5469,17 +5480,6 @@
             "date": "2022-11-04",
             "timeStart": "17:35",
             "timeEnd": "19:10"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Wykład",
-            "num": 5,
-            "room": [
-                "316 S"
-            ],
-            "date": "2022-11-07",
-            "timeStart": "09:50",
-            "timeEnd": "11:25"
         },
         {
             "title": "Podstawy grafiki inżynierskiej",
@@ -7596,6 +7596,17 @@
             "timeEnd": "09:35"
         },
         {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
             "title": "Matematyka I",
             "type": "Wykład",
             "num": 4,
@@ -7705,7 +7716,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Wykład",
-            "num": 4,
+            "num": 5,
             "room": [
                 "317 S"
             ],
@@ -7791,17 +7802,6 @@
             "date": "2022-11-04",
             "timeStart": "11:40",
             "timeEnd": "13:15"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Wykład",
-            "num": 5,
-            "room": [
-                "316 S"
-            ],
-            "date": "2022-11-07",
-            "timeStart": "09:50",
-            "timeEnd": "11:25"
         },
         {
             "title": "Matematyka I",
@@ -9973,6 +9973,17 @@
             "timeEnd": "09:35"
         },
         {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
+        },
+        {
             "title": "Matematyka I",
             "type": "Wykład",
             "num": 4,
@@ -10104,7 +10115,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Wykład",
-            "num": 4,
+            "num": 5,
             "room": [
                 "317 S"
             ],
@@ -10223,17 +10234,6 @@
             "date": "2022-11-07",
             "timeStart": "08:00",
             "timeEnd": "09:35"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Wykład",
-            "num": 5,
-            "room": [
-                "316 S"
-            ],
-            "date": "2022-11-07",
-            "timeStart": "09:50",
-            "timeEnd": "11:25"
         },
         {
             "title": "Matematyka I",
@@ -11882,14 +11882,6 @@
             "date": "2023-01-31",
             "timeStart": "15:45",
             "timeEnd": "17:20"
-        },
-        {
-            "title": "-01-31",
-            "type": "Wykład",
-            "num": null,
-            "room": [
-                "15:45"
-            ]
         }
     ],
     "WCY22KY1S1": [
@@ -12202,6 +12194,16 @@
             "timeEnd": "17:20"
         },
         {
+            "title": "Spotkanie organizacyjne z opiekunem roku",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-19",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
             "title": "Wychowanie fizyczne",
             "type": "Ćwiczenia",
             "num": 3,
@@ -12312,6 +12314,17 @@
             "date": "2022-10-25",
             "timeStart": "08:00",
             "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
         },
         {
             "title": "Matematyka I",
@@ -12434,7 +12447,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Wykład",
-            "num": 4,
+            "num": 5,
             "room": [
                 "317 S"
             ],
@@ -12452,28 +12465,6 @@
             "date": "2022-11-02",
             "timeStart": "09:50",
             "timeEnd": "11:25"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 1,
-            "room": [
-                "223 S"
-            ],
-            "date": "2022-11-02",
-            "timeStart": "11:40",
-            "timeEnd": "13:15"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 2,
-            "room": [
-                "223 S"
-            ],
-            "date": "2022-11-02",
-            "timeStart": "13:30",
-            "timeEnd": "15:05"
         },
         {
             "title": "Wychowanie fizyczne",
@@ -12575,17 +12566,6 @@
             "date": "2022-11-04",
             "timeStart": "15:45",
             "timeEnd": "17:20"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Wykład",
-            "num": 5,
-            "room": [
-                "316 S"
-            ],
-            "date": "2022-11-07",
-            "timeStart": "09:50",
-            "timeEnd": "11:25"
         },
         {
             "title": "Matematyka I",
@@ -12962,6 +12942,28 @@
             "timeEnd": "15:05"
         },
         {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 1,
+            "room": [
+                "227 S"
+            ],
+            "date": "2022-11-18",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 2,
+            "room": [
+                "227 S"
+            ],
+            "date": "2022-11-18",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
             "title": "Wprowadzenie do metrologii",
             "type": "Wykład",
             "num": 6,
@@ -13045,28 +13047,6 @@
             "timeEnd": "17:20"
         },
         {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 3,
-            "room": [
-                "224 S"
-            ],
-            "date": "2022-11-23",
-            "timeStart": "08:00",
-            "timeEnd": "09:35"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 4,
-            "room": [
-                "224 S"
-            ],
-            "date": "2022-11-23",
-            "timeStart": "09:50",
-            "timeEnd": "11:25"
-        },
-        {
             "title": "Matematyka dyskretna I",
             "type": "Wykład",
             "num": 6,
@@ -13109,6 +13089,28 @@
             "date": "2022-11-24",
             "timeStart": "09:50",
             "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 3,
+            "room": [
+                "233 S"
+            ],
+            "date": "2022-11-24",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 4,
+            "room": [
+                "233 S"
+            ],
+            "date": "2022-11-24",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
         },
         {
             "title": "Język obcy (II) międzywydziałowy",
@@ -13536,28 +13538,6 @@
             "timeEnd": "11:25"
         },
         {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 7,
-            "room": [
-                "228 S"
-            ],
-            "date": "2022-12-14",
-            "timeStart": "11:40",
-            "timeEnd": "13:15"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 8,
-            "room": [
-                "228 S"
-            ],
-            "date": "2022-12-14",
-            "timeStart": "13:30",
-            "timeEnd": "15:05"
-        },
-        {
             "title": "Wychowanie fizyczne",
             "type": "Ćwiczenia",
             "num": 11,
@@ -13624,6 +13604,28 @@
             "date": "2022-12-16",
             "timeStart": "09:50",
             "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 7,
+            "room": [
+                "223 S"
+            ],
+            "date": "2022-12-16",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 8,
+            "room": [
+                "223 S"
+            ],
+            "date": "2022-12-16",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
         },
         {
             "title": "Wprowadzenie do metrologii",
@@ -13860,28 +13862,6 @@
             "timeEnd": "09:35"
         },
         {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 9,
-            "room": [
-                "227 S"
-            ],
-            "date": "2023-01-11",
-            "timeStart": "11:40",
-            "timeEnd": "13:15"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 10,
-            "room": [
-                "227 S"
-            ],
-            "date": "2023-01-11",
-            "timeStart": "13:30",
-            "timeEnd": "15:05"
-        },
-        {
             "title": "Wychowanie fizyczne",
             "type": "Ćwiczenia",
             "num": 13,
@@ -13926,6 +13906,28 @@
             "date": "2023-01-12",
             "timeStart": "17:35",
             "timeEnd": "19:10"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 9,
+            "room": [
+                "226 S"
+            ],
+            "date": "2023-01-13",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 10,
+            "room": [
+                "226 S"
+            ],
+            "date": "2023-01-13",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
         },
         {
             "title": "Matematyka II",
@@ -14129,17 +14131,6 @@
             "timeEnd": "11:25"
         },
         {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 11,
-            "room": [
-                "226 S"
-            ],
-            "date": "2023-01-25",
-            "timeStart": "13:30",
-            "timeEnd": "15:05"
-        },
-        {
             "title": "Wychowanie fizyczne",
             "type": "Ćwiczenia",
             "num": 15,
@@ -14206,6 +14197,17 @@
             "date": "2023-01-27",
             "timeStart": "11:40",
             "timeEnd": "13:15"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 11,
+            "room": [
+                "224 S"
+            ],
+            "date": "2023-01-27",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
         },
         {
             "title": "Wprowadzenie do metrologii",
@@ -14579,6 +14581,16 @@
             "timeEnd": "17:20"
         },
         {
+            "title": "Spotkanie organizacyjne z opiekunem roku",
+            "num": 1,
+            "room": [
+                "314 S"
+            ],
+            "date": "2022-10-19",
+            "timeStart": "17:35",
+            "timeEnd": "19:10"
+        },
+        {
             "title": "Wychowanie fizyczne",
             "type": "Ćwiczenia",
             "num": 3,
@@ -14700,6 +14712,17 @@
             "date": "2022-10-25",
             "timeStart": "08:00",
             "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Wykład",
+            "num": 4,
+            "room": [
+                "313 S"
+            ],
+            "date": "2022-10-25",
+            "timeStart": "09:50",
+            "timeEnd": "11:25"
         },
         {
             "title": "Matematyka I",
@@ -14833,7 +14856,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Wykład",
-            "num": 4,
+            "num": 5,
             "room": [
                 "317 S"
             ],
@@ -14921,17 +14944,6 @@
             "timeEnd": "09:35"
         },
         {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Wykład",
-            "num": 5,
-            "room": [
-                "316 S"
-            ],
-            "date": "2022-11-07",
-            "timeStart": "09:50",
-            "timeEnd": "11:25"
-        },
-        {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
             "num": 2,
@@ -14997,28 +15009,6 @@
             "date": "2022-11-08",
             "timeStart": "19:25",
             "timeEnd": "21:00"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 1,
-            "room": [
-                "224 S"
-            ],
-            "date": "2022-11-09",
-            "timeStart": "08:00",
-            "timeEnd": "09:35"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 2,
-            "room": [
-                "224 S"
-            ],
-            "date": "2022-11-09",
-            "timeStart": "09:50",
-            "timeEnd": "11:25"
         },
         {
             "title": "Matematyka dyskretna I",
@@ -15251,7 +15241,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Laboratorium",
-            "num": 3,
+            "num": 1,
             "room": [
                 "224 S"
             ],
@@ -15262,7 +15252,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Laboratorium",
-            "num": 4,
+            "num": 2,
             "room": [
                 "224 S"
             ],
@@ -15832,7 +15822,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Laboratorium",
-            "num": 5,
+            "num": 3,
             "room": [
                 "224 S"
             ],
@@ -15843,7 +15833,7 @@
         {
             "title": "Wprowadzenie do informatyki",
             "type": "Laboratorium",
-            "num": 6,
+            "num": 4,
             "room": [
                 "224 S"
             ],
@@ -15955,6 +15945,28 @@
             "date": "2022-12-15",
             "timeStart": "09:50",
             "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 5,
+            "room": [
+                "224 S"
+            ],
+            "date": "2022-12-15",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 6,
+            "room": [
+                "224 S"
+            ],
+            "date": "2022-12-15",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
         },
         {
             "title": "Język obcy (II) międzywydziałowy",
@@ -16075,28 +16087,6 @@
             "timeEnd": "11:25"
         },
         {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 7,
-            "room": [
-                "228 S"
-            ],
-            "date": "2022-12-21",
-            "timeStart": "11:40",
-            "timeEnd": "13:15"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 8,
-            "room": [
-                "228 S"
-            ],
-            "date": "2022-12-21",
-            "timeStart": "13:30",
-            "timeEnd": "15:05"
-        },
-        {
             "title": "Matematyka I",
             "type": "Ćwiczenia",
             "num": 19,
@@ -16117,6 +16107,28 @@
             "date": "2022-12-22",
             "timeStart": "08:00",
             "timeEnd": "09:35"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 7,
+            "room": [
+                "233 S"
+            ],
+            "date": "2022-12-22",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 8,
+            "room": [
+                "233 S"
+            ],
+            "date": "2022-12-22",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
         },
         {
             "title": "Język obcy (II) międzywydziałowy",
@@ -16202,28 +16214,6 @@
             "date": "2023-01-10",
             "timeStart": "15:45",
             "timeEnd": "17:20"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 9,
-            "room": [
-                "227 S"
-            ],
-            "date": "2023-01-11",
-            "timeStart": "08:00",
-            "timeEnd": "09:35"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 10,
-            "room": [
-                "227 S"
-            ],
-            "date": "2023-01-11",
-            "timeStart": "09:50",
-            "timeEnd": "11:25"
         },
         {
             "title": "Podstawy grafiki inżynierskiej",
@@ -16456,6 +16446,28 @@
             "timeEnd": "11:25"
         },
         {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 9,
+            "room": [
+                "223 S"
+            ],
+            "date": "2023-01-20",
+            "timeStart": "13:30",
+            "timeEnd": "15:05"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 10,
+            "room": [
+                "223 S"
+            ],
+            "date": "2023-01-20",
+            "timeStart": "15:45",
+            "timeEnd": "17:20"
+        },
+        {
             "title": "Matematyka II",
             "type": "Ćwiczenia",
             "num": 13,
@@ -16493,17 +16505,6 @@
             "date": "2023-01-24",
             "timeStart": "15:45",
             "timeEnd": "17:20"
-        },
-        {
-            "title": "Wprowadzenie do informatyki",
-            "type": "Laboratorium",
-            "num": 11,
-            "room": [
-                "223 S"
-            ],
-            "date": "2023-01-25",
-            "timeStart": "08:00",
-            "timeEnd": "09:35"
         },
         {
             "title": "Matematyka dyskretna I",
@@ -16594,6 +16595,17 @@
             "date": "2023-01-27",
             "timeStart": "09:50",
             "timeEnd": "11:25"
+        },
+        {
+            "title": "Wprowadzenie do informatyki",
+            "type": "Laboratorium",
+            "num": 11,
+            "room": [
+                "239 S"
+            ],
+            "date": "2023-01-27",
+            "timeStart": "11:40",
+            "timeEnd": "13:15"
         },
         {
             "title": "Wprowadzenie do metrologii",

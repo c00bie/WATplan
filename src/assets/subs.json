@@ -1286,7 +1286,7 @@
         {
             "short": "MD1",
             "title": "Matematyka dyskretna I",
-            "color": "#D8BFD8",
+            "color": "#32CD32",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Elżbieta Burek",
             "numH": 7
@@ -1294,7 +1294,7 @@
         {
             "short": "MD1",
             "title": "Matematyka dyskretna I",
-            "color": "#D8BFD8",
+            "color": "#32CD32",
             "type": "Wykład",
             "prof": "dr hab. inż. Andrzej Chojnacki",
             "numH": 8
@@ -1302,7 +1302,7 @@
         {
             "short": "MD1",
             "title": "Matematyka dyskretna I",
-            "color": "#D8BFD8",
+            "color": "#32CD32",
             "type": "Zaliczenie",
             "prof": "dr hab. inż. Andrzej Chojnacki",
             "numH": 1
@@ -1342,7 +1342,7 @@
         {
             "short": "PGI",
             "title": "Podstawy grafiki inżynierskiej",
-            "color": "#FFFACD",
+            "color": "#D8BFD8",
             "type": "Ćwiczenia",
             "prof": "dr inż. Karol Cieślik",
             "numH": 9
@@ -1350,15 +1350,23 @@
         {
             "short": "PGI",
             "title": "Podstawy grafiki inżynierskiej",
-            "color": "#FFFACD",
+            "color": "#D8BFD8",
             "type": "Wykład",
             "prof": "dr inż. Janusz Mierzyński",
             "numH": 6
         },
         {
+            "short": "SzOR",
+            "title": "Spotkanie organizacyjne z opiekunem roku",
+            "color": "#F08080",
+            "type": "Spotkanie organizacy",
+            "prof": "mgr inż. Alicja Kida",
+            "numH": 1
+        },
+        {
             "short": "WDM",
             "title": "Wprowadzenie do metrologii",
-            "color": "#FF69B4",
+            "color": "#FF6347",
             "type": "Wykład",
             "prof": "dr inż. Zbigniew Zarański",
             "numH": 6
@@ -1366,7 +1374,7 @@
         {
             "short": "WDM",
             "title": "Wprowadzenie do metrologii",
-            "color": "#FF69B4",
+            "color": "#FF6347",
             "type": "Ćwiczenia",
             "prof": "dr inż. Zbigniew Zarański",
             "numH": 6
@@ -1374,7 +1382,7 @@
         {
             "short": "WdI",
             "title": "Wprowadzenie do informatyki",
-            "color": "#F08080",
+            "color": "#FF69B4",
             "type": "Laboratorium",
             "prof": "dr inż. Paweł Moszczyński",
             "numH": 11
@@ -1382,7 +1390,7 @@
         {
             "short": "WdI",
             "title": "Wprowadzenie do informatyki",
-            "color": "#F08080",
+            "color": "#FF69B4",
             "type": "Wykład",
             "prof": "dr inż. Dariusz Pierzchała",
             "numH": 7
@@ -1390,7 +1398,7 @@
         {
             "short": "WdS",
             "title": "Wprowadzenie do studiowania",
-            "color": "#FF6347",
+            "color": "#FFFACD",
             "type": "Wykład",
             "prof": "dr Ewa Łakoma",
             "numH": 3
@@ -1525,7 +1533,7 @@
         {
             "short": "MD1",
             "title": "Matematyka dyskretna I",
-            "color": "#D8BFD8",
+            "color": "#32CD32",
             "type": "Ćwiczenia",
             "prof": "mgr inż. Elżbieta Burek",
             "numH": 7
@@ -1533,7 +1541,7 @@
         {
             "short": "MD1",
             "title": "Matematyka dyskretna I",
-            "color": "#D8BFD8",
+            "color": "#32CD32",
             "type": "Wykład",
             "prof": "dr hab. inż. Andrzej Chojnacki",
             "numH": 8
@@ -1541,7 +1549,7 @@
         {
             "short": "MD1",
             "title": "Matematyka dyskretna I",
-            "color": "#D8BFD8",
+            "color": "#32CD32",
             "type": "Zaliczenie",
             "prof": "dr hab. inż. Andrzej Chojnacki",
             "numH": 1
@@ -1581,7 +1589,7 @@
         {
             "short": "PGI",
             "title": "Podstawy grafiki inżynierskiej",
-            "color": "#FFFACD",
+            "color": "#D8BFD8",
             "type": "Wykład",
             "prof": "dr inż. Janusz Mierzyński",
             "numH": 6
@@ -1589,15 +1597,23 @@
         {
             "short": "PGI",
             "title": "Podstawy grafiki inżynierskiej",
-            "color": "#FFFACD",
+            "color": "#D8BFD8",
             "type": "Ćwiczenia",
             "prof": "dr inż. Mirosław Przybysz",
             "numH": 9
         },
         {
+            "short": "SzOR",
+            "title": "Spotkanie organizacyjne z opiekunem roku",
+            "color": "#F08080",
+            "type": "Spotkanie organizacy",
+            "prof": "mgr inż. Alicja Kida",
+            "numH": 1
+        },
+        {
             "short": "WDM",
             "title": "Wprowadzenie do metrologii",
-            "color": "#FF69B4",
+            "color": "#FF6347",
             "type": "Wykład",
             "prof": "dr inż. Zbigniew Zarański",
             "numH": 6
@@ -1605,7 +1621,7 @@
         {
             "short": "WDM",
             "title": "Wprowadzenie do metrologii",
-            "color": "#FF69B4",
+            "color": "#FF6347",
             "type": "Ćwiczenia",
             "prof": "dr inż. Zbigniew Zarański",
             "numH": 6
@@ -1613,7 +1629,7 @@
         {
             "short": "WdI",
             "title": "Wprowadzenie do informatyki",
-            "color": "#F08080",
+            "color": "#FF69B4",
             "type": "Laboratorium",
             "prof": "dr inż. Paweł Moszczyński",
             "numH": 11
@@ -1621,7 +1637,7 @@
         {
             "short": "WdI",
             "title": "Wprowadzenie do informatyki",
-            "color": "#F08080",
+            "color": "#FF69B4",
             "type": "Wykład",
             "prof": "dr inż. Dariusz Pierzchała",
             "numH": 7
@@ -1629,7 +1645,7 @@
         {
             "short": "WdS",
             "title": "Wprowadzenie do studiowania",
-            "color": "#FF6347",
+            "color": "#FFFACD",
             "type": "Wykład",
             "prof": "dr Ewa Łakoma",
             "numH": 3
