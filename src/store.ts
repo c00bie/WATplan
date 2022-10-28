@@ -74,20 +74,20 @@ export default defineStore('store', {
     },
     actions: {
         async refresh() {
-                fetch('/entries.json', {cache: 'no-cache'}).then((res) => res.json()).then((data) => {
+            fetch('/data/entries.json', {cache: 'no-cache'}).then((res) => res.json()).then((data) => {
+                this.entries = data;
+            }).catch(err => {
+                caches.match('/data/entries.json').then((res) => (res?.json() ?? {})).then((data) => {
                     this.entries = data;
-                }).catch(err => {
-                    caches.match('/entries.json').then((res) => (res?.json() ?? {})).then((data) => {
-                        this.entries = data;
-                    }).catch(err => alert(err));;
-                });
-                fetch('/subjects.json', {cache: 'no-cache'}).then((res) => res.json()).then((data) => {
+                }).catch(err => alert(err));;
+            });
+            fetch('/data/subjects.json', {cache: 'no-cache'}).then((res) => res.json()).then((data) => {
+                this.subjects = data;
+            }).catch(err => {
+                caches.match('/data/subjects.json').then((res) => (res?.json() ?? {})).then((data) => {
                     this.subjects = data;
-                }).catch(err => {
-                    caches.match('/subjects.json').then((res) => (res?.json() ?? {})).then((data) => {
-                        this.subjects = data;
-                    }).catch(err => alert(err));;
-                });
+                }).catch(err => alert(err));;
+            });
         }
     }
 });
