@@ -71,5 +71,23 @@ export default defineStore('store', {
         gSubjects: (state) => {
             return state.subjects[state.group];
         }
+    },
+    actions: {
+        async refresh() {
+                fetch('/entries.json', {cache: 'no-cache'}).then((res) => res.json()).then((data) => {
+                    this.entries = data;
+                }).catch(err => {
+                    caches.match('/entries.json').then((res) => (res?.json() ?? {})).then((data) => {
+                        this.entries = data;
+                    }).catch(err => alert(err));;
+                });
+                fetch('/subjects.json', {cache: 'no-cache'}).then((res) => res.json()).then((data) => {
+                    this.subjects = data;
+                }).catch(err => {
+                    caches.match('/subjects.json').then((res) => (res?.json() ?? {})).then((data) => {
+                        this.subjects = data;
+                    }).catch(err => alert(err));;
+                });
+        }
     }
 });

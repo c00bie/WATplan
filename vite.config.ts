@@ -5,6 +5,21 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 
+const getCache = ({ name, pattern }: any) => ({
+  urlPattern: pattern,
+  handler: "CacheFirst" as const,
+  options: {
+    cacheName: name,
+    expiration: {
+      maxEntries: 500,
+      maxAgeSeconds: 60
+    },
+    cacheableResponse: {
+      statuses: [200]
+    }
+  }
+});
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -31,7 +46,13 @@ export default defineConfig({
         ]
       },
       workbox: {
-        cleanupOutdatedCaches: false
+        cleanupOutdatedCaches: false,
+        runtimeCaching: [
+          getCache({
+            name: "data",
+            pattern: /^https:\/\/watplan\.coobie\.dev\/.*\.json$/
+          })
+        ]
       }
     }),
     AutoImport({
