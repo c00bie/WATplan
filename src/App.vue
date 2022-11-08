@@ -20,13 +20,6 @@ const date = computed({
 const showCalendar = ref(false)
 
 const groups = computed(() => store.groups.map(g => ({ label: g, value: g })))
-/* import('./assets/entries.json').then(entries => {
-  //@ts-ignore
-  store.entries = entries.default
-})
-import('./assets/subs.json').then(subs => {
-  store.subjects = subs.default
-}) */
 store.refresh();
 
 const savedGroup = localStorage.getItem('group')

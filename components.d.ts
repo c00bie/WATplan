@@ -9,7 +9,6 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     DateScroll: typeof import('./src/components/DateScroll.vue')['default']
     DayView: typeof import('./src/components/DayView.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     MonthView: typeof import('./src/components/MonthView.vue')['default']
     NBadge: typeof import('naive-ui')['NBadge']
     NButton: typeof import('naive-ui')['NButton']
