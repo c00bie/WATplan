@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "date-fns": "^2.29.3",
+    "lodash-es": "^4.17.21",
     "pinia": "^2.0.22",
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@types/lodash-es": "^4.17.6",
     "@vicons/material": "^0.12.0",
+    "@vicons/fa": "^0.12.0",
     "@vitejs/plugin-vue": "^3.1.0",
     "autoprefixer": "^10.4.12",
     "naive-ui": "^2.33.4",

@@ -5,8 +5,15 @@ import Subject from './Subject.vue';
 import { useThemeVars } from 'naive-ui';
 import { CloseFilled } from '@vicons/material'
 
+const props = defineProps<{
+    hideHours?: boolean,
+    title?: string,
+    date?: Date
+    disableGesture?: boolean
+}>()
+
 const store = useStore()
-const today = computed(() => format(store.date, 'yyyy-MM-dd'))
+const today = computed(() => format(props.date ?? store.date, 'yyyy-MM-dd'))
 const subs = computed(() => store.entries[store.group]?.filter(e => e.date === today.value))
 const themeVars = useThemeVars()
 const details = reactive({
@@ -59,14 +66,15 @@ function touchEndHandler(e: TouchEvent) {
 }
 
 function handleGesture() {
+  if (props.disableGesture) return
   var xDiff = touchStart.x - touchEnd.x
   var yDiff = touchStart.y - touchEnd.y
 
   if (Math.abs(xDiff) > Math.abs(yDiff) && Math.abs(xDiff) > 100) {
     if (xDiff > 0) {
-      store.date = addDays(store.date, 1)
+      store.date = addDays(store.date, store.settings.hideWeekends && store.date.getDay() === 5 ? 3 : 1)
     } else {
-      store.date = subDays(store.date, 1)
+      store.date = subDays(store.date, store.settings.hideWeekends && store.date.getDay() === 1 ? 3 : 1)
     }
     store.month = startOfMonth(store.date)
   }
@@ -84,13 +92,13 @@ function search() {
     <n-table striped :bordered="false" :bottom-bordered="false"  @touchstart="touchStartHandler" @touchend="touchEndHandler">
         <thead>
             <tr>
-                <th>Godzina</th>
-                <th>Przedmiot</th>
+                <th v-if="hideHours !== true">Godzina</th>
+                <th>{{ title ?? 'Przedmiot' }}</th>
             </tr>
         </thead>
         <tbody>
             <tr v-for="(per, i) of store.periods" :key="i">
-                <td :style="{'background-color': isPeriodNow(per) ? themeVars.primaryColor + '80 !important' : (isNextPeriod(per) ? themeVars.warningColor + '80 !important' : undefined)}" class="text-center">
+                <td v-if="hideHours !== true" :style="{'background-color': isPeriodNow(per) ? themeVars.primaryColor + '80 !important' : (isNextPeriod(per) ? themeVars.warningColor + '80 !important' : undefined)}" class="text-center">
                     <span class="text-xl font-bold">{{i+1}}</span><br/>
                     <span class="text-sm">{{per.start}}<br/>{{per.end}}</span>
                 </td>
