@@ -4,9 +4,10 @@ import { startOfMonth } from 'date-fns'
 import useStore from './store'
 import DateScroll from './components/DateScroll.vue';
 import DayView from './components/DayView.vue';
-import { CalendarMonthFilled, QuestionMarkFilled } from '@vicons/material';
+import { CalendarMonthFilled, SettingsRound } from '@vicons/material';
 
 const store = useStore()
+store.loadState();
 const osTheme = useOsTheme()
 const theme = computed(() => (osTheme.value === 'dark' ? darkTheme : null))
 const date = computed({
@@ -18,18 +19,14 @@ const date = computed({
   }
 })
 const showCalendar = ref(false)
+const showSettings = ref(false)
 
 const groups = computed(() => store.groups.map(g => ({ label: g, value: g })))
 store.refresh();
 
-const savedGroup = localStorage.getItem('group')
-if (savedGroup) {
-  store.group = savedGroup
-}
-
 function saveGroup(val: string) {
   store.group = val
-  localStorage.setItem('group', val)
+  store.saveState();
 }
 
 function clickOutside(e: MouseEvent) {
@@ -53,10 +50,10 @@ setInterval(() => {
             <n-button text>Grupa: {{ store.group }}</n-button>
           </n-popselect>
           <n-space align="center">
-            <n-button quaternary circle size="small" tag="a" href="https://github.com/c00bie/WATplan#readme">
+            <n-button quaternary circle size="small" @click="showSettings = true">
               <template #icon>
                 <n-icon>
-                  <QuestionMarkFilled />
+                  <SettingsRound />
                 </n-icon>
               </template>
             </n-button>
@@ -84,6 +81,9 @@ setInterval(() => {
       <n-layout-content>
         <MonthView v-if="store.monthMode"></MonthView>
         <DayView v-else></DayView>
+        <n-modal transform-origin="center" v-model:show="showSettings" title="Ustawienia" :on-update:value="store.saveState">
+          <Settings></Settings>
+        </n-modal>
       </n-layout-content>
     </n-layout>
     <n-global-style></n-global-style>

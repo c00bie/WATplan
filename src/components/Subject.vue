@@ -44,11 +44,25 @@ function openDetails() {
 
 <template>
     <n-card v-if="subject !== undefined"
-        :style="{ 'background-color': sub?.color ?? 'white', '--n-title-text-color': 'black' }" class="select-none"
-        size="small" :title="subject.title" @dblclick="openDetails">
-        <n-p style="--n-text-color: black">{{ subject.type }}, sala: {{ subject.room?.join(', ') || 'brak danych' }}</n-p>
+        :style="{ 'background-color': sub?.color ?? 'white', '--n-title-text-color': 'black', '--marker-type': sub !== undefined && store.settings.useMarkers ? (store.settings.markers[sub.type!] ?? 'transparent') : 'transparent' }"
+        class="select-none subject" size="small" :title="subject.title" @dblclick="openDetails">
+        <n-p style="--n-text-color: black">{{ subject.type }}, sala: {{
+            subject.room?.join(', ') || 'brak danych'
+        }}</n-p>
         <n-progress v-if="inProgress" type="line" :percentage="(95 - time) * 100 / 95" color="rgb(16, 16, 20)"
             rail-color="rgba(36, 36, 39, 0.25)" indicator-text-color="black" processing>{{ time }} min. do końca
         </n-progress>
     </n-card>
 </template>
+
+<style lang="scss">
+.subject::after {
+    content: '';
+    height: 100%;
+    width: 5px;
+    background-color: var(--marker-type, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+</style>
