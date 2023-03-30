@@ -4,7 +4,7 @@ import { startOfMonth } from 'date-fns'
 import useStore from './store'
 import DateScroll from './components/DateScroll.vue';
 import DayView from './components/DayView.vue';
-import { CalendarMonthFilled, SettingsRound } from '@vicons/material';
+import { CalendarMonthFilled, SettingsRound, SearchRound } from '@vicons/material';
 
 const store = useStore()
 store.loadState();
@@ -50,6 +50,13 @@ setInterval(() => {
             <n-button text>Grupa: {{ store.group }}</n-button>
           </n-popselect>
           <n-space align="center">
+            <n-button v-if="store.monthMode" quaternary circle size="small" @click="store.search = store.gSubjects[0].title!">
+              <template #icon>
+                <n-icon>
+                  <SearchRound />
+                </n-icon>
+              </template>
+            </n-button>
             <n-button quaternary circle size="small" @click="showSettings = true">
               <template #icon>
                 <n-icon>

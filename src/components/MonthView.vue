@@ -9,7 +9,8 @@ const entries = computed(() => {
     const ent = store.gEntries.filter(entry => isWithinInterval(new Date(entry.date + 'T00:00:00'), range))
     var res = {} as { [key: string]: Entry[] }
     ent.forEach(e => {
-        if (store.search !== null && e.title !== store.search) return
+        if (store.search !== '' && (e.title !== store.search ||
+            (store.searchType !== '' && e.type !== store.searchType))) return
         if (e.date === undefined) return;
         if (res[e.date] === undefined) res[e.date] = []
         res[e.date].push(e)
@@ -68,7 +69,7 @@ function handleGesture() {
                 <n-text :type="i % 7 == 6 ? 'error' : 'default'" :depth="isSameMonth(day, store.month) ? 1 : 3" :class="{'text-[#63E2B7]': isSameDay(store.now, day)}">{{format(day, 'd')}}</n-text>
             </n-p>
             <div class="entry" v-for="e of entries[format(day, 'yyyy-MM-dd')]" :style="{'background-color': getSubject(e)?.color ?? 'white'}">
-                <n-p v-if="expanded === day" class="text-center text-bold text-xs text-black">{{getSubject(e)?.short}} ({{e.type?.['0'] ?? 'w'}})</n-p>
+                <n-p v-if="expanded === day" class="text-center text-bold text-xs text-black">{{getSubject(e)?.short}} ({{e.type?.['0'] ?? 'w'}}) [{{ e.num }}]</n-p>
             </div>
         </div>
     </div>

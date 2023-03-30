@@ -83,6 +83,7 @@ function handleGesture() {
 function search() {
     if (details.entry?.title) {
         store.search = details.entry.title
+        store.searchType = ''
         store.monthMode = true
     }
 }

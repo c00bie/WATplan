@@ -47,7 +47,8 @@ export interface State {
     now: Date;
     monthMode: boolean;
     month: Date;
-    search: string | null;
+    search: string;
+    searchType: string;
     year: string;
     settings: {
         hideWeekends: boolean;
@@ -76,7 +77,8 @@ export default defineStore('store', {
         now: new Date(),
         monthMode: false,
         month: startOfMonth(new Date()),
-        search: null,
+        search: '',
+        searchType: '',
         year: "2022",
         semesters: [],
         settings: {
