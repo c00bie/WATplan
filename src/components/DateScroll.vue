@@ -37,7 +37,7 @@ function handleGesture() {
 </script>
 
 <template>
-  <n-space :justify="store.monthMode ? 'center' : 'space-between'" align="center" @touchstart="touchStartHandler" @touchend="touchEndHandler" class="select-none">
+  <n-space id="datescroll" :justify="store.monthMode ? 'center' : 'space-between'" align="center" @touchstart="touchStartHandler" @touchend="touchEndHandler" class="select-none">
     <n-p v-if="store.monthMode" class="text-center text-lg" color="#63E2B7">
       {{format(store.month, 'LLLL yyyy')}}
     </n-p>
@@ -56,6 +56,12 @@ function handleGesture() {
   :deep(.n-badge-sup) {
     left: 125%;
     scale: 0.75;
+  }
+}
+
+@media (pointer: coarse) {
+  .n-button:not(.n-button--disabled):hover {
+    color: var(--n-text-color) !important;
   }
 }
 </style>
