@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { startOfWeek, endOfWeek, eachDayOfInterval, endOfMonth, isSameDay, isWithinInterval, isSameMonth, format, startOfMonth, addMonths, subMonths } from 'date-fns'
-import useStore, { Entry } from '../store'
+import useStore, { Entry, ViewMode } from '../store'
 
 const store = useStore()
 const month = computed(() => eachDayOfInterval({ start: startOfWeek(store.month), end: endOfWeek(endOfMonth(store.month)) }))
@@ -25,7 +25,7 @@ function getSubject(e: Entry) {
 
 function showDay(date: Date) {
     store.date = date
-    store.monthMode = false
+    store.mode = ViewMode.Day
 }
 
 var touchStart = { x: 0, y: 0 }

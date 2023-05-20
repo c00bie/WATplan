@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import useStore, { Entry, Subject } from '../store'
+import useStore, { Entry, Subject, ViewMode } from '../store'
 import { isWithinInterval, differenceInMinutes } from 'date-fns';
 
 const props = defineProps<{
@@ -50,8 +50,9 @@ function openDetails() {
             subject.room?.join(', ') || 'brak danych'
         }}</n-p>
         <n-progress v-if="inProgress" type="line" :percentage="(95 - time) * 100 / 95" color="rgb(16, 16, 20)"
-            rail-color="rgba(36, 36, 39, 0.25)" indicator-text-color="black" processing>{{ time }} min. do końca
+            rail-color="rgba(36, 36, 39, 0.25)" indicator-text-color="black" processing :show-indicator="store.mode !== ViewMode.Week">{{ time }} min. do końca
         </n-progress>
+        <n-p class="m-0 p-0 text-black" v-if="inProgress && store.mode === ViewMode.Week">{{ time }} min. do końca</n-p>
     </n-card>
 </template>
 

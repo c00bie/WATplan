@@ -9,6 +9,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     DateScroll: typeof import('./src/components/DateScroll.vue')['default']
     DayView: typeof import('./src/components/DayView.vue')['default']
+    DetailsModal: typeof import('./src/components/DetailsModal.vue')['default']
     MonthView: typeof import('./src/components/MonthView.vue')['default']
     NBadge: typeof import('naive-ui')['NBadge']
     NButton: typeof import('naive-ui')['NButton']
@@ -23,6 +24,7 @@ declare module '@vue/runtime-core' {
     NLayoutContent: typeof import('naive-ui')['NLayoutContent']
     NLayoutHeader: typeof import('naive-ui')['NLayoutHeader']
     NModal: typeof import('naive-ui')['NModal']
+    NOption: typeof import('naive-ui')['NOption']
     NP: typeof import('naive-ui')['NP']
     NPopselect: typeof import('naive-ui')['NPopselect']
     NProgress: typeof import('naive-ui')['NProgress']

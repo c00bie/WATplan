@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useOsTheme, darkTheme, plPL, datePlPL } from 'naive-ui'
 import { startOfMonth } from 'date-fns'
-import useStore from './store'
+import useStore, { ViewMode } from './store'
 import DateScroll from './components/DateScroll.vue';
 import DayView from './components/DayView.vue';
 import { CalendarMonthFilled, SettingsRound, SearchRound } from '@vicons/material';
@@ -11,7 +11,7 @@ store.loadState();
 const osTheme = useOsTheme()
 const theme = computed(() => (osTheme.value === 'dark' ? darkTheme : null))
 const date = computed({
-  get: () => (store.monthMode ? store.month : store.date).getTime(),
+  get: () => (store.mode === ViewMode.Month ? store.month : store.date).getTime(),
   set: (value: number) => {
     store.date = new Date(value)
     store.month = startOfMonth(store.date)
@@ -20,6 +20,9 @@ const date = computed({
 })
 const showCalendar = ref(false)
 const showSettings = ref(false)
+provide('showSettings', showSettings);
+const weekview = computed(() => store.settings.forceWeekView || window.innerWidth >= 1024)
+store.mode = store.settings.defaultView === ViewMode.Week && !weekview.value ? ViewMode.Day : store.settings.defaultView;
 
 const groups = computed(() => store.groups.map(g => ({ label: g, value: g })))
 store.refresh();
@@ -50,7 +53,7 @@ setInterval(() => {
             <n-button text>Grupa: {{ store.group }}</n-button>
           </n-popselect>
           <n-space align="center">
-            <n-button v-if="store.monthMode" quaternary circle size="small" @click="store.search = store.gSubjects[0].title!">
+            <n-button v-if="store.mode === ViewMode.Month" quaternary circle size="small" @click="store.search = store.gSubjects[0].title!">
               <template #icon>
                 <n-icon>
                   <SearchRound />
@@ -74,10 +77,11 @@ setInterval(() => {
                   </template>
                 </n-button>
               </template>
-              <n-date-picker panel v-model:value="date" :first-day-of-week="0" :type="store.monthMode ? 'month' : 'date'"></n-date-picker>
-              <n-radio-group v-model:value="store.monthMode">
-                <n-radio-button @click="showCalendar = false" :value="true">Miesiąc</n-radio-button>
-                <n-radio-button @click="showCalendar = false" :value="false">Dzień</n-radio-button>
+              <n-date-picker panel v-model:value="date" :first-day-of-week="0" :type="store.mode === ViewMode.Month ? 'month' : 'date'"></n-date-picker>
+              <n-radio-group v-model:value="store.mode" :style="{'--button-count': 2 + Number(weekview)}">
+                <n-radio-button @click="showCalendar = false" :value="ViewMode.Month">Miesiąc</n-radio-button>
+                <n-radio-button v-if="weekview" @click="showCalendar = false" :value="ViewMode.Week">Tydzień</n-radio-button>
+                <n-radio-button @click="showCalendar = false" :value="ViewMode.Day">Dzień</n-radio-button>
               </n-radio-group>
             </n-tooltip>
           </n-space>
@@ -86,9 +90,10 @@ setInterval(() => {
         <SearchBar></SearchBar>
       </n-layout-header>
       <n-layout-content>
-        <MonthView v-if="store.monthMode"></MonthView>
+        <MonthView v-if="store.mode === ViewMode.Month"></MonthView>
+        <WeekView v-else-if="store.mode === ViewMode.Week"></WeekView>
         <DayView v-else></DayView>
-        <n-modal transform-origin="center" v-model:show="showSettings" title="Ustawienia" :on-update:value="store.saveState">
+        <n-modal transform-origin="center" v-model:show="showSettings" title="Ustawienia">
           <Settings></Settings>
         </n-modal>
       </n-layout-content>
@@ -102,7 +107,7 @@ setInterval(() => {
   width: 100%;
 
   :deep(label) {
-    width: 50%;
+    width: calc(100% / var(--button-count, 2));
     text-align: center;
   }
 }

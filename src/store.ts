@@ -2,6 +2,12 @@ import { defineStore } from "pinia";
 import { startOfMonth } from "date-fns";
 import { uniq, uniqBy } from "lodash";
 
+export enum ViewMode {
+    Day = 'day',
+    Week = 'week',
+    Month = 'month'
+}
+
 export interface Entry {
     title?: string;
     type?: string;
@@ -45,14 +51,16 @@ export interface State {
     semesters: Semester[];
     periods: Period[];
     now: Date;
-    monthMode: boolean;
+    mode: ViewMode;
     month: Date;
     search: string;
     searchType: string;
     year: string;
     settings: {
         hideWeekends: boolean;
+        forceWeekView: boolean;
         useMarkers: boolean;
+        defaultView: ViewMode;
         markers: {
             [key: string]: string;
         }
@@ -75,7 +83,7 @@ export default defineStore('store', {
             { start: '19:25', end: '21:00' },
         ],
         now: new Date(),
-        monthMode: false,
+        mode: ViewMode.Day,
         month: startOfMonth(new Date()),
         search: '',
         searchType: '',
@@ -83,7 +91,9 @@ export default defineStore('store', {
         semesters: [],
         settings: {
             hideWeekends: false,
+            forceWeekView: false,
             useMarkers: false,
+            defaultView: ViewMode.Week,
             markers: {},
         },
     }),
@@ -92,7 +102,7 @@ export default defineStore('store', {
             return Object.keys(state.entries);
         },
         gEntries: (state) => {
-            return state.entries[state.group];
+            return state.entries[state.group] ?? [];
         },
         gSubjects: (state) => {
             return state.subjects[state.group];
@@ -112,6 +122,9 @@ export default defineStore('store', {
         },
         years: (state) => {
             return Array.from(new Set(state.semesters.map((semester) => semester.id.slice(0, 4))));
+        },
+        monthMode: (state) => {
+            return state.mode === ViewMode.Month;
         }
     },
     actions: {

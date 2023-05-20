@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import { format, isSameDay, isWithinInterval, subMinutes, addDays, subDays, startOfMonth } from 'date-fns';
-import useStore, { Entry, Period, Subject as tSubject } from '../store'
+import useStore, { Entry, Period, Subject as tSubject, ViewMode } from '../store'
 import Subject from './Subject.vue';
 import { useThemeVars } from 'naive-ui';
-import { CloseFilled } from '@vicons/material'
 
 const props = defineProps<{
     hideHours?: boolean,
@@ -84,7 +83,7 @@ function search() {
     if (details.entry?.title) {
         store.search = details.entry.title
         store.searchType = ''
-        store.monthMode = true
+        store.mode = ViewMode.Month
     }
 }
 </script>
@@ -110,20 +109,7 @@ function search() {
         </tbody>
     </n-table>
     <n-modal v-model:show="detailsModal" transform-origin="center">
-        <n-card :title="details.entry?.title + (details.subject?.short ? ` (${details.subject?.short})` : '')" class="max-w-[1000px] w-[90vw]">
-            <template #header-extra>
-                <n-button text @click="detailsModal = false">
-                    <template #icon>
-                        <n-icon :component="CloseFilled" />
-                    </template>
-                </n-button>
-            </template>
-            <n-p><b>Rodzaj zajęć:</b> {{details.entry?.type ?? 'brak danych'}}</n-p>
-            <n-p><b>Sala:</b> {{details.entry?.room?.join(', ') ?? 'brak danych'}}</n-p>
-            <n-p><b>Prowadzący:</b> {{details.subject?.prof ?? 'brak danych'}}</n-p>
-            <n-p><b>Nr zajęć:</b> {{details.entry?.num ?? 0}}/{{details?.subject?.numH ?? '??'}}</n-p>
-            <n-button class="w-full" primary @click="search">Wyszukaj przedmiot</n-button>
-        </n-card>
+        <DetailsModal :details="details" @close="detailsModal = false"></DetailsModal>
     </n-modal>
 </template>
 
