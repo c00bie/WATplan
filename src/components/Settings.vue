@@ -46,7 +46,7 @@ function saveclose() {
       </n-space>
       <n-space class="mt-1">
         <n-switch v-model:value="store.settings.forceWeekView"></n-switch>
-        <n-p>Pokaż widok tygodnia na każdym urządzeniu</n-p>
+        <n-p>Wymuś widok tygodnia</n-p>
       </n-space>
       <n-form-item class="mt-3" label="Wybierz domyślny widok">
         <n-select v-model:value="store.settings.defaultView" :options="views"></n-select>

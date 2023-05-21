@@ -24,6 +24,12 @@ provide('showSettings', showSettings);
 const weekview = computed(() => store.settings.forceWeekView || window.innerWidth >= 1024)
 store.mode = store.settings.defaultView === ViewMode.Week && !weekview.value ? ViewMode.Day : store.settings.defaultView;
 
+watch(weekview, () => {
+  if (store.mode === ViewMode.Week && !weekview.value) {
+    store.mode = ViewMode.Day
+  }
+})
+
 const groups = computed(() => store.groups.map(g => ({ label: g, value: g })))
 store.refresh();
 
