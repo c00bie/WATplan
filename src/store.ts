@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import { startOfMonth } from "date-fns";
-import { uniq, uniqBy } from "lodash";
+import { uniqBy, merge } from "lodash";
 
 export enum ViewMode {
     Day = 'day',
@@ -133,7 +133,7 @@ export default defineStore('store', {
                 return;
             this.year = localStorage.getItem('year') ?? '2022';
             this.group = localStorage.getItem('group') ?? 'WCY22IY1S1';
-            this.settings = JSON.parse(localStorage.getItem('settings') ?? '{}');
+            this.settings = merge(this.settings, JSON.parse(localStorage.getItem('settings') ?? '{}'));
         },
         saveState() {
             localStorage.setItem('year', this.year);
