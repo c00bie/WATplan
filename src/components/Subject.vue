@@ -44,7 +44,7 @@ function openDetails() {
 function getColor() {
     if (sub.value === undefined)
         return 'white';
-    return store.settings.customColors[sub.value.title ?? ''] ?? sub.value.color ?? 'white';
+    return store.subColor(sub.value) ?? sub.value.color ?? 'white';
 }
 </script>
 

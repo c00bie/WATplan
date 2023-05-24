@@ -27,7 +27,7 @@ function getColor(e: Entry) {
     const sub = getSubject(e);
     if (sub === undefined)
         return 'white';
-    return store.settings.customColors[sub.title ?? ''] ?? sub.color ?? 'white';
+    return store.subColor(sub) ?? sub.color ?? 'white';
 }
 
 function showDay(date: Date) {

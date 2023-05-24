@@ -180,6 +180,11 @@ export default defineStore('store', {
             fetch('/data/subjects.json', { cache: 'no-cache' }).then((res) => res.json()).then((data) => {
                 this.subjects = data;
             }).catch(err => console.log(err));*/
+        },
+        subColor(sub: Subject) {
+            if (this.settings.useCustomColors)
+                return this.settings.customColors[sub.title!];
+            return undefined;
         }
     }
 });
