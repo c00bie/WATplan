@@ -28,7 +28,7 @@ Visit [https://watplan.coobie.dev](https://watplan.coobie.dev) and select your g
 - You can install this app on your phone and use it offline - look for "Install" option in your browser
 
 ## Roadmap
-- [ ] Additional markers depending on lecture type
+- [x] Additional markers depending on lecture type
 - [ ] Custom colors for lectures
 - [ ] Account system for syncing settings
 - [ ] Adding personal notes for lectures
