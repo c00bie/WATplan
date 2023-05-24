@@ -29,7 +29,7 @@ Visit [https://watplan.coobie.dev](https://watplan.coobie.dev) and select your g
 
 ## Roadmap
 - [x] Additional markers depending on lecture type
-- [ ] Custom colors for lectures
+- [x] Custom colors for lectures
 - [ ] Account system for syncing settings
 - [ ] Adding personal notes for lectures
 - [ ] Adding per-group notes for lectures
