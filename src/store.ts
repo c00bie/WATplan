@@ -60,8 +60,12 @@ export interface State {
         hideWeekends: boolean;
         forceWeekView: boolean;
         useMarkers: boolean;
+        useCustomColors: boolean;
         defaultView: ViewMode;
         markers: {
+            [key: string]: string;
+        },
+        customColors: {
             [key: string]: string;
         }
     };
@@ -93,8 +97,10 @@ export default defineStore('store', {
             hideWeekends: false,
             forceWeekView: false,
             useMarkers: false,
+            useCustomColors: false,
             defaultView: ViewMode.Week,
             markers: {},
+            customColors: {}
         },
     }),
     getters: {

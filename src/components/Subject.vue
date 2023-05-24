@@ -40,11 +40,17 @@ function openDetails() {
     if (props.subject !== undefined)
         emit('details', props.subject, sub.value)
 }
+
+function getColor() {
+    if (sub.value === undefined)
+        return 'white';
+    return store.settings.customColors[sub.value.title ?? ''] ?? sub.value.color ?? 'white';
+}
 </script>
 
 <template>
     <n-card v-if="subject !== undefined"
-        :style="{ 'background-color': sub?.color ?? 'white', '--n-title-text-color': 'black', '--marker-type': sub !== undefined && store.settings.useMarkers ? (store.settings.markers[sub.type!] ?? 'transparent') : 'transparent' }"
+        :style="{ 'background-color': getColor(), '--n-title-text-color': 'black', '--marker-type': sub !== undefined && store.settings.useMarkers ? (store.settings.markers[sub.type!] ?? 'transparent') : 'transparent' }"
         class="select-none subject" size="small" :title="subject.title" @dblclick="openDetails">
         <n-p style="--n-text-color: black">{{ subject.type }}, sala: {{
             subject.room?.join(', ') || 'brak danych'

@@ -23,6 +23,13 @@ function getSubject(e: Entry) {
     return store.gSubjects.find(s => s.title === e.title && s.type === e.type)
 }
 
+function getColor(e: Entry) {
+    const sub = getSubject(e);
+    if (sub === undefined)
+        return 'white';
+    return store.settings.customColors[sub.title ?? ''] ?? sub.color ?? 'white';
+}
+
 function showDay(date: Date) {
     store.date = date
     store.mode = ViewMode.Day
@@ -68,7 +75,7 @@ function handleGesture() {
             <n-p class="uppercase text-right mb-1" :class="{'font-bold' : isSameMonth(day, store.month)}">
                 <n-text :type="i % 7 == 6 ? 'error' : 'default'" :depth="isSameMonth(day, store.month) ? 1 : 3" :class="{'text-[#63E2B7]': isSameDay(store.now, day)}">{{format(day, 'd')}}</n-text>
             </n-p>
-            <div class="entry" v-for="e of entries[format(day, 'yyyy-MM-dd')]" :style="{'background-color': getSubject(e)?.color ?? 'white'}">
+            <div class="entry" v-for="e of entries[format(day, 'yyyy-MM-dd')]" :style="{'background-color': getColor(e)}">
                 <n-p v-if="expanded === day" class="text-center text-bold text-xs text-black">{{getSubject(e)?.short}} ({{e.type?.['0'] ?? 'w'}}) [{{ e.num }}]</n-p>
             </div>
         </div>

@@ -3,6 +3,7 @@ import useStore, { ViewMode } from '../store'
 import { Github } from '@vicons/fa'
 import { ClearRound } from '@vicons/material'
 import { Ref } from 'vue';
+import { uniqBy } from 'lodash';
 
 const store = useStore();
 const years = computed(() => store.years.map(y => ({
@@ -60,9 +61,30 @@ function saveclose() {
         <n-collapse-item title="Znaczniki" name="znaczniki">
           <n-scrollbar class="max-h-40">
             <div v-for="t of store.subTypes" class="flex items-center mb-2">
-              <n-p class="my-0 basis-40" style="line-height: 1em">{{ t }}</n-p>
+              <n-p class="my-0 basis-52" style="line-height: 1em">{{ t }}</n-p>
               <n-color-picker class="grow" v-model:value="store.settings.markers[t]" :show-alpha="false" default-value="#00000000" :modes="['hex']"></n-color-picker>
               <n-button text @click="delete store.settings.markers[t]">
+                <template #icon>
+                  <n-icon>
+                    <ClearRound />
+                  </n-icon>
+                </template>
+              </n-button>
+            </div>
+          </n-scrollbar>
+        </n-collapse-item>
+      </n-collapse>
+      <n-space class="mt-4">
+        <n-switch v-model:value="store.settings.useCustomColors"></n-switch>
+        <n-p>Użyj własnych kolorów</n-p>
+      </n-space>
+      <n-collapse class="mt-1" v-if="store.settings.useCustomColors">
+        <n-collapse-item title="Kolory" name="kolory">
+          <n-scrollbar class="max-h-40">
+            <div v-for="t of uniqBy(store.gSubjects, x => x.title)" class="flex items-center mb-2">
+              <n-p class="my-0 basis-52" style="line-height: 1em">{{ t.title }}</n-p>
+              <n-color-picker class="grow" v-model:value="store.settings.customColors[t.title!]" :show-alpha="false" default-value="#00000000" :modes="['hex']"></n-color-picker>
+              <n-button text @click="delete store.settings.customColors[t.title!]">
                 <template #icon>
                   <n-icon>
                     <ClearRound />
