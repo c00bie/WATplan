@@ -97,14 +97,17 @@ function saveclose() {
       </n-collapse>
       <n-button class="mt-4 w-full" primary @click="saveclose">Zapisz</n-button>
     </n-form>
-    <n-button class="mt-5" text tag="a" href="https://github.com/c00bie/WATplan#readme">
-      <template #icon>
-        <n-icon>
-          <Github />
-        </n-icon>
-      </template>
-      Wyświetl na GitHubie
-    </n-button>
+    <n-space class="mt-4" align="center" justify="space-between">
+      <n-button text tag="a" href="https://github.com/c00bie/WATplan#readme">
+        <template #icon>
+          <n-icon>
+            <Github />
+          </n-icon>
+        </template>
+        Wyświetl na GitHubie
+      </n-button>
+      <n-button text class="w-full text-right font-mono">ID: {{ store.settings.id }}</n-button>
+    </n-space>
   </n-card>
 </template>
 

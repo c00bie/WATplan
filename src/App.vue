@@ -8,6 +8,16 @@ import { CalendarMonthFilled, SettingsRound, SearchRound } from '@vicons/materia
 
 const store = useStore()
 store.loadState();
+if (!store.settings.id) {
+  store.settings.id = ''
+  for (var i = 0; i < 12; i++) {
+    var n = Math.random().toString(36).substring(2,3)
+    if (Math.random() > 0.5) n = n.toUpperCase()
+    store.settings.id += n
+  }
+  store.saveState();
+}
+
 const osTheme = useOsTheme()
 const theme = computed(() => (osTheme.value === 'dark' ? darkTheme : null))
 const date = computed({

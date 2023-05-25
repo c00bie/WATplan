@@ -67,7 +67,8 @@ export interface State {
         },
         customColors: {
             [key: string]: string;
-        }
+        },
+        id?: string;
     };
 }
 
