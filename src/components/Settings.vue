@@ -14,6 +14,7 @@ const emit = defineEmits<{
   (e: 'saved'): void
 }>()
 const showSettings = inject('showSettings') as Ref<boolean>;
+const changeId = inject('changeId') as Ref<boolean>;
 
 const views = [
   {
@@ -30,8 +31,42 @@ const views = [
   }
 ]
 
+const syncOptions = computed(() => [
+  {
+    key: 'pull',
+    label: store.canSync ? 'Aktualizuj' : 'Uruchom synchronizację'
+  },
+  {
+    key: 'copy',
+    label: 'Kopiuj ID'
+  },
+  {
+    key: 'change',
+    label: 'Zmień ID'
+  }
+])
+
+function handleSync(key: string) {
+  switch(key) {
+    case 'pull':
+      if (store.canSync)
+        store.pullSettings();
+      else
+        window.open(`${(import.meta.env.API_URL ?? 'https://api.watplan.coobie.dev')}/register?uid=${store.settings.id}`, '_blank');
+      break;
+    case 'change':
+      showSettings.value = false;
+      changeId.value = true;
+      break;
+    case 'copy':
+      navigator.clipboard.writeText(store.settings.id!);
+      break;
+  }
+}
+
 function saveclose() {
   store.saveState();
+  store.pushSettings();
   showSettings.value = false;
 }
 </script>
@@ -106,8 +141,11 @@ function saveclose() {
         </template>
         Wyświetl na GitHubie
       </n-button>
-      <n-button text class="w-full text-right font-mono">ID: {{ store.settings.id }}</n-button>
+      <n-dropdown trigger="click" :options="syncOptions" @select="handleSync">
+        <n-button text class="w-full text-right font-mono">ID: {{ store.settings.id }}</n-button>
+      </n-dropdown>
     </n-space>
+    
   </n-card>
 </template>
 

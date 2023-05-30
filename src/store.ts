@@ -56,6 +56,7 @@ export interface State {
     search: string;
     searchType: string;
     year: string;
+    canSync: boolean;
     settings: {
         hideWeekends: boolean;
         forceWeekView: boolean;
@@ -94,6 +95,7 @@ export default defineStore('store', {
         searchType: '',
         year: "2022",
         semesters: [],
+        canSync: false,
         settings: {
             hideWeekends: false,
             forceWeekView: false,
@@ -147,6 +149,40 @@ export default defineStore('store', {
             localStorage.setItem('group', this.group);
             localStorage.setItem('settings', JSON.stringify(this.settings));
         },
+        async pullSettings() {
+            fetch(`${(import.meta.env.API_URL ?? 'https://api.watplan.coobie.dev')}/${this.settings.id}`).then((res) => res.json()).then((res) => {
+                if (res.success) {
+                    this.canSync = true;
+                    this.settings = merge(this.settings, res.data.settings ?? {});
+                }
+                else
+                    this.canSync = false;
+            }).catch((err) => {
+                this.canSync = false;
+                console.error(err);
+            });
+        },
+        async pushSettings() {
+            fetch(`${(import.meta.env.API_URL ?? 'https://api.watplan.coobie.dev')}/${this.settings.id}`, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    settings: this.settings
+                })
+            }).then((res) => res.json()).then((res) => {
+                if (res.success) {
+                    this.canSync = true;
+                }
+                else
+                    this.canSync = false;
+            }).catch((err) => {
+                this.canSync = false;
+                console.error(err);
+            });
+        },
         async refresh() {
             for (let i = 0; i <= 1; i++) {
                 const get = i === 1 ? getFetch : getCache;
@@ -175,17 +211,30 @@ export default defineStore('store', {
                     console.error(err);
                 }
             }
-            /*fetch('/data/entries.json', { cache: 'no-cache' }).then((res) => res.json()).then((data) => {
-                this.entries = data;
-            }).catch(err => console.log(err));
-            fetch('/data/subjects.json', { cache: 'no-cache' }).then((res) => res.json()).then((data) => {
-                this.subjects = data;
-            }).catch(err => console.log(err));*/
         },
         subColor(sub: Subject) {
             if (this.settings.useCustomColors)
                 return this.settings.customColors[sub.title!];
             return undefined;
+        },
+        generateID() {
+            this.settings.id = ''
+            var sum = 0
+            for (var i = 0; i < 11; i++) {
+                var n = Math.random().toString(36).substring(2, 3)
+                if (Math.random() > 0.5) n = n.toUpperCase()
+                this.settings.id += n
+                sum += parseInt(n, 36)
+            }
+            this.settings.id += (sum % 36).toString(36)
+        },
+        checkID(id: string) {
+            if (id.match(/^[a-z0-9]{12}$/i) === null) return false
+            var sum = 0
+            for (var i = 0; i < 11; i++) {
+                sum += parseInt(id[i], 36)
+            }
+            return id[11] == (sum % 36).toString(36)
         }
     }
 });

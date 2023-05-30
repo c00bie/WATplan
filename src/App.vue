@@ -8,15 +8,11 @@ import { CalendarMonthFilled, SettingsRound, SearchRound } from '@vicons/materia
 
 const store = useStore()
 store.loadState();
-if (!store.settings.id) {
-  store.settings.id = ''
-  for (var i = 0; i < 12; i++) {
-    var n = Math.random().toString(36).substring(2,3)
-    if (Math.random() > 0.5) n = n.toUpperCase()
-    store.settings.id += n
-  }
+if (!store.settings.id || !store.checkID(store.settings.id)) {
+  store.generateID();
   store.saveState();
 }
+store.pullSettings();
 
 const osTheme = useOsTheme()
 const theme = computed(() => (osTheme.value === 'dark' ? darkTheme : null))
@@ -33,6 +29,8 @@ const showSettings = ref(false)
 provide('showSettings', showSettings);
 const weekview = computed(() => store.settings.forceWeekView || window.innerWidth >= 1024)
 store.mode = store.settings.defaultView === ViewMode.Week && !weekview.value ? ViewMode.Day : store.settings.defaultView;
+const changeId = ref(false);
+provide('changeId', changeId);
 
 watch(weekview, () => {
   if (store.mode === ViewMode.Week && !weekview.value) {
@@ -111,6 +109,9 @@ setInterval(() => {
         <DayView v-else></DayView>
         <n-modal transform-origin="center" v-model:show="showSettings" title="Ustawienia">
           <Settings></Settings>
+        </n-modal>
+        <n-modal transform-origin="center" v-model:show="changeId" title="Zmień ID">
+          <ChangeId></ChangeId>
         </n-modal>
       </n-layout-content>
     </n-layout>
