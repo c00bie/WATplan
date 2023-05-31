@@ -24,10 +24,11 @@ function search() {
 function addNote() {
   if (props.details.entry === undefined) return;
   store.notes.push({
-    content: '',
+    content: '<Nowa notatka>',
     title: props.details.entry.title!,
     num: props.details.entry.num!,
     type: props.details.entry.type!,
+    group: store.group,
     updated: new Date().getTime()
   })
 }

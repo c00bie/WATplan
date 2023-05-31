@@ -43,6 +43,7 @@ export interface Note {
     title: string;
     type: string;
     num: number;
+    group: string | null;
     content: string;
     updated: number;
 }
@@ -154,9 +155,9 @@ export default defineStore('store', {
         getNotes(entry: Entry | undefined) {
             if (entry === undefined)
                 return [];
-            var notes = this.notes.filter((note) => note.title === entry.title && note.type === entry.type && note.num === entry.num);
+            var notes = this.notes.filter((note) => (note.group === this.group || note.group === null) && note.title === entry.title && note.type === entry.type && note.num === entry.num);
             if (this.groupNotes[this.group] !== undefined) {
-                notes = notes.concat(this.groupNotes[this.group].filter((note) => note.title === entry.title && note.type === entry.type && note.num === entry.num));
+                notes = notes.concat(this.groupNotes[this.group].filter((note) => (note.group === this.group || note.group === null) && note.title === entry.title && note.type === entry.type && note.num === entry.num));
             }
             notes.sort((a, b) => b.updated - a.updated);
             return notes;

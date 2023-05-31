@@ -26,7 +26,7 @@ function remove() {
 
 <template>
   <div>
-    <n-input v-if="edit" type="textarea" v-model:value="note.content"></n-input>
+    <n-input v-if="edit" type="textarea" v-model:value="note.content" :maxlength="500" show-count clearable></n-input>
     <n-p class="my-1" v-else>{{ note.content }}</n-p>
     <n-space align="center" justify="space-between">
       <n-p class="my-0 text-xs" depth="3">Aktualizacja: {{ format(new Date(note.updated), 'yyyy-MM-dd HH:mm') }}</n-p>
