@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import { startOfMonth } from "date-fns";
-import { uniqBy, merge } from "lodash";
+import { uniqBy, merge, unionBy } from "lodash";
 
 export enum ViewMode {
     Day = 'day',
@@ -39,6 +39,14 @@ export interface Period {
     end: string;
 }
 
+export interface Note {
+    title: string;
+    type: string;
+    num: number;
+    content: string;
+    updated: number;
+}
+
 export interface State {
     group: string;
     date: Date;
@@ -70,6 +78,10 @@ export interface State {
             [key: string]: string;
         },
         id?: string;
+    };
+    notes: Note[];
+    groupNotes: {
+        [key: string]: Note[];
     };
 }
 
@@ -105,6 +117,8 @@ export default defineStore('store', {
             markers: {},
             customColors: {}
         },
+        notes: [],
+        groupNotes: {}
     }),
     getters: {
         groups: (state) => {
@@ -137,23 +151,37 @@ export default defineStore('store', {
         }
     },
     actions: {
+        getNotes(entry: Entry | undefined) {
+            if (entry === undefined)
+                return [];
+            var notes = this.notes.filter((note) => note.title === entry.title && note.type === entry.type && note.num === entry.num);
+            if (this.groupNotes[this.group] !== undefined) {
+                notes = notes.concat(this.groupNotes[this.group].filter((note) => note.title === entry.title && note.type === entry.type && note.num === entry.num));
+            }
+            notes.sort((a, b) => b.updated - a.updated);
+            return notes;
+        },
         loadState() {
             if (localStorage.getItem('settings') === null)
                 return;
             this.year = localStorage.getItem('year') ?? '2022';
             this.group = localStorage.getItem('group') ?? 'WCY22IY1S1';
             this.settings = merge(this.settings, JSON.parse(localStorage.getItem('settings') ?? '{}'));
+            this.notes = JSON.parse(localStorage.getItem('notes') ?? '[]');
         },
         saveState() {
             localStorage.setItem('year', this.year);
             localStorage.setItem('group', this.group);
             localStorage.setItem('settings', JSON.stringify(this.settings));
+            localStorage.setItem('notes', JSON.stringify(this.notes));
+            this.pushSettings();
         },
         async pullSettings() {
             fetch(`${(import.meta.env.API_URL ?? 'https://api.watplan.coobie.dev')}/${this.settings.id}`).then((res) => res.json()).then((res) => {
                 if (res.success) {
                     this.canSync = true;
                     this.settings = merge(this.settings, res.data.settings ?? {});
+                    this.notes = unionBy(this.notes, res.data.notes ?? [], x => x.title + x.type + x.num);
                 }
                 else
                     this.canSync = false;
@@ -170,7 +198,8 @@ export default defineStore('store', {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    settings: this.settings
+                    settings: this.settings,
+                    notes: this.notes
                 })
             }).then((res) => res.json()).then((res) => {
                 if (res.success) {

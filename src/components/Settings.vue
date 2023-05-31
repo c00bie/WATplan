@@ -66,7 +66,6 @@ function handleSync(key: string) {
 
 function saveclose() {
   store.saveState();
-  store.pushSettings();
   showSettings.value = false;
 }
 </script>
