@@ -35,6 +35,7 @@ const time = computed(() => {
     const end = new Date(props.subject?.date + 'T' + props.subject?.timeEnd)
     return differenceInMinutes(end, store.now, { roundingMethod: 'ceil' })
 })
+const hasNotes = computed(() => store.getNotes(props.subject).length > 0)
 
 function openDetails() {
     if (props.subject !== undefined)
@@ -51,7 +52,7 @@ function getColor() {
 <template>
     <n-card v-if="subject !== undefined"
         :style="{ 'background-color': getColor(), '--n-title-text-color': 'black', '--marker-type': sub !== undefined && store.settings.useMarkers ? (store.settings.markers[sub.type!] ?? 'transparent') : 'transparent' }"
-        class="select-none subject" size="small" :title="subject.title" @dblclick="openDetails">
+        class="select-none subject" :class="{'has-notes': hasNotes}" size="small" :title="subject.title" @dblclick="openDetails">
         <n-p style="--n-text-color: black">{{ subject.type }}, sala: {{
             subject.room?.join(', ') || 'brak danych'
         }}</n-p>
@@ -63,7 +64,7 @@ function getColor() {
 </template>
 
 <style lang="scss">
-.subject::after {
+.subject::before {
     content: '';
     height: 100%;
     width: 5px;
@@ -71,5 +72,15 @@ function getColor() {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.subject.has-notes::after {
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 24 24'%3E%3Cpath d='M21.41 9.41l-4.83-4.83c-.37-.37-.88-.58-1.41-.58H4c-1.1 0-2 .9-2 2v12.01c0 1.1.89 1.99 1.99 1.99H20c1.1 0 2-.9 2-2v-7.17c0-.53-.21-1.04-.59-1.42zM15 5.5l5.5 5.5H16c-.55 0-1-.45-1-1V5.5z' fill='currentColor'%3E%3C/path%3E%3C/svg%3E");    position: absolute;
+    background-repeat: no-repeat;
+    top: 10px;
+    right: 10px;
+    width: 1rem;
+    height: 1rem;
 }
 </style>
