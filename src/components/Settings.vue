@@ -6,9 +6,9 @@ import { Ref } from 'vue';
 import { uniqBy } from 'lodash';
 
 const store = useStore();
-const years = computed(() => store.years.map(y => ({
-  value: y,
-  label: `${y}/${(parseInt(y) + 1).toString().slice(2)}`
+const years = computed(() => store.yearsText.map(y => ({
+  value: y.substring(0, 4),
+  label: y
 })))
 const emit = defineEmits<{
   (e: 'saved'): void

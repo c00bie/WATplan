@@ -106,7 +106,7 @@ export default defineStore('store', {
         month: startOfMonth(new Date()),
         search: '',
         searchType: '',
-        year: "2022",
+        year: "2023",
         semesters: [],
         canSync: false,
         settings: {
@@ -146,6 +146,23 @@ export default defineStore('store', {
         },
         years: (state) => {
             return Array.from(new Set(state.semesters.map((semester) => semester.id.slice(0, 4))));
+        },
+        yearsText: (state) => {
+            return Array.from(new Set(state.semesters.map((semester) => semester.name.slice(0, 7))));
+        },
+        yearsDates: (state) => {
+            var res: { [key: string]: { start: Date, end: Date } } = {};
+            state.semesters.forEach((semester) => {
+                const start = new Date(semester.start);
+                const end = new Date(semester.end);
+                const year = semester.name.slice(0, 7);
+                if (res[year] === undefined) res[year] = { start, end };
+                else {
+                    if (start < res[year].start) res[year].start = start;
+                    if (end > res[year].end) res[year].end = end;
+                }
+            });
+            return res;
         },
         monthMode: (state) => {
             return state.mode === ViewMode.Month;

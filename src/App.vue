@@ -12,7 +12,12 @@ if (!store.settings.id || !store.checkID(store.settings.id)) {
   store.generateID();
   store.saveState();
 }
-store.pullSettings();
+store.pullSettings().then(() => {
+  if (store.year !== '2023') {
+    store.year = '2023';
+  }
+  store.saveState();
+});
 
 const osTheme = useOsTheme()
 const theme = computed(() => (osTheme.value === 'dark' ? darkTheme : null))
