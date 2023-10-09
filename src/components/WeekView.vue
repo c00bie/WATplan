@@ -102,7 +102,9 @@ function search() {
                   <span class="text-sm">{{per.start}}<br/>{{per.end}}</span>
               </td>
               <td v-for="(d, i) of days" :style="{'background-color': isPeriodNow(per) ? themeVars.primaryColor + '80 !important' : (isNextPeriod(per) ? themeVars.warningColor + '80 !important' : undefined)}">
+                <div class="flex flex-row justify-stretch items-stretch gap-5 flex-nowrap">
                   <Subject :subject="findSub(d, per)" @details="showDetails"></Subject>
+                </div>
               </td>
           </tr>
       </tbody>
