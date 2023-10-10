@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { format, isSameDay, isWithinInterval, subMinutes, addDays, subDays, startOfMonth } from 'date-fns';
 import useStore, { Entry, Period, Subject as tSubject, ViewMode } from '../store'
-import Subject from './Subject.vue';
+import Subject from '../components/Subject.vue';
 import { useThemeVars } from 'naive-ui';
+import DetailsModal from '../modals/DetailsModal.vue'
 
 const props = defineProps<{
     hideHours?: boolean,

@@ -3,7 +3,11 @@ import { useOsTheme, darkTheme, plPL, datePlPL } from 'naive-ui'
 import { startOfMonth } from 'date-fns'
 import useStore, { ViewMode } from './store'
 import DateScroll from './components/DateScroll.vue';
-import DayView from './components/DayView.vue';
+import DayView from './views/DayView.vue';
+import WeekView from './views/WeekView.vue';
+import MonthView from './views/MonthView.vue';
+import Settings from './modals/Settings.vue';
+import ChangeId from './modals/ChangeId.vue';
 import { CalendarMonthFilled, SettingsRound, SearchRound } from '@vicons/material';
 
 const store = useStore()

@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { startOfWeek, endOfWeek, eachDayOfInterval, isSameDay, format, addDays, subDays, addMonths, subMonths, startOfMonth, isWithinInterval, subMinutes } from 'date-fns'
 import useStore, { Entry, Period, Subject as tSubject, ViewMode } from '../store'
-import Subject from './Subject.vue';
+import Subject from '../components/Subject.vue';
 import { useThemeVars } from 'naive-ui';
 import { CloseFilled } from '@vicons/material'
+import DetailsModal from '../modals/DetailsModal.vue'
 
 const store = useStore()
 const weekStart = computed(() => startOfWeek(store.date, { weekStartsOn: 1 }))

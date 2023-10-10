@@ -7,11 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    ChangeId: typeof import('./src/components/ChangeId.vue')['default']
     DateScroll: typeof import('./src/components/DateScroll.vue')['default']
-    DayView: typeof import('./src/components/DayView.vue')['default']
-    DetailsModal: typeof import('./src/components/DetailsModal.vue')['default']
-    MonthView: typeof import('./src/components/MonthView.vue')['default']
     NBadge: typeof import('naive-ui')['NBadge']
     NButton: typeof import('naive-ui')['NButton']
     NCard: typeof import('naive-ui')['NCard']
@@ -40,14 +36,11 @@ declare module '@vue/runtime-core' {
     NScrollbar: typeof import('naive-ui')['NScrollbar']
     NSelect: typeof import('naive-ui')['NSelect']
     NSpace: typeof import('naive-ui')['NSpace']
-    NSpan: typeof import('naive-ui')['NSpan']
     NSwitch: typeof import('naive-ui')['NSwitch']
     NTable: typeof import('naive-ui')['NTable']
     NText: typeof import('naive-ui')['NText']
     NTooltip: typeof import('naive-ui')['NTooltip']
     SearchBar: typeof import('./src/components/SearchBar.vue')['default']
-    Settings: typeof import('./src/components/Settings.vue')['default']
     Subject: typeof import('./src/components/Subject.vue')['default']
-    WeekView: typeof import('./src/components/WeekView.vue')['default']
   }
 }
