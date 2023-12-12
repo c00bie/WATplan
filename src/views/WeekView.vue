@@ -93,7 +93,7 @@ function search() {
       <thead>
           <tr>
               <th>Godzina</th>
-              <th v-for="(d, i) of days">{{ format(d, 'EEEE') }}</th>
+              <th v-for="(d, i) of days">{{ format(d, 'EEEE, dd LLLL') }}</th>
           </tr>
       </thead>
       <tbody>
