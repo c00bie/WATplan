@@ -6,6 +6,7 @@ import DateScroll from './components/DateScroll.vue';
 import DayView from './views/DayView.vue';
 import WeekView from './views/WeekView.vue';
 import MonthView from './views/MonthView.vue';
+import SubSearch from './modals/SubSearch.vue';
 import Settings from './modals/Settings.vue';
 import ChangeId from './modals/ChangeId.vue';
 import { CalendarMonthFilled, SettingsRound, SearchRound } from '@vicons/material';
@@ -52,6 +53,7 @@ const weekview = computed(() => store.settings.forceWeekView || window.innerWidt
 store.mode = store.settings.defaultView === ViewMode.Week && !weekview.value ? ViewMode.Day : store.settings.defaultView;
 const changeId = ref(false);
 provide('changeId', changeId);
+const showSubSearch = computed(() => store.subSearch !== undefined);
 
 watch(weekview, () => {
   if (store.mode === ViewMode.Week && !weekview.value) {
@@ -133,6 +135,9 @@ setInterval(() => {
         </n-modal>
         <n-modal transform-origin="center" v-model:show="changeId" title="Zmień ID">
           <ChangeId></ChangeId>
+        </n-modal>
+        <n-modal transform-origin="center" v-model:show="showSubSearch" title="Wyszukaj zajęcia">
+          <SubSearch></SubSearch>
         </n-modal>
       </n-layout-content>
     </n-layout>

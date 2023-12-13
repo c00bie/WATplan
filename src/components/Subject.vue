@@ -66,7 +66,8 @@ function getColor() {
         <n-p class="mb-0" style="--n-text-color: black">{{ subject.type }}, sala: {{
             subject.room?.join(', ') || 'brak danych'
         }}</n-p>
-        <n-p class="mt-0" v-if="subject.group !== undefined" style="--n-text-color: black">Grupa: {{ subject.group }}</n-p>
+        <n-p class="mt-0 mb-0" v-if="subject.group !== undefined" style="--n-text-color: black">Grupa: {{ subject.group }}</n-p>
+        <slot></slot>
         <n-progress v-if="inProgress" type="line" :percentage="(95 - time) * 100 / 95" color="rgb(16, 16, 20)"
             rail-color="rgba(36, 36, 39, 0.25)" indicator-text-color="black" processing :show-indicator="store.mode !== ViewMode.Week">{{ time }} min. do końca
         </n-progress>

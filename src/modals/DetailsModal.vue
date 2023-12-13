@@ -63,6 +63,7 @@ function untransfer() {
     <n-p><b>Nr zajęć:</b> {{ details.entry?.num ?? 0 }}/{{ details?.subject?.numH ?? '??' }}</n-p>
     <n-p v-if="details.entry?.group !== undefined"><b>Grupa:</b> {{ details.entry?.group ?? 'brak danych' }}</n-p>
     <n-button class="w-full" primary @click="search">Wyszukaj przedmiot</n-button>
+    <n-button class="w-full mt-3" primary @click="emit('close'); store.subSearch = details.entry">Znajdź w innych grupach</n-button>
     <n-button v-if="store.group !== store.settings.group" class="w-full mt-3" primary @click="transfer">Pokaż u siebie</n-button>
     <n-button v-if="details.entry?.group !== undefined" class="w-full mt-3" primary @click="untransfer">Usuń ze swojego planu</n-button>
     <n-space class="mt-5" align="center" justify="space-between">

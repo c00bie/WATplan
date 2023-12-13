@@ -64,6 +64,7 @@ export interface State {
     month: Date;
     search: string;
     searchType: string;
+    subSearch: Entry | undefined;
     year: string;
     canSync: boolean;
     settings: {
@@ -112,6 +113,7 @@ export default defineStore('store', {
         month: startOfMonth(new Date()),
         search: '',
         searchType: '',
+        subSearch: undefined,
         year: "2023",
         semesters: [],
         canSync: false,
