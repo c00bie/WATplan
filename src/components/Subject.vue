@@ -3,9 +3,12 @@ import useStore, { Entry, Subject, ViewMode } from '../store'
 import { isWithinInterval, differenceInMinutes } from 'date-fns';
 import { NoteRound, DoubleArrowRound } from '@vicons/material'
 
-const props = defineProps<{
-    subject: Entry | undefined
-}>()
+const props = withDefaults(defineProps<{
+    subject: Entry | undefined,
+    showProgress: boolean
+}>(), {
+    showProgress: true
+})
 const emit = defineEmits<{
     (e: 'details', entry: Entry, subject: Subject | undefined): void
 }>()
@@ -30,7 +33,7 @@ const sub = computed(() => {
         numH: subs.reduce((a, b) => a + (b.numH ?? 0), 0)
     };
 })
-const inProgress = computed(() => props.subject !== undefined && isWithinInterval(store.now, { start: new Date(props.subject.date + 'T' + props.subject.timeStart), end: new Date(props.subject.date + 'T' + props.subject.timeEnd) }))
+const inProgress = computed(() => props.showProgress && props.subject !== undefined && isWithinInterval(store.now, { start: new Date(props.subject.date + 'T' + props.subject.timeStart), end: new Date(props.subject.date + 'T' + props.subject.timeEnd) }))
 const time = computed(() => {
     if (!inProgress.value) return 0;
     const end = new Date(props.subject?.date + 'T' + props.subject?.timeEnd)

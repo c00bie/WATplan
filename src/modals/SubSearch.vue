@@ -36,7 +36,7 @@ function findSub(e: Entry) {
 }
 
 function collision(e: Entry) {
-  return store.entries[store.settings.group]?.find(e2 => e2.date === e.date && e2.timeStart === e.timeStart && e2.timeEnd === e.timeEnd);
+  return store.entries[store.settings.group]?.filter(e2 => e2.date === e.date && e2.timeStart === e.timeStart && e2.timeEnd === e.timeEnd);
 }
 </script>
 
@@ -49,12 +49,12 @@ function collision(e: Entry) {
         </template>
       </n-button>
     </template>
-    <div class="flex flex-col gap-3">
-      <Subject v-for="e of search" :subject="e" @details="showEntry(e)">
+    <div class="flex flex-col gap-3 max-h-[75vh] overflow-y-scroll">
+      <Subject v-for="e of search" :subject="e" @details="showEntry(e)" :showProgress="false">
         <n-p class="my-0" style="--n-text-color: black">{{ e.date }} {{ e.timeStart }}-{{ e.timeEnd}}</n-p>
         <n-p class="my-0" style="--n-text-color: black">Nr zajęć: {{ e.num }}</n-p>
         <n-p class="my-0" style="--n-text-color: black">Prowadzący: {{ findSub(e)?.prof }}</n-p>
-        <n-p v-if="collision(e) !== undefined" class="my-0" style="--n-text-color: black">Koliduje z: {{ collision(e)?.title }}</n-p>
+        <n-p v-for="col of collision(e)" class="my-0 font-bold" style="--n-text-color: black">Koliduje z: {{ col.title }} ({{ col.type?.[0] ?? '?' }})</n-p>
       </Subject>
     </div>
   </n-card>

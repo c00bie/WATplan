@@ -48,7 +48,7 @@ const syncOptions = computed(() => [
 ])
 
 function handleSync(key: string) {
-  switch(key) {
+  switch (key) {
     case 'pull':
       if (store.canSync)
         store.pullSettings();
@@ -65,8 +65,18 @@ function handleSync(key: string) {
   }
 }
 
+const prevGroup = store.settings.group
+const prevYear = store.year
+const msg = useMessage();
 function saveclose() {
   store.saveState();
+  if (prevGroup !== store.settings.group)
+    store.group = store.settings.group;
+  if (prevYear !== store.year) {
+    msg.loading('Zapisano ustawienia. Odświeżanie...');
+    store.refresh();
+  } else
+    msg.success('Zapisano ustawienia.');
   showSettings.value = false;
 }
 </script>
@@ -100,7 +110,8 @@ function saveclose() {
           <n-scrollbar class="max-h-40">
             <div v-for="t of store.subTypes" class="flex items-center mb-2">
               <n-p class="my-0 basis-52" style="line-height: 1em">{{ t }}</n-p>
-              <n-color-picker class="grow" v-model:value="store.settings.markers[t]" :show-alpha="false" default-value="#00000000" :modes="['hex']"></n-color-picker>
+              <n-color-picker class="grow" v-model:value="store.settings.markers[t]" :show-alpha="false"
+                default-value="#00000000" :modes="['hex']"></n-color-picker>
               <n-button text @click="delete store.settings.markers[t]">
                 <template #icon>
                   <n-icon>
@@ -121,7 +132,8 @@ function saveclose() {
           <n-scrollbar class="max-h-40">
             <div v-for="t of uniqBy(store.gSubjects, x => x.title)" class="flex items-center mb-2">
               <n-p class="my-0 basis-52" style="line-height: 1em">{{ t.title }}</n-p>
-              <n-color-picker class="grow" v-model:value="store.settings.customColors[t.title!]" :show-alpha="false" default-value="#00000000" :modes="['hex']"></n-color-picker>
+              <n-color-picker class="grow" v-model:value="store.settings.customColors[t.title!]" :show-alpha="false"
+                default-value="#00000000" :modes="['hex']"></n-color-picker>
               <n-button text @click="delete store.settings.customColors[t.title!]">
                 <template #icon>
                   <n-icon>
@@ -148,7 +160,7 @@ function saveclose() {
         <n-button text class="w-full text-right font-mono">ID: {{ store.settings.id }}</n-button>
       </n-dropdown>
     </n-space>
-    
+
   </n-card>
 </template>
 
