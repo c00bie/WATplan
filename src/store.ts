@@ -83,9 +83,6 @@ export interface State {
         id?: string;
     };
     notes: Note[];
-    groupNotes: {
-        [key: string]: Note[];
-    };
     privEvents: Entry[];
     transferred: {
         group: string;
@@ -128,7 +125,6 @@ export default defineStore('store', {
             customColors: {}
         },
         notes: [],
-        groupNotes: {},
         privEvents: [],
         transferred: []
     }),
@@ -192,9 +188,6 @@ export default defineStore('store', {
             if (entry === undefined)
                 return [];
             var notes = this.notes.filter((note) => note.hash === entry.hash);
-            if (this.groupNotes[this.group] !== undefined) {
-                notes = notes.concat(this.groupNotes[this.group].filter((note) => note.hash === entry.hash));
-            }
             notes.sort((a, b) => b.updated - a.updated);
             return notes;
         },
