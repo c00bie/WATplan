@@ -3,6 +3,7 @@ import useStore, { Entry, Period, Subject as tSubject, ViewMode } from '../store
 import { CloseFilled, PlusRound } from '@vicons/material'
 
 const store = useStore()
+const message = useMessage();
 const props = defineProps<{
   details: ({
     entry: Entry | undefined,
@@ -37,6 +38,7 @@ function transfer() {
     hash: props.details.entry.hash!,
     group: store.group
   })
+  message.success("Dodano przedmiot do planu")
   emit('close');
   store.saveState();
 }
@@ -64,7 +66,7 @@ function untransfer() {
     <n-p v-if="details.entry?.group !== undefined"><b>Grupa:</b> {{ details.entry?.group ?? 'brak danych' }}</n-p>
     <n-button class="w-full" primary @click="search">Wyszukaj przedmiot</n-button>
     <n-button class="w-full mt-3" primary @click="emit('close'); store.subSearch = details.entry">Znajdź w innych grupach</n-button>
-    <n-button v-if="store.group !== store.settings.group" class="w-full mt-3" primary @click="transfer">Pokaż u siebie</n-button>
+    <n-button v-if="store.group !== store.settings.group" class="w-full mt-3" primary @click="transfer">Dodaj do swojego planu</n-button>
     <n-button v-if="details.entry?.group !== undefined" class="w-full mt-3" primary @click="untransfer">Usuń ze swojego planu</n-button>
     <n-space class="mt-5" align="center" justify="space-between">
       <n-h4 class="my-0">Notatki</n-h4>
