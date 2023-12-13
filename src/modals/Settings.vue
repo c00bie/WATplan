@@ -10,6 +10,7 @@ const years = computed(() => store.yearsText.map(y => ({
   value: y.substring(0, 4),
   label: y
 })))
+const groups = computed(() => store.groups.map(g => ({ label: g, value: g })))
 const emit = defineEmits<{
   (e: 'saved'): void
 }>()
@@ -73,7 +74,10 @@ function saveclose() {
 <template>
   <n-card class="max-w-4xl w-[90vw]">
     <n-form>
-      <n-form-item label="Wybierz rok">
+      <n-form-item label="Wybierz swoją grupę">
+        <n-select v-model:value="store.settings.group" :options="groups"></n-select>
+      </n-form-item>
+      <n-form-item class="mt-4" label="Wybierz rok">
         <n-select v-model:value="store.year" :options="years"></n-select>
       </n-form-item>
       <n-space class="mt-4">

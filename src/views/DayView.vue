@@ -14,7 +14,7 @@ const props = defineProps<{
 
 const store = useStore()
 const today = computed(() => format(props.date ?? store.date, 'yyyy-MM-dd'))
-const subs = computed(() => store.entries[store.group]?.filter(e => e.date === today.value))
+const subs = computed(() => [...(store.entries[store.group]?.filter(e => e.date === today.value) ?? []), ...store.transferredEntries.filter(e => e.date === today.value)])
 const themeVars = useThemeVars()
 const details = reactive({
     entry: undefined as Entry | undefined,
@@ -23,7 +23,8 @@ const details = reactive({
 const detailsModal = ref(false)
 
 function findSub(per: Period) {
-    return subs.value?.find(e => e.timeStart === per.start && e.timeEnd === per.end)
+    var ret = subs.value?.filter(e => e.timeStart === per.start && e.timeEnd === per.end);
+    return ret;
 }
 
 function isPeriodNow(per: Period) {
@@ -105,7 +106,9 @@ function search() {
                 </td>
                 <td :style="{'background-color': isPeriodNow(per) ? themeVars.primaryColor + '80 !important' : (isNextPeriod(per) ? themeVars.warningColor + '80 !important' : undefined)}">
                     <div class="flex flex-row justify-stretch items-stretch gap-5 flex-nowrap">
-                        <Subject :subject="findSub(per)" @details="showDetails"></Subject>
+                        <template v-for="s of findSub(per)">
+                            <Subject :subject="s" @details="showDetails"></Subject>
+                        </template>
                     </div>
                 </td>
             </tr>

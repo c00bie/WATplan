@@ -20,6 +20,18 @@ store.pullSettings().then(() => {
   if (store.year !== '2023') {
     store.year = '2023';
   }
+  if (store.settings.group === '')
+    store.settings.group = store.group;
+  store.group = store.settings.group;
+  if (localStorage.getItem('migrated') !== '1') {
+    store.notes.forEach(n => {
+      if ((n as any).title !== undefined) {
+        n.hash = store.entries[n.group!].find(e => e.title === (n as any).title && e.type === (n as any).type && e.num === (n as any).num)?.hash ?? '';
+      }
+    })
+    store.notes = store.notes.filter(n => n.hash !== '');
+    localStorage.setItem('migrated', '1');
+  }
   store.saveState();
 });
 

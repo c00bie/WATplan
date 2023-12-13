@@ -16,6 +16,8 @@ export interface Entry {
     timeStart?: string;
     timeEnd?: string;
     num?: number;
+    group?: string;
+    hash?: string;
 }
 
 export interface Subject {
@@ -40,9 +42,7 @@ export interface Period {
 }
 
 export interface Note {
-    title: string;
-    type: string;
-    num: number;
+    hash: string;
     group: string | null;
     content: string;
     updated: number;
@@ -67,6 +67,7 @@ export interface State {
     year: string;
     canSync: boolean;
     settings: {
+        group: string;
         hideWeekends: boolean;
         forceWeekView: boolean;
         useMarkers: boolean;
@@ -84,6 +85,11 @@ export interface State {
     groupNotes: {
         [key: string]: Note[];
     };
+    privEvents: Entry[];
+    transferred: {
+        group: string;
+        hash: string;
+    }[];
 }
 
 export default defineStore('store', {
@@ -110,6 +116,7 @@ export default defineStore('store', {
         semesters: [],
         canSync: false,
         settings: {
+            group: '',
             hideWeekends: false,
             forceWeekView: false,
             useMarkers: false,
@@ -119,7 +126,9 @@ export default defineStore('store', {
             customColors: {}
         },
         notes: [],
-        groupNotes: {}
+        groupNotes: {},
+        privEvents: [],
+        transferred: []
     }),
     getters: {
         groups: (state) => {
@@ -166,15 +175,23 @@ export default defineStore('store', {
         },
         monthMode: (state) => {
             return state.mode === ViewMode.Month;
+        },
+        transferredEntries: (state) => {
+            if (state.group !== state.settings.group) return [];
+            return (state.transferred?.map((t) => {
+                let ent = state.entries[t.group]?.find((e) => e.hash === t.hash);
+                if (ent !== undefined) ent.group = t.group;
+                return ent
+            }).filter((e) => e !== undefined) ?? []) as Entry[];
         }
     },
     actions: {
         getNotes(entry: Entry | undefined) {
             if (entry === undefined)
                 return [];
-            var notes = this.notes.filter((note) => (note.group === this.group || note.group === null) && note.title === entry.title && note.type === entry.type && note.num === entry.num);
+            var notes = this.notes.filter((note) => note.hash === entry.hash);
             if (this.groupNotes[this.group] !== undefined) {
-                notes = notes.concat(this.groupNotes[this.group].filter((note) => (note.group === this.group || note.group === null) && note.title === entry.title && note.type === entry.type && note.num === entry.num));
+                notes = notes.concat(this.groupNotes[this.group].filter((note) => note.hash === entry.hash));
             }
             notes.sort((a, b) => b.updated - a.updated);
             return notes;
@@ -186,12 +203,14 @@ export default defineStore('store', {
             this.group = localStorage.getItem('group') ?? 'WCY22IY1S1';
             this.settings = merge(this.settings, JSON.parse(localStorage.getItem('settings') ?? '{}'));
             this.notes = JSON.parse(localStorage.getItem('notes') ?? '[]');
+            this.transferred = JSON.parse(localStorage.getItem('transferred') ?? '[]');
         },
         saveState() {
             localStorage.setItem('year', this.year);
             localStorage.setItem('group', this.group);
-            localStorage.setItem('settings', JSON.stringify(this.settings));
-            localStorage.setItem('notes', JSON.stringify(this.notes));
+            localStorage.setItem('settings', JSON.stringify(this.settings ?? {}));
+            localStorage.setItem('notes', JSON.stringify(this.notes ?? []));
+            localStorage.setItem('transferred', JSON.stringify(this.transferred ?? []));
             this.pushSettings();
         },
         async pullSettings() {
@@ -199,7 +218,8 @@ export default defineStore('store', {
                 if (res.success) {
                     this.canSync = true;
                     this.settings = merge(this.settings, res.data.settings ?? {});
-                    this.notes = unionBy(this.notes, res.data.notes ?? [], x => x.title + x.type + x.num);
+                    this.notes = unionBy(this.notes, res.data.notes ?? [], x => x.hash);
+                    this.transferred = merge(this.transferred, res.data.transferred ?? [])
                 }
                 else
                     this.canSync = false;
@@ -217,7 +237,8 @@ export default defineStore('store', {
                 },
                 body: JSON.stringify({
                     settings: this.settings,
-                    notes: this.notes
+                    notes: this.notes,
+                    transferred: this.transferred
                 })
             }).then((res) => res.json()).then((res) => {
                 if (res.success) {
@@ -242,7 +263,7 @@ export default defineStore('store', {
                         for (const group in entries) {
                             if (ent[group] === undefined) ent[group] = [];
                             ent[group].push(...entries[group]);
-                            ent[group] = uniqBy(ent[group], x => (x.title! + x.type! + x.room! + x.date! + x.timeStart! + x.timeEnd! + x.num!));
+                            ent[group] = uniqBy(ent[group], x => x.hash!);
                         }
                         var subjects: typeof sub = await get(`/data/subjects-${semester.id}.json`).then((res) => (res?.json() ?? {}));
                         for (const group in subjects) {

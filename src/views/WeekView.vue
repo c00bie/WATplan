@@ -19,11 +19,15 @@ const details = reactive({
 const detailsModal = ref(false)
 
 function subs(date: Date) {
-    return store.entries[store.group]?.filter(e => e.date === format(date, 'yyyy-MM-dd')) ?? []
+    return [
+      ...(store.entries[store.group]?.filter(e => e.date === format(date, 'yyyy-MM-dd')) ?? []), 
+      ...store.transferredEntries.filter(e => e.date === format(date, 'yyyy-MM-dd'))
+    ] ?? []
 }
 
 function findSub(date: Date, per: Period) {
-    return subs(date).find(e => e.timeStart === per.start && e.timeEnd === per.end)
+    var ret = subs(date).filter(e => e.timeStart === per.start && e.timeEnd === per.end)
+    return ret;
 }
 
 function isPeriodNow(per: Period) {
@@ -103,8 +107,10 @@ function search() {
                   <span class="text-sm">{{per.start}}<br/>{{per.end}}</span>
               </td>
               <td v-for="(d, i) of days" :style="{'background-color': isPeriodNow(per) ? themeVars.primaryColor + '80 !important' : (isNextPeriod(per) ? themeVars.warningColor + '80 !important' : undefined)}">
-                <div class="flex flex-row justify-stretch items-stretch gap-5 flex-nowrap">
-                  <Subject :subject="findSub(d, per)" @details="showDetails"></Subject>
+                <div class="flex flex-col justify-stretch items-stretch gap-5 flex-nowrap">
+                  <template v-for="s of findSub(d, per)">
+                    <Subject :subject="s" @details="showDetails"></Subject>
+                  </template>
                 </div>
               </td>
           </tr>

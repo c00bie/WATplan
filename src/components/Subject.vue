@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import useStore, { Entry, Subject, ViewMode } from '../store'
 import { isWithinInterval, differenceInMinutes } from 'date-fns';
+import { NoteRound, DoubleArrowRound } from '@vicons/material'
 
 const props = defineProps<{
     subject: Entry | undefined
@@ -11,7 +12,7 @@ const emit = defineEmits<{
 
 const store = useStore()
 const sub = computed(() => {
-    var subs = store.gSubjects.filter(s => s.title === props.subject?.title && s.type === props.subject?.type);
+    var subs = (store.subjects[props.subject?.group ?? store.group] ?? []).filter(s => s.title === props.subject?.title && s.type === props.subject?.type);
     var h = 0;
     var ret = 0;
     if (props.subject && props.subject.num) {
@@ -36,6 +37,7 @@ const time = computed(() => {
     return differenceInMinutes(end, store.now, { roundingMethod: 'ceil' })
 })
 const hasNotes = computed(() => store.getNotes(props.subject).length > 0)
+const isTransferred = computed(() => props.subject?.group !== undefined);
 
 function openDetails() {
     if (props.subject !== undefined)
@@ -52,10 +54,19 @@ function getColor() {
 <template>
     <n-card v-if="subject !== undefined"
         :style="{ 'background-color': getColor(), '--n-title-text-color': 'black', '--marker-type': sub !== undefined && store.settings.useMarkers ? (store.settings.markers[sub.type!] ?? 'transparent') : 'transparent' }"
-        class="select-none subject" :class="{'has-notes': hasNotes}" size="small" :title="subject.title" @dblclick="openDetails">
-        <n-p style="--n-text-color: black">{{ subject.type }}, sala: {{
+        class="select-none subject" size="small" :title="subject.title" @dblclick="openDetails">
+        <template #header-extra>
+            <n-icon v-if="hasNotes" class="text-black">
+                <NoteRound />
+            </n-icon>
+            <n-icon v-if="isTransferred" class="text-black">
+                <DoubleArrowRound />
+            </n-icon>
+        </template>
+        <n-p class="mb-0" style="--n-text-color: black">{{ subject.type }}, sala: {{
             subject.room?.join(', ') || 'brak danych'
         }}</n-p>
+        <n-p class="mt-0" v-if="subject.group !== undefined" style="--n-text-color: black">Grupa: {{ subject.group }}</n-p>
         <n-progress v-if="inProgress" type="line" :percentage="(95 - time) * 100 / 95" color="rgb(16, 16, 20)"
             rail-color="rgba(36, 36, 39, 0.25)" indicator-text-color="black" processing :show-indicator="store.mode !== ViewMode.Week">{{ time }} min. do końca
         </n-progress>
@@ -74,13 +85,11 @@ function getColor() {
     left: 0;
 }
 
-.subject.has-notes::after {
-    content: '';
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 24 24'%3E%3Cpath d='M21.41 9.41l-4.83-4.83c-.37-.37-.88-.58-1.41-.58H4c-1.1 0-2 .9-2 2v12.01c0 1.1.89 1.99 1.99 1.99H20c1.1 0 2-.9 2-2v-7.17c0-.53-.21-1.04-.59-1.42zM15 5.5l5.5 5.5H16c-.55 0-1-.45-1-1V5.5z' fill='currentColor'%3E%3C/path%3E%3C/svg%3E");    position: absolute;
-    background-repeat: no-repeat;
-    top: 10px;
-    right: 10px;
-    width: 1rem;
-    height: 1rem;
+.subject {
+    .n-card-header__extra {
+        height: 100%;
+        align-items: flex-start !important;
+        flex-direction: column;
+    }
 }
 </style>

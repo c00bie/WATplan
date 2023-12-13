@@ -6,7 +6,9 @@ const store = useStore()
 const month = computed(() => eachDayOfInterval({ start: startOfWeek(store.month), end: endOfWeek(endOfMonth(store.month)) }))
 const entries = computed(() => {
     const range = { start: month.value[0], end: month.value[month.value.length - 1] }
-    const ent = store.gEntries.filter(entry => isWithinInterval(new Date(entry.date + 'T00:00:00'), range))
+    var ent = store.gEntries.filter(entry => isWithinInterval(new Date(entry.date + 'T00:00:00'), range)) ?? []
+    ent = [...ent, ...store.transferredEntries.filter(entry => isWithinInterval(new Date(entry.date + 'T00:00:00'), range))]
+    ent.sort((a, b) => a.timeStart!.localeCompare(b.timeStart!))
     var res = {} as { [key: string]: Entry[] }
     ent.forEach(e => {
         if (store.search !== '' && (e.title !== store.search ||
@@ -76,7 +78,10 @@ function handleGesture() {
                 <n-text :type="i % 7 == 6 ? 'error' : 'default'" :depth="isSameMonth(day, store.month) ? 1 : 3" :class="{'text-[#63E2B7]': isSameDay(store.now, day)}">{{format(day, 'd')}}</n-text>
             </n-p>
             <div class="entry" v-for="e of entries[format(day, 'yyyy-MM-dd')]" :style="{'background-color': getColor(e)}">
-                <n-p v-if="expanded === day" class="text-center text-bold text-xs text-black">{{getSubject(e)?.short}} ({{e.type?.['0'] ?? 'w'}}) [{{ e.num }}]</n-p>
+                <n-p v-if="expanded === day" class="text-center text-xs text-black">
+                    {{getSubject(e)?.short}} ({{e.type?.['0'] ?? 'w'}}) [{{ e.num }}]
+                    <b v-if="e.group !== undefined"> T</b>
+                </n-p>
             </div>
         </div>
     </div>
