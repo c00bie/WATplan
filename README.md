@@ -1,38 +1,38 @@
-# WAT Plan
+# WATplan
 
-Simple PWA to display schedule scraped from WCY WAT website.
+Prosta aplikacja PWA służąca do wyświetlania planu zajęć pobieranego ze strony WCY WAT.
 
-## Usage
+[https://watplan.coobie.dev](https://watplan.coobie.dev)
 
-Visit [https://watplan.coobie.dev](https://watplan.coobie.dev) and select your group in top left corner. Your choice will be saved in browser's local storage.
+## Instrukcja obsługi
 
-## Functions
-
-- Select day in current week by clicking on date in top bar
-- Swipe left/right on dates in top bar to change week
-- Swipe left/right on schedule to change day/month
-- Click calendar in top right corner to select specific date
-- Here you can also change view type:
-  - Day - displays schedule for selected day
-    - Current period is highlighted in green, on break next period is highlighted in yellow
-    - Current lecture has progress bar with time left
-    - Double click on lecture to view details and filter month view by this lecture
-  - Month - displays schedule for selected month
-    - Current day is highlighted in green
-    - Click on day to expand details
-    - Double click to view selected day in Day view
-  - Week - displays schedule for seleced week
-    - Default view on large devices
-    - Available on smaller devices if forced in settings
-    - Functions are similar to those on day view
-- You can install this app on your phone and use it offline - look for "Install" option in your browser
-
-## Roadmap
-- [x] Additional markers depending on lecture type
-- [x] Custom colors for lectures
-- [ ] Settings syncing
-- [ ] Adding personal notes for lectures
-- [ ] Adding per-group notes for lectures
+- **Ustaw swoją grupę w ustawieniach, aby wszystkie funkcje prawidłowo działały**
+- Wybierz dzień w bieżącym tygodniu, klikając na datę w górnym pasku.
+- Przesuwaj w lewo/w prawo daty w górnym pasku, aby zmienić tydzień.
+- Przesuwaj w lewo/w prawo w harmonogramie, aby zmienić dzień/miesiąc.
+- Kliknij kalendarz w prawym górnym rogu, aby wybrać konkretną datę.
+- Tutaj możesz również zmienić typ widoku:
+  - Dzień - wyświetla plan dla wybranego dnia.
+    - Bieżący okres jest podświetlony na zielono, przerwa między okresami jest podświetlona na żółto.
+    - Bieżący wykład ma pasek postępu z pozostałym czasem.
+    - Podwójne kliknięcie na wykładzie umożliwia przeglądanie szczegółów i filtrowanie widoku miesiąca według tego wykładu.
+  - Miesiąc - wyświetla plan dla wybranego miesiąca.
+    - Bieżący dzień jest podświetlony na zielono.
+    - Kliknij na dzień, aby rozwinąć szczegóły.
+    - Podwójne kliknięcie, aby zobaczyć wybrany dzień w widoku Dnia.
+  - Tydzień - wyświetla plan dla wybranego tygodnia.
+    - Domyślny widok na dużych urządzeniach.
+    - Dostępny na mniejszych urządzeniach, jeśli jest wymuszony w ustawieniach.
+    - Funkcje są podobne do tych w widoku dnia.
+- Możesz zainstalować tę aplikację na swoim telefonie i korzystać z niej offline - szukaj opcji "Zainstaluj" w swojej przeglądarce.
+- Możesz dodawać notatki do wpisów - dotknij/kliknij dwukrotnie aby wyświetlić szczegóły, i przy pomocy przycisku + dodaj notatki.
+- Możesz wyszukiwać przedmioty:
+  - W widoku szczegółów, wybierz "Wyszukaj przedmiot".
+  - W widoku miesiąca, wybierz przycisk z lupą.
+  - Na pasku wyszukiwania możesz zmienić przedmiot oraz rodzaj zajęć.
+- Możesz znaleźć przedmioty o tym samym numerze zajęć w innych grupach - w widoku szczeółów wybierz "Znajdź w innych grupach".
+  - Podwójne dotknięcie/kliknięcie otwiera widok dnia dla grupy i dnia wybranych zajęć.
+- Możesz przenieść przedmiot innej grupy na swój plan - w widoku szczegółów wybierz "Dodaj do swojego planu".
 
 ---
 
