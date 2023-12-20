@@ -30,6 +30,7 @@ function addNote() {
     group: store.group,
     updated: new Date().getTime()
   })
+  store.saveState();
 }
 
 function transfer() {

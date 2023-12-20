@@ -5,7 +5,7 @@ import { NoteRound, DoubleArrowRound } from '@vicons/material'
 
 const props = withDefaults(defineProps<{
     subject: Entry | undefined,
-    showProgress: boolean
+    showProgress?: boolean
 }>(), {
     showProgress: true
 })

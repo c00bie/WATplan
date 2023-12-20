@@ -187,6 +187,7 @@ export default defineStore('store', {
         getNotes(entry: Entry | undefined) {
             if (entry === undefined)
                 return [];
+            console.log(entry.hash);
             var notes = this.notes.filter((note) => note.hash === entry.hash);
             notes.sort((a, b) => b.updated - a.updated);
             return notes;
@@ -200,13 +201,14 @@ export default defineStore('store', {
             this.notes = JSON.parse(localStorage.getItem('notes') ?? '[]');
             this.transferred = JSON.parse(localStorage.getItem('transferred') ?? '[]');
         },
-        saveState() {
+        saveState(local = false) {
             localStorage.setItem('year', this.year);
             localStorage.setItem('group', this.group);
             localStorage.setItem('settings', JSON.stringify(this.settings ?? {}));
             localStorage.setItem('notes', JSON.stringify(this.notes ?? []));
             localStorage.setItem('transferred', JSON.stringify(this.transferred ?? []));
-            this.pushSettings();
+            if (!local)
+                this.pushSettings();
         },
         async pullSettings() {
             fetch(`${(import.meta.env.API_URL ?? 'https://api.watplan.coobie.dev')}/${this.settings.id}`).then((res) => res.json()).then((res) => {
