@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.6",
-    "@vicons/material": "^0.12.0",
     "@vicons/fa": "^0.12.0",
+    "@vicons/material": "^0.12.0",
     "@vitejs/plugin-vue": "^3.1.0",
     "autoprefixer": "^10.4.12",
     "naive-ui": "^2.33.4",
@@ -32,5 +32,6 @@
     "vite": "^3.1.0",
     "vite-plugin-pwa": "^0.13.1",
     "vue-tsc": "^0.40.4"
-  }
+  },
+  "packageManager": "yarn@4.1.0"
 }

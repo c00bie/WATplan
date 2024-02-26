@@ -26,3 +26,11 @@ dist-ssr
 #custom files
 watplan-icon.ai
 public/data
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
