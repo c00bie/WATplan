@@ -187,8 +187,8 @@ export default defineStore('store', {
         getNotes(entry: Entry | undefined) {
             if (entry === undefined)
                 return [];
-            console.log(entry.hash);
-            var notes = this.notes.filter((note) => note.hash === entry.hash);
+            //console.log(entry.hash);
+            var notes = this.notes.filter((note) => RegExp(note.hash.replace(':', ':(.*:)?')).test(entry.hash ?? ''));
             notes.sort((a, b) => b.updated - a.updated);
             return notes;
         },
