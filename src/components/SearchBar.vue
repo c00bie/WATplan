@@ -4,6 +4,8 @@ import { CloseFilled } from '@vicons/material'
 import { SelectMixedOption } from 'naive-ui/es/select/src/interface';
 
 const store = useStore()
+const msg = useMessage();
+store.msg = msg;
 
 const types = computed(() => {
     return [

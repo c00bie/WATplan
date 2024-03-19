@@ -52,7 +52,17 @@ watch(weekview, () => {
   }
 })
 
-const groups = computed(() => store.groups.map(g => ({ label: g, value: g })))
+const groups = computed(() => store.groups.map(g => ({ 
+    label: (store.settings.pinned.includes(g) ? '\u2605 ' : '') + g, 
+    value: g,
+    style: store.settings.group === g ? 'font-weight: bold' : ''
+  })).sort((a, b) => {
+    if (a.value === store.settings.group) return -1;
+    if (b.value === store.settings.group) return 1;
+    if (store.settings.pinned.includes(a.value) && !store.settings.pinned.includes(b.value)) return -1;
+    if (store.settings.pinned.includes(b.value) && !store.settings.pinned.includes(a.value)) return 1;
+    return 0;
+  }))
 store.refresh().then(() => {
   if (localStorage.getItem('migrated') !== '2') {
     store.notes.forEach(n => {
@@ -83,6 +93,17 @@ function clickOutside(e: MouseEvent) {
   }
 }
 
+function pinGroup() {
+  if (store.msg) {
+    if (store.settings.pinned.includes(store.group))
+      store.msg.success('Odpięto grupę')
+    else
+      store.msg.success('Przypięto grupę')
+  }
+  store.togglePinned(store.group)
+  store.saveState();
+}
+
 setInterval(() => {
   store.now = new Date()
 }, 1000)
@@ -95,7 +116,7 @@ setInterval(() => {
         <n-layout-header class="sticky top-0 left-0 z-50">
           <n-space class="p-3" justify="space-between" align="center">
             <n-popselect v-model:value="store.group" :options="groups" :on-update:value="saveGroup" scrollable>
-              <n-button text>Grupa: {{ store.group }}</n-button>
+              <n-button @contextmenu.prevent="pinGroup" text>Grupa: {{ store.group }}</n-button>
             </n-popselect>
             <n-space align="center">
               <n-button v-if="store.mode === ViewMode.Month" quaternary circle size="small"

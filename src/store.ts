@@ -81,6 +81,7 @@ export interface State {
             [key: string]: string;
         },
         id?: string;
+        pinned: string[];
     };
     notes: Note[];
     privEvents: Entry[];
@@ -88,6 +89,7 @@ export interface State {
         group: string;
         hash: string;
     }[];
+    msg?: ReturnType<typeof useMessage>;
 }
 
 export default defineStore('store', {
@@ -122,7 +124,8 @@ export default defineStore('store', {
             useCustomColors: false,
             defaultView: ViewMode.Week,
             markers: {},
-            customColors: {}
+            customColors: {},
+            pinned: []
         },
         notes: [],
         privEvents: [],
@@ -300,6 +303,12 @@ export default defineStore('store', {
                 sum += parseInt(id[i], 36)
             }
             return id[11] == (sum % 36).toString(36)
+        },
+        togglePinned(group: string) {
+            if (this.settings.pinned.includes(group))
+                this.settings.pinned = this.settings.pinned.filter((g) => g !== group);
+            else
+                this.settings.pinned.push(group);
         }
     }
 });

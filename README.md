@@ -33,6 +33,7 @@ Prosta aplikacja PWA służąca do wyświetlania planu zajęć pobieranego ze st
 - Możesz znaleźć przedmioty o tym samym numerze zajęć w innych grupach - w widoku szczeółów wybierz "Znajdź w innych grupach".
   - Podwójne dotknięcie/kliknięcie otwiera widok dnia dla grupy i dnia wybranych zajęć.
 - Możesz przenieść przedmiot innej grupy na swój plan - w widoku szczegółów wybierz "Dodaj do swojego planu".
+- Możesz przypiąć grupę na liście aby mieć do niej łatwiejszy dostęp. Aby przypiąć/odpiąć wybierz grupę, a następnie przytrzymaj/kliknij PPM na napis "Grupa: WCY...".
 
 ---
 
