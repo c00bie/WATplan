@@ -57,7 +57,7 @@ function getColor() {
 <template>
     <n-card v-if="subject !== undefined"
         :style="{ 'background-color': getColor(), '--n-title-text-color': 'black', '--marker-type': sub !== undefined && store.settings.useMarkers ? (store.settings.markers[sub.type!] ?? 'transparent') : 'transparent' }"
-        class="select-none subject" size="small" :title="subject.title" @dblclick="openDetails">
+        class="select-none subject" size="small" :title="subject.title || subject.type || 'Brak nazwy'" @dblclick="openDetails">
         <template #header-extra>
             <n-icon v-if="hasNotes" class="text-black">
                 <NoteRound />
