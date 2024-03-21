@@ -12,7 +12,7 @@ var search = computed(() => {
   for (var g in store.entries) {
     if (store.entries[g] === undefined) continue;
     if (g === store.settings.group) continue;
-    var e = store.entries[g].find(e => e.hash?.split(':')[1] === store.subSearch?.hash?.split(':')[1]);
+    var e = store.entries[g].find(e => e.hash?.split(':')[2] === store.subSearch?.hash?.split(':')[2]);
     if (e !== undefined) {
       var ent = { ...e };
       ent.group = g;
