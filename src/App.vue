@@ -53,9 +53,9 @@ watch(weekview, () => {
 })
 
 const groups = computed(() => store.groups.map(g => ({ 
-    label: (store.settings.pinned.includes(g) ? '\u2605 ' : '') + g, 
+    label: g, 
     value: g,
-    style: store.settings.group === g ? 'font-weight: bold' : ''
+    style: store.settings.group === g || store.settings.pinned.includes(g) ? 'font-weight: bold' : ''
   })).sort((a, b) => {
     if (a.value === store.settings.group) return -1;
     if (b.value === store.settings.group) return 1;
