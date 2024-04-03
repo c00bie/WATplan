@@ -191,9 +191,14 @@ export default defineStore('store', {
             if (entry === undefined)
                 return [];
             //console.log(entry.hash);
-            var notes = this.notes.filter((note) => RegExp(note.hash.replace(':', ':(.*:)?')).test(entry.hash ?? ''));
-            notes.sort((a, b) => b.updated - a.updated);
-            return notes;
+            try {
+                var notes = this.notes.filter((note) => note.hash !== undefined && RegExp(note.hash.replace(':', ':(.*:)?')).test(entry.hash ?? ''));
+                notes.sort((a, b) => b.updated - a.updated);
+                return notes;
+            } catch (err) {
+                console.error(err);
+                return [];
+            }
         },
         loadState() {
             if (localStorage.getItem('settings') === null)
