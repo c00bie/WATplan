@@ -79,6 +79,11 @@ function saveclose() {
     msg.success('Zapisano ustawienia.');
   showSettings.value = false;
 }
+
+function copyICS() {
+  navigator.clipboard.writeText(`https://watplan.coobie.dev/data/ics/${store.settings.group}-${store.year}.ics`);
+  msg.success('Skopiowano link do kalendarza.');
+}
 </script>
 
 <template>
@@ -90,6 +95,7 @@ function saveclose() {
       <n-form-item class="mt-4" label="Wybierz rok">
         <n-select v-model:value="store.year" :options="years"></n-select>
       </n-form-item>
+      <n-button text class="mt-2" @click="copyICS">Skopiuj link do kalendarza</n-button>
       <n-space class="mt-4">
         <n-switch v-model:value="store.settings.hideWeekends"></n-switch>
         <n-p>Ukryj weekendy</n-p>
