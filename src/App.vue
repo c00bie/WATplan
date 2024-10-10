@@ -52,7 +52,7 @@ watch(weekview, () => {
   }
 })
 
-const groups = computed(() => store.groups.map(g => ({ 
+const groups = computed(() => store.groupsFiltered.map(g => ({ 
     label: g, 
     value: g,
     style: store.settings.group === g || store.settings.pinned.includes(g) ? 'font-weight: bold' : ''

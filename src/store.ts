@@ -135,6 +135,12 @@ export default defineStore('store', {
         groups: (state) => {
             return Object.keys(state.entries);
         },
+        groupsFiltered: (state): string[] => {
+            return Object.keys(state.entries).filter((group) => state.entries[group].some((entry) => {
+              const date = entry.date?.split('-') ?? ['0', '0', '0'];
+              return date[0] === ((parseInt(state.year) + 1).toString()) || (date[0] === state.year && parseInt(date[1]) > 19)
+            }));
+        },
         gEntries: (state) => {
             return state.entries[state.group] ?? [];
         },
@@ -184,7 +190,7 @@ export default defineStore('store', {
                 if (ent !== undefined) ent.group = t.group;
                 return ent
             }).filter((e) => e !== undefined) ?? []) as Entry[];
-},
+        },
         currentYear: () => {
           const now = new Date()
           if (now.getMonth() < 9) {

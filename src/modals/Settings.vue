@@ -10,7 +10,7 @@ const years = computed(() => store.yearsText.map(y => ({
   value: y.substring(0, 4),
   label: y
 })))
-const groups = computed(() => store.groups.map(g => ({ label: g, value: g })))
+const groups = computed(() => store.groupsFiltered.map(g => ({ label: g, value: g })))
 const emit = defineEmits<{
   (e: 'saved'): void
 }>()
