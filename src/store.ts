@@ -184,6 +184,13 @@ export default defineStore('store', {
                 if (ent !== undefined) ent.group = t.group;
                 return ent
             }).filter((e) => e !== undefined) ?? []) as Entry[];
+},
+        currentYear: () => {
+          const now = new Date()
+          if (now.getMonth() < 9) {
+            return now.getFullYear() - 1
+          }
+          return now.getFullYear()
         }
     },
     actions: {

@@ -18,8 +18,8 @@ if (!store.settings.id || !store.checkID(store.settings.id)) {
   store.saveState();
 }
 store.pullSettings().then(() => {
-  if (store.year !== '2023') {
-    store.year = '2023';
+  if (store.year !== store.currentYear.toString()) {
+    store.year = store.currentYear.toString();
   }
   if (store.settings.group === '')
     store.settings.group = store.group;
