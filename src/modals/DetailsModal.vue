@@ -62,7 +62,7 @@ function untransfer() {
     </template>
     <n-p><b>Rodzaj zajęć:</b> {{ details.entry?.type ?? 'brak danych' }}</n-p>
     <n-p><b>Sala:</b> {{ details.entry?.room?.join(', ') ?? 'brak danych' }}</n-p>
-    <n-p><b>Prowadzący:</b> {{ details.subject?.prof ?? 'brak danych' }}</n-p>
+    <n-p><b>Prowadzący:</b> {{ details.entry?.prof ?? details.subject?.prof ?? 'brak danych' }}</n-p>
     <n-p><b>Nr zajęć:</b> {{ details.entry?.num ?? 0 }}/{{ details?.subject?.numH ?? '??' }}</n-p>
     <n-p v-if="details.entry?.group !== undefined"><b>Grupa:</b> {{ details.entry?.group ?? 'brak danych' }}</n-p>
     <n-button class="w-full" primary @click="search">Wyszukaj przedmiot</n-button>

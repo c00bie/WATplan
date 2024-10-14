@@ -18,6 +18,7 @@ export interface Entry {
     num?: number;
     group?: string;
     hash?: string;
+    prof?: string;
 }
 
 export interface Subject {
