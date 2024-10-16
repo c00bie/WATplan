@@ -84,6 +84,10 @@ function copyICS() {
   navigator.clipboard.writeText(`https://watplan.coobie.dev/data/ics/${store.settings.group}-${store.year}.ics`);
   msg.success('Skopiowano link do kalendarza.');
 }
+
+function showSchedule() {
+  window.open(`https://planzajec.wcy.wat.edu.pl/pl/rozklad?grupa_id=${store.settings.group}`, '_blank');
+}
 </script>
 
 <template>
@@ -162,7 +166,7 @@ function copyICS() {
         </template>
         Wyświetl na GitHubie
       </n-button>
-      
+      <n-button text class="mt-2" @click="showSchedule">Otwórz plan na stronie WCY</n-button>
       <!-- <n-dropdown trigger="click" :options="syncOptions" @select="handleSync">
         <n-button text class="w-full text-right font-mono">ID: {{ store.settings.id }}</n-button>
       </n-dropdown> -->
