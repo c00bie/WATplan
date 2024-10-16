@@ -162,9 +162,10 @@ function copyICS() {
         </template>
         Wyświetl na GitHubie
       </n-button>
-      <n-dropdown trigger="click" :options="syncOptions" @select="handleSync">
+      
+      <!-- <n-dropdown trigger="click" :options="syncOptions" @select="handleSync">
         <n-button text class="w-full text-right font-mono">ID: {{ store.settings.id }}</n-button>
-      </n-dropdown>
+      </n-dropdown> -->
     </n-space>
 
   </n-card>

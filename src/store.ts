@@ -233,6 +233,7 @@ export default defineStore('store', {
                 this.pushSettings();
         },
         async pullSettings() {
+          return;
             fetch(`${(import.meta.env.API_URL ?? 'https://api.watplan.coobie.dev')}/${this.settings.id}`).then((res) => res.json()).then((res) => {
                 if (res.success) {
                     this.canSync = true;
@@ -248,6 +249,7 @@ export default defineStore('store', {
             });
         },
         async pushSettings() {
+          return;
             fetch(`${(import.meta.env.API_URL ?? 'https://api.watplan.coobie.dev')}/${this.settings.id}`, {
                 method: 'POST',
                 headers: {
