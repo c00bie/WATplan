@@ -134,13 +134,13 @@ export default defineStore('store', {
     }),
     getters: {
         groups: (state) => {
-            return Object.keys(state.entries);
+            return Object.keys(state.entries).sort();
         },
         groupsFiltered: (state): string[] => {
             return Object.keys(state.entries).filter((group) => state.entries[group].some((entry) => {
               const date = entry.date?.split('-') ?? ['0', '0', '0'];
               return date[0] === ((parseInt(state.year) + 1).toString()) || (date[0] === state.year && parseInt(date[1]) > 9)
-            }));
+            })).sort();
         },
         gEntries: (state) => {
             return state.entries[state.group] ?? [];

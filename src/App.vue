@@ -52,6 +52,8 @@ watch(weekview, () => {
   }
 })
 
+const groupFilter = ref('');
+
 const groups = computed(() => store.groupsFiltered.map(g => ({ 
     label: g, 
     value: g,
@@ -62,7 +64,7 @@ const groups = computed(() => store.groupsFiltered.map(g => ({
     if (store.settings.pinned.includes(a.value) && !store.settings.pinned.includes(b.value)) return -1;
     if (store.settings.pinned.includes(b.value) && !store.settings.pinned.includes(a.value)) return 1;
     return 0;
-  }))
+  }).filter(g => g.label.toLowerCase().includes(groupFilter.value.toLowerCase())));
 store.refresh().then(() => {
   if (localStorage.getItem('migrated') !== '2') {
     store.notes.forEach(n => {
@@ -115,7 +117,10 @@ setInterval(() => {
       <n-layout class="h-screen max-h-screen min-h-screen">
         <n-layout-header class="sticky top-0 left-0 z-50">
           <n-space class="p-3" justify="space-between" align="center">
-            <n-popselect v-model:value="store.group" :options="groups" :on-update:value="saveGroup" scrollable>
+            <n-popselect v-model:value="store.group" :options="groups" :on-update:value="saveGroup" scrollable :on-update:show="() => groupFilter = ''">
+              <template #action>
+                <n-input v-model:value="groupFilter" placeholder="Szukaj" size="tiny"></n-input>
+              </template>
               <n-button @contextmenu.prevent="pinGroup" text>Grupa: {{ store.group }}</n-button>
             </n-popselect>
             <n-space align="center">

@@ -94,7 +94,7 @@ function showSchedule() {
   <n-card class="max-w-4xl w-[90vw]">
     <n-form>
       <n-form-item label="Wybierz swoją grupę">
-        <n-select v-model:value="store.settings.group" :options="groups"></n-select>
+        <n-select v-model:value="store.settings.group" :options="groups" filterable></n-select>
       </n-form-item>
       <n-form-item class="mt-4" label="Wybierz rok">
         <n-select v-model:value="store.year" :options="years"></n-select>
